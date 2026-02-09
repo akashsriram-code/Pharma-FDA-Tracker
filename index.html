@@ -43,6 +43,8 @@
             --trial-glow: rgba(139, 92, 246, 0.3);
             --approval-color: #3b82f6;
             --approval-glow: rgba(59, 130, 246, 0.3);
+            --label-color: #ef4444;
+            --label-glow: rgba(239, 68, 68, 0.3);
 
             --border-glass: rgba(255, 255, 255, 0.1);
             --border-radius: 16px;
@@ -405,6 +407,19 @@
             color: var(--approval-color);
         }
 
+        .event-card.label::before {
+            background: var(--label-color);
+        }
+
+        .event-card.label:hover {
+            box-shadow: 0 20px 40px var(--label-glow);
+        }
+
+        .event-type.label {
+            background: var(--label-glow);
+            color: var(--label-color);
+        }
+
         .event-company {
             font-size: 1.25rem;
             font-weight: 700;
@@ -592,6 +607,11 @@
                 <span class="tab-icon">🔬</span>
                 Clinical Trials
                 <span class="tab-count" id="count-trials">0</span>
+            </button>
+            <button class="tab-btn" data-tab="labels">
+                <span class="tab-icon">⚠️</span>
+                Label Changes
+                <span class="tab-count" id="count-labels">0</span>
             </button>
         </nav>
 

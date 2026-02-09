@@ -423,6 +423,24 @@
         "source": "openFDA API"
     },
     {
+        "company": "Exelixis",
+        "drug": "Cabometyx",
+        "type": "Label Update",
+        "date": "2025-03-01",
+        "title": "Label Update: Indications and Usage, Neuroendocrine Tumors ( 1.4 ) 03/2025 Dosage and Administration, Recommended ...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Pfizer",
+        "drug": "Ibrance",
+        "type": "Label Update",
+        "date": "2025-04-01",
+        "title": "Label Update: Indications and Usage ( 1 ) 4/2025 Dosage and Administration ( 2.1 , 2.2 ) 4/2025...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86718885-da44-4d3d-b3ca-06cbcedcffd8",
+        "source": "OpenFDA"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -495,6 +513,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "AbbVie",
+        "drug": "Humira",
+        "type": "Label Update",
+        "date": "2025-07-01",
+        "title": "Label Update: Warnings and Precautions, Autoimmunity ( 5.9 ) 7/2025...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4977567e-3525-44ac-9ff5-f1e74b053950",
+        "source": "OpenFDA"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -538,6 +565,24 @@
         "title": "Arthritis Advisory Committee; Termination",
         "link": "https://www.federalregister.gov/documents/2025/07/30/2025-14345/arthritis-advisory-committee-termination",
         "source": "Federal Register"
+    },
+    {
+        "company": "Sarepta",
+        "drug": "Exondys 51",
+        "type": "Label Update",
+        "date": "2025-08-01",
+        "title": "Label Update: Dosage and Administration ( 2.2 ) 08/2025...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33bff678-7829-479e-9110-b8e33a0bc0aa",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Ultragenyx",
+        "drug": "Crysvita",
+        "type": "Label Update",
+        "date": "2025-08-01",
+        "title": "Label Update: Warnings and Precautions, Hypercalcemia ( 5.3 ) 8/2025...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=102f96a0-6e3a-4fc1-b204-34d604683af6",
+        "source": "OpenFDA"
     },
     {
         "company": "Harrow Health",
@@ -603,6 +648,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "BioMarin",
+        "drug": "Vimizim",
+        "type": "Label Update",
+        "date": "2025-10-01",
+        "title": "Label Update: Boxed Warning 10/2025 Dosage and Administration ( 2 ) 10/2025 Warnings and Precautions ( 5.1 ) 10/20...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc",
+        "source": "OpenFDA"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -664,6 +718,33 @@
         "title": "TICAGRELOR - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A212258",
         "source": "openFDA API"
+    },
+    {
+        "company": "Regeneron",
+        "drug": "Eylea",
+        "type": "Label Update",
+        "date": "2025-11-01",
+        "title": "Label Update: Indications and Usage ( 1.4 ) 11/2025 Dosage and Administration ( 2.2 , 2.3 , 2.4 , 2.5 ) 11/2025 Wa...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86d8848b-111b-4da9-8957-7cccef1b8f66",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Merck",
+        "drug": "Keytruda",
+        "type": "Label Update",
+        "date": "2025-11-01",
+        "title": "Label Update: Indications and Usage ( 1 ) 11/2025 Dosage and Administration ( 2 ) 11/2025...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=097d166f-b73b-41d3-9b37-7653cd2a0c41",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Bristol Myers Squibb",
+        "drug": "Opdivo",
+        "type": "Label Update",
+        "date": "2025-11-01",
+        "title": "Label Update: Indications and Usage (1) 11/2025 Dosage and Administration (2) 11/2025...",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7f8c38fa-42f4-4387-9e8c-7a1c66855d8b",
+        "source": "OpenFDA"
     },
     {
         "company": "FDA Advisory Committee",
