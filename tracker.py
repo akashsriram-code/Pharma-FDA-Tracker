@@ -79,15 +79,15 @@ def fetch_federal_register_adcomm(target_companies):
     events = []
     
     # diverse set of keywords to catch all relevant meeting notices
-    # agency_ids[]=193 is FDA
+    # agency_ids[]=199 is FDA (Food and Drug Administration)
     # conditions[term]=Advisory Committee
     base_url = "https://www.federalregister.gov/api/v1/documents.json"
     params = {
-        "conditions[agency_ids][]": "193",
+        "conditions[agency_ids][]": "199",
         "conditions[term]": "Advisory Committee",
         "conditions[type][]": "NOTICE",
         "order": "newest",
-        "per_page": 20
+        "per_page": 50
     }
     
     try:
