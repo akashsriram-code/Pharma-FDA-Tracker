@@ -1,5 +1,23 @@
 [
     {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2024-01-23",
+        "title": "Notice To Renew the Transit Advisory Committee for Safety Charter",
+        "link": "https://www.federalregister.gov/documents/2024/01/23/2024-01274/notice-to-renew-the-transit-advisory-committee-for-safety-charter",
+        "source": "Federal Register"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2024-04-10",
+        "title": "National Public Transportation Safety Plan",
+        "link": "https://www.federalregister.gov/documents/2024/04/10/2024-07392/national-public-transportation-safety-plan",
+        "source": "Federal Register"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "EZETIMIBE AND SIMVASTATIN",
         "type": "FDA Approval",
@@ -18,6 +36,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2024-06-10",
+        "title": "Notice of Meeting of the Transit Advisory Committee for Safety",
+        "link": "https://www.federalregister.gov/documents/2024/06/10/2024-12586/notice-of-meeting-of-the-transit-advisory-committee-for-safety",
+        "source": "Federal Register"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "SODIUM SULFATE, POTASSIUM SULFATE AND MAGNESIUM SULFATE",
         "type": "FDA Approval",
@@ -25,6 +52,15 @@
         "title": "SODIUM SULFATE, POTASSIUM SULFATE AND MAGNESIUM SULFATE - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204135",
         "source": "openFDA API"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2024-07-01",
+        "title": "FY 2024 Competitive Funding Opportunity: Coordinating Council on Access and Mobility (CCAM) National Technical Assistance Center",
+        "link": "https://www.federalregister.gov/documents/2024/07/01/2024-14428/fy-2024-competitive-funding-opportunity-coordinating-council-on-access-and-mobility-ccam-national",
+        "source": "Federal Register"
     },
     {
         "company": "Bioage Labs",
@@ -45,6 +81,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2024-09-25",
+        "title": "General Directive 24-1: Required Actions Regarding Assaults on Transit Workers",
+        "link": "https://www.federalregister.gov/documents/2024/09/25/2024-21923/general-directive-24-1-required-actions-regarding-assaults-on-transit-workers",
+        "source": "Federal Register"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "BUPROPION HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -52,6 +97,15 @@
         "title": "BUPROPION HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211200",
         "source": "openFDA API"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2024-10-07",
+        "title": "Notice To Solicit Transit Advisory Committee for Safety Member Applications",
+        "link": "https://www.federalregister.gov/documents/2024/10/07/2024-23030/notice-to-solicit-transit-advisory-committee-for-safety-member-applications",
+        "source": "Federal Register"
     },
     {
         "company": "Ionis Pharma",
@@ -63,6 +117,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2024-11-19",
+        "title": "Notice of Meeting of the Transit Advisory Committee for Safety",
+        "link": "https://www.federalregister.gov/documents/2024/11/19/2024-26882/notice-of-meeting-of-the-transit-advisory-committee-for-safety",
+        "source": "Federal Register"
+    },
+    {
         "company": "Sarepta",
         "drug": "EXONDYS 51",
         "type": "FDA Approval",
@@ -70,6 +133,15 @@
         "title": "EXONDYS 51 - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206488",
         "source": "openFDA API"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2025-01-03",
+        "title": "National Transit Database Reporting Changes and Clarifications for Report Years 2025 and 2026",
+        "link": "https://www.federalregister.gov/documents/2025/01/03/2024-31495/national-transit-database-reporting-changes-and-clarifications-for-report-years-2025-and-2026",
+        "source": "Federal Register"
     },
     {
         "company": "Arcturus Therapeutics Holdings Inc",
@@ -115,6 +187,15 @@
         "title": "DEXLANSOPRAZOLE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202294",
         "source": "openFDA API"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2025-09-02",
+        "title": "Transit Advisory Committee for Safety; Solicitation of Nominations",
+        "link": "https://www.federalregister.gov/documents/2025/09/02/2025-16778/transit-advisory-committee-for-safety-solicitation-of-nominations",
+        "source": "Federal Register"
     },
     {
         "company": "Apellis",
