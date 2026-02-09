@@ -26,10 +26,16 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run Scraper
+      - name: Run Main Tracker
         run: python tracker.py
 
-      - name: Run Historical Scraper
+      - name: Run SEC EDGAR Scraper (Primary Source)
+        run: python sec_edgar_scraper.py
+
+      - name: Run ClinicalTrials.gov Scraper (Primary Source)
+        run: python clinicaltrials_scraper.py
+
+      - name: Run Historical Press Release Scraper
         run: python historical_scraper.py
 
       - name: Commit and Push changes
