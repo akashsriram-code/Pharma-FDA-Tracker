@@ -7,27 +7,10 @@ import feedparser
 from datetime import datetime
 import pandas as pd
 import warnings
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import cloudscraper
 
-# Suppress SSL warnings
-warnings.simplefilter('ignore', InsecureRequestWarning)
-import ssl
-from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.poolmanager import PoolManager
-
-class InsecureAdapter(HTTPAdapter):
-    """Custom adapter to ignore SSL cert errors and hostname checks."""
-    def init_poolmanager(self, connections, maxsize, block=False):
-        context = ssl.create_default_context()
-        context.check_hostname = False
-        context.verify_mode = ssl.CERT_NONE
-        self.poolmanager = PoolManager(
-            num_pools=connections, 
-            maxsize=maxsize, 
-            block=block, 
-            ssl_context=context
-        )
+# Suppress warnings
+warnings.filterwarnings('ignore')
 
 # Configuration
 DATA_DIR = 'data'
@@ -64,10 +47,6 @@ def scrape_fda_adcomm(target_companies):
     try:
         # Use cloudscraper to bypass Cloudflare/Bot protection
         scraper = cloudscraper.create_scraper()
-        
-        # Mount custom SSL adapter to handle corporate proxies
-        scraper.mount('https://', InsecureAdapter())
-        
         response = scraper.get(FDA_CALENDAR_URL, timeout=20)
         
         if response.status_code != 200:
@@ -130,7 +109,6 @@ def scan_rss_feeds(target_companies):
     events = []
 
     scraper = cloudscraper.create_scraper()
-    scraper.mount('https://', InsecureAdapter())
 
     for feed_url in feeds:
         try:
