@@ -53,7 +53,7 @@ def search_clinical_trials(sponsor_name, phase="PHASE3"):
     
     params = {
         'query.spons': sponsor_name,
-        'filter.overallStatus': 'ACTIVE_NOT_RECRUITING,COMPLETED',
+        'filter.overallStatus': 'ACTIVE_NOT_RECRUITING,COMPLETED,RECRUITING,ENROLLING_BY_INVITATION',
         'filter.phase': phase,
         'pageSize': 20,
         'fields': 'NCTId,BriefTitle,OfficialTitle,OverallStatus,Phase,StartDate,PrimaryCompletionDate,CompletionDate,LeadSponsorName,Condition,InterventionName'
