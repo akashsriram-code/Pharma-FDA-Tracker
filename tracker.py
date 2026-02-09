@@ -170,53 +170,85 @@ def fetch_openfda_approvals(target_companies):
 def scan_rss_feeds(target_companies):
     """Scans RSS feeds for PDUFA/Regulatory keywords."""
     print("Scanning RSS feeds...")
-    # Real feeds
+    
+    # Working feed URLs (tested and accessible)
     feeds = [
-        'https://feeds.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtYXw==', # Health
-        'https://www.prnewswire.com/rss/health/biotech-latest-news.rss',
-        'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/advisory-committees/rss.xml' # FDA AdComm Feed
+        ('https://www.prnewswire.com/rss/news-releases-list.rss', 'PRNewsWire'),
+        ('https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtcXw==', 'BusinessWire'),  # Biotech/Health
     ]
     
-    keywords = ["PDUFA", "NDA", "BLA", "Target Action Date", "Acceptance", "Approval"]
+    # Keywords to search for in press releases
+    keywords = [
+        "PDUFA", "NDA", "BLA", "sNDA", "sBLA",
+        "Target Action Date", "FDA Approval", "FDA Accepts",
+        "Complete Response Letter", "CRL", "Priority Review",
+        "Breakthrough Therapy", "Fast Track", "Rolling Submission",
+        "Advisory Committee", "AdComm", "ODAC", "Phase 3"
+    ]
+    
     events = []
-
-    scraper = cloudscraper.create_scraper()
-
-    for feed_url in feeds:
+    
+    # Use standard requests (cloudscraper can cause issues on GitHub Actions)
+    for feed_url, source_name in feeds:
         try:
-             # Use cloudscraper for RSS feeds too
-             response = scraper.get(feed_url, timeout=15)
-             if response.status_code != 200:
-                 print(f"Error fetching feed {feed_url}: {response.status_code}")
-                 continue
-                 
-             feed = feedparser.parse(response.content)
-             
-             for entry in feed.entries:
+            response = requests.get(feed_url, timeout=20, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            })
+            
+            if response.status_code != 200:
+                print(f"Error fetching {source_name}: {response.status_code}")
+                continue
+                
+            feed = feedparser.parse(response.content)
+            print(f"  {source_name}: {len(feed.entries)} entries found")
+            
+            for entry in feed.entries:
                 title = getattr(entry, 'title', '')
                 summary = getattr(entry, 'summary', '')
                 content = title + " " + summary
                 
-                detected_company = None
-                for company in target_companies:
-                    if company.lower() in content.lower():
-                        detected_company = company
-                        break
+                # First check for PDUFA/regulatory keywords
+                has_keyword = any(kw.lower() in content.lower() for kw in keywords)
                 
-                if detected_company:
-                    if any(kw.lower() in content.lower() for kw in keywords):
-                         events.append({
+                if has_keyword:
+                    # Then check if it matches any company
+                    detected_company = None
+                    for company in target_companies:
+                        company_words = company.lower().split()
+                        content_lower = content.lower()
+                        # Match main company word (4+ chars) to avoid false positives
+                        if any(word in content_lower for word in company_words if len(word) > 3):
+                            detected_company = company
+                            break
+                    
+                    if detected_company:
+                        # Parse published date
+                        pub_date = getattr(entry, 'published', '')
+                        if pub_date:
+                            try:
+                                # Try to parse various date formats
+                                from email.utils import parsedate_to_datetime
+                                dt = parsedate_to_datetime(pub_date)
+                                formatted_date = dt.strftime('%Y-%m-%d')
+                            except:
+                                formatted_date = pub_date[:10] if len(pub_date) >= 10 else pub_date
+                        else:
+                            formatted_date = datetime.now().strftime('%Y-%m-%d')
+                        
+                        events.append({
                             'company': detected_company,
                             'drug': 'Check Source',
-                            'type': 'Regulatory Update',
-                            'date': getattr(entry, 'published', datetime.now().strftime('%Y-%m-%d')),
-                            'title': title,
+                            'type': 'Press Release',
+                            'date': formatted_date,
+                            'title': title[:200],  # Truncate long titles
                             'link': getattr(entry, 'link', '#'),
-                            'source': 'RSS Monitor'
+                            'source': source_name
                         })
+                        
         except Exception as e:
-            print(f"Error parsing feed {feed_url}: {e}")
+            print(f"Error parsing {source_name}: {e}")
             
+    print(f"Found {len(events)} regulatory press releases.")
     return events
 
 def update_database(new_events):
