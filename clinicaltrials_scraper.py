@@ -51,17 +51,34 @@ def load_companies():
 def search_clinical_trials(sponsor_name, phase="PHASE3"):
     """Search ClinicalTrials.gov for late-stage trials by sponsor."""
     
-    params = {
-        'query.spons': sponsor_name,
-        'filter.overallStatus': 'ACTIVE_NOT_RECRUITING,COMPLETED,RECRUITING,ENROLLING_BY_INVITATION',
-        'filter.phase': phase,
-        'pageSize': 20,
-        'fields': 'NCTId,BriefTitle,OfficialTitle,OverallStatus,Phase,StartDate,PrimaryCompletionDate,CompletionDate,LeadSponsorName,Condition,InterventionName'
-    }
+    # Create session with retry strategy
+    session = requests.Session()
+    session.verify = False
     
+    # Manually construct URL to mimic the working curl command exactly
+    # We must use PIPE separation for multiple statuses, NOT repeated keys.
+    # We also use query.term for phase because filter.phase is not a valid V2 API parameter.
+    
+    base_url = f"{CT_API_URL}?"
+    
+    parts = []
+    parts.append(f"query.spons={sponsor_name}")
+    parts.append(f"query.term={phase}")
+    parts.append("pageSize=20")
+    parts.append("fields=NCTId,BriefTitle,OfficialTitle,OverallStatus,Phase,StartDate,PrimaryCompletionDate,CompletionDate,LeadSponsorName,Condition,InterventionName")
+    
+    # Use pipe delimiter for multiple statuses
+    statuses = ['ACTIVE_NOT_RECRUITING', 'COMPLETED', 'RECRUITING', 'ENROLLING_BY_INVITATION']
+    status_str = "|".join(statuses)
+    parts.append(f"filter.overallStatus={status_str}")
+        
+    full_url = base_url + "&".join(parts)
+        
     try:
-        response = requests.get(CT_API_URL, params=params, headers=HEADERS, timeout=15)
+        # verify=False is needed for some corporate networks (Zscaler)
+        response = session.get(full_url, headers=HEADERS, timeout=15)
         if response.status_code != 200:
+            print(f"    Request failed with status: {response.status_code}")
             return []
         
         data = response.json()
