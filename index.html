@@ -1,32 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDA Catalyst Tracker</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <!-- FullCalendar removed -->
+    <title>FDA Catalyst Tracker | PDUFA & AdComm Dates</title>
+    <meta name="description"
+        content="Track upcoming FDA PDUFA target action dates and Advisory Committee meetings for biotech and pharmaceutical companies.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <h1>FDA Catalyst Tracker</h1>
-            <p>Tracking PDUFA & AdComm dates for Biotech</p>
-            <button id="downloadBtn" class="btn">Download CSV</button>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1>FDA Catalyst Tracker</h1>
+                    <p class="tagline">Upcoming PDUFA & AdComm Dates for Biotech</p>
+                </div>
+                <div class="header-actions">
+                    <span class="last-updated" id="lastUpdated"></span>
+                    <button id="downloadBtn" class="btn btn-primary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Export CSV
+                    </button>
+                </div>
+            </div>
         </header>
 
-        <!-- Calendar section removed -->
+        <!-- Tab Navigation -->
+        <nav class="tab-navigation">
+            <button class="tab-btn active" data-tab="all">
+                <span class="tab-icon">📊</span>
+                All Events
+                <span class="tab-count" id="count-all">0</span>
+            </button>
+            <button class="tab-btn" data-tab="pdufa">
+                <span class="tab-icon">💊</span>
+                PDUFA Dates
+                <span class="tab-count" id="count-pdufa">0</span>
+            </button>
+            <button class="tab-btn" data-tab="adcomm">
+                <span class="tab-icon">🏛️</span>
+                AdComm Meetings
+                <span class="tab-count" id="count-adcomm">0</span>
+            </button>
+            <button class="tab-btn" data-tab="trials">
+                <span class="tab-icon">🔬</span>
+                Clinical Trials
+                <span class="tab-count" id="count-trials">0</span>
+            </button>
+        </nav>
 
-        <section id="list-section">
-            <h2>Upcoming Catalysts</h2>
-            <div id="catalyst-list" class="grid-list">
-                <!-- Items will be injected here -->
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Stats Bar -->
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-value" id="stat-upcoming">0</span>
+                    <span class="stat-label">Upcoming Events</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="stat-thismonth">0</span>
+                    <span class="stat-label">This Month</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="stat-companies">0</span>
+                    <span class="stat-label">Companies</span>
+                </div>
             </div>
-        </section>
+
+            <!-- Events Container -->
+            <div id="events-container" class="events-container">
+                <!-- Monthly groups will be injected here -->
+            </div>
+
+            <!-- Empty State -->
+            <div id="empty-state" class="empty-state hidden">
+                <div class="empty-icon">📅</div>
+                <h3>No Events Found</h3>
+                <p>No upcoming catalysts in this category. Check back later!</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Data sourced from SEC EDGAR, ClinicalTrials.gov, openFDA, and company press releases.</p>
+            <p class="disclaimer">For informational purposes only. Verify dates with official sources before making
+                investment decisions.</p>
+        </footer>
     </div>
 
     <script src="static/js/script.js"></script>
 </body>
+
 </html>
