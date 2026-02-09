@@ -144,6 +144,24 @@
         "source": "openFDA API"
     },
     {
+        "company": "Black Diamond",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2025-12-02",
+        "title": "BLACK PEARL Partners with Getty Images and Canon to Launch Latest \u2018Culture@\u2019 Campaign",
+        "link": "https://www.globenewswire.com/news-release/2025/12/02/3198071/0/en/BLACK-PEARL-Partners-with-Getty-Images-and-Canon-to-Launch-Latest-Culture-Campaign.html",
+        "source": "GlobeNewswire Healthcare"
+    },
+    {
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2025-12-17",
+        "title": "WeShop Expands Retail Partnerships with Top Brands, Bringing More Choices to Shoppers",
+        "link": "https://www.globenewswire.com/news-release/2025/12/17/3206988/0/en/WeShop-Expands-Retail-Partnerships-with-Top-Brands-Bringing-More-Choices-to-Shoppers.html",
+        "source": "GlobeNewswire Healthcare"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "FENTANYL CITRATE",
         "type": "FDA Approval",
@@ -160,6 +178,15 @@
         "title": "PROMETHAZINE WITH CODEINE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A040650",
         "source": "openFDA API"
+    },
+    {
+        "company": "Twist Bioscience",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-01-30",
+        "title": "Cate & Chloe Highlights Valentine\u2019s Day Hoop Earrings Available at Walmart",
+        "link": "https://www.globenewswire.com/news-release/2026/01/30/3229639/0/en/Cate-Chloe-Highlights-Valentine-s-Day-Hoop-Earrings-Available-at-Walmart.html",
+        "source": "GlobeNewswire Healthcare"
     },
     {
         "company": "SIGA Tech",
