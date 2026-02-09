@@ -1,0 +1,90 @@
+:root {
+    --bg-color: #1a1a1a;
+    --card-bg: #2d2d2d;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --accent-blue: #3498db;
+    --accent-orange: #e67e22;
+    --accent-green: #2ecc71;
+    --border-radius: 8px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.btn {
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+    border: 1px solid #555;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #3d3d3d;
+}
+
+/* Calendar styles removed */
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.catalyst-card {
+    background-color: var(--card-bg);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--accent-blue);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.catalyst-card.adcomm { border-left-color: var(--accent-orange); }
+.catalyst-card.pdufa { border-left-color: var(--accent-green); }
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: var(--text-secondary);
+}
+
+.card-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.card-drug {
+    font-style: italic;
+    color: var(--text-secondary);
+}
