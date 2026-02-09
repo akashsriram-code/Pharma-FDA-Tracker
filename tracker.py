@@ -5,9 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 import feedparser
 from datetime import datetime
+import re
 import pandas as pd
 import warnings
-import cloudscraper
 
 # Suppress warnings
 warnings.filterwarnings('ignore')
@@ -73,60 +73,88 @@ def load_pdufa_dates():
     
     return events
 
-def scrape_fda_adcomm(target_companies):
-    """Scrapes the FDA Advisory Committee Calendar for matches."""
-    print("Scraping FDA Advisory Committee Calendar...")
+def fetch_federal_register_adcomm(target_companies):
+    """Fetches FDA Advisory Committee meeting notices from the Federal Register API."""
+    print("Fetching FDA Advisory Committee meetings from Federal Register...")
     events = []
     
+    # diverse set of keywords to catch all relevant meeting notices
+    # agency_ids[]=193 is FDA
+    # conditions[term]=Advisory Committee
+    base_url = "https://www.federalregister.gov/api/v1/documents.json"
+    params = {
+        "conditions[agency_ids][]": "193",
+        "conditions[term]": "Advisory Committee",
+        "conditions[type][]": "NOTICE",
+        "order": "newest",
+        "per_page": 20
+    }
+    
     try:
-        # Use cloudscraper to bypass Cloudflare/Bot protection
-        scraper = cloudscraper.create_scraper()
-        response = scraper.get(FDA_CALENDAR_URL, timeout=20)
+        response = requests.get(base_url, params=params, timeout=20)
         
         if response.status_code != 200:
-            print(f"Failed to fetch FDA calendar. Status: {response.status_code}")
-        else:
-            soup = BeautifulSoup(response.content, 'html.parser')
+            print(f"Failed to fetch Federal Register. Status: {response.status_code}")
+            return events
             
-            # FDA structure varies. Common container for views based lists:
-            rows = soup.select('.views-row') or soup.find_all('div', class_='views-row')
+        data = response.json()
+        results = data.get('results', [])
+        
+        if not results:
+            print("No recent AdComm notices found in Federal Register.")
             
-            if not rows:
-                print("Warning: No events found in FDA calendar (layout might have changed).")
-
-            for row in rows:
-                text_content = row.get_text(separator=' ', strip=True)
+        for item in results:
+            title = item.get('title', '')
+            abstract = item.get('abstract', '') or ''
+            content = title + " " + abstract
+            pub_date = item.get('publication_date', '')
+            pdf_url = item.get('pdf_url', '')
+            html_url = item.get('html_url', '')
+            
+            # Check for company matches in the notice title or abstract
+            detected_company = None
+            for company in target_companies:
+                if company.lower() in content.lower():
+                    detected_company = company
+                    break
+            
+            # If no specific company, but it's clearly an AdComm, maybe list it generally? 
+            # For now, stick to target companies to avoid noise.
+            
+            if detected_company:
+                # Try to extract the actual meeting date from the text if possible
+                # (This is hard without full text parsing, so we'll use publication date 
+                # effectively as the 'announcement' date, or check 'dates' field if available details exist)
                 
-                # Simple keyword matching
-                detected_company = None
-                for company in target_companies:
-                    if company.lower() in text_content.lower():
-                        detected_company = company
-                        break
+                # Federal Register API sometimes provides 'docket_ids' or 'dates' in full text
+                # We'll use the publication date as a proxy for "New Meeting Announced" if we can't parse better
                 
-                if detected_company:
-                    date_tag = row.find('time')
-                    event_date = "Unknown"
-                    if date_tag:
-                        event_date = date_tag.get('datetime') or date_tag.get_text(strip=True)
-                    
-                    title_tag = row.find('a')
-                    title = title_tag.get_text(strip=True) if title_tag else "Advisory Committee Meeting"
-                    link = f"https://www.fda.gov{title_tag['href']}" if title_tag else FDA_CALENDAR_URL
-
-                    events.append({
-                        'company': detected_company,
-                        'drug': 'Check Source',
-                        'type': 'AdComm',
-                        'date': event_date,
-                        'title': title,
-                        'link': link,
-                        'source': 'FDA Scraper'
-                    })
-
+                event_date = pub_date
+                
+                # Basic future date extraction Attempt from title (e.g., "September 15, 2026 Meeting of...")
+                import re
+                date_match = re.search(r'([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})', title)
+                if date_match:
+                    try:
+                        dt = datetime.strptime(date_match.group(1).replace(',', ''), '%B %d %Y')
+                        event_date = dt.strftime('%Y-%m-%d')
+                    except:
+                        pass
+                
+                events.append({
+                    'company': detected_company,
+                    'drug': 'Check Notice',
+                    'type': 'AdComm Meeting',
+                    'date': event_date,
+                    'title': title[:200],
+                    'link': html_url or pdf_url,
+                    'source': 'Federal Register'
+                })
+                
     except Exception as e:
-        print(f"Error scraping FDA: {e}")
-    
+        print(f"Error fetching from Federal Register: {e}")
+            
+    print(f"Found {len(events)} AdComm events from Federal Register.")
     return events
 
 def fetch_openfda_approvals(target_companies):
@@ -401,7 +429,8 @@ def main():
     # Load curated upcoming PDUFA dates
     pdufa_events = load_pdufa_dates()
     
-    fda_events = scrape_fda_adcomm(companies)
+    # Use Federal Register API for AdComm meetings (more reliable than scraping FDA)
+    fda_events = fetch_federal_register_adcomm(companies)
     print(f"Found {len(fda_events)} FDA AdComm events.")
     
     # Fetch from openFDA API (this is not blocked!)
