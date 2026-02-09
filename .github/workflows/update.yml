@@ -29,6 +29,9 @@ jobs:
       - name: Run Scraper
         run: python tracker.py
 
+      - name: Run Historical Scraper
+        run: python historical_scraper.py
+
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
