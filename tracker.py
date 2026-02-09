@@ -175,10 +175,10 @@ def scan_rss_feeds(target_companies):
     """Scans RSS feeds for PDUFA/Regulatory keywords."""
     print("Scanning RSS feeds...")
     
-    # Working feed URLs (tested and accessible)
+    # Working feed URLs (GlobeNewswire biotech feed is accessible)
     feeds = [
-        ('https://www.prnewswire.com/rss/news-releases-list.rss', 'PRNewsWire'),
-        ('https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtcXw==', 'BusinessWire'),  # Biotech/Health
+        ('https://www.globenewswire.com/RssFeed/subjectcode/14-Biotechnology/feedTitle/GlobeNewswire%20-%20Biotechnology', 'GlobeNewswire Biotech'),
+        ('https://www.globenewswire.com/RssFeed/subjectcode/15-Healthcare/feedTitle/GlobeNewswire%20-%20Healthcare', 'GlobeNewswire Healthcare'),
     ]
     
     # Keywords to search for in press releases
