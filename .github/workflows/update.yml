@@ -35,8 +35,9 @@ jobs:
       - name: Run ClinicalTrials.gov Scraper (Primary Source)
         run: python clinicaltrials_scraper.py
 
-      - name: Run Historical Press Release Scraper
-        run: python historical_scraper.py
+      # Historical scraper is one-time only, removed from daily run to prevent 503s
+      # - name: Run Historical Press Release Scraper
+      #   run: python historical_scraper.py
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5

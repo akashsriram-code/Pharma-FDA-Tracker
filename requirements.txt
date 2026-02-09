@@ -4,4 +4,4 @@ feedparser
 pandas
 lxml
 openpyxl
-cloudscraper
+
