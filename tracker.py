@@ -206,7 +206,7 @@ def fetch_openfda_approvals(target_companies):
     return events
 
 def scan_rss_feeds(target_companies):
-    """Scans RSS feeds for PDUFA/Regulatory keywords."""
+    """Scans RSS feeds for PDUFA/Regulatory keywords and extracts FUTURE dates."""
     print("Scanning RSS feeds...")
     
     # Working feed URLs (GlobeNewswire biotech feed is accessible)
@@ -222,6 +222,15 @@ def scan_rss_feeds(target_companies):
         "Complete Response Letter", "CRL", "Priority Review",
         "Breakthrough Therapy", "Fast Track", "Rolling Submission",
         "Advisory Committee", "AdComm", "ODAC", "Phase 3"
+    ]
+    
+    # Regex patterns for date extraction
+    # Matches: "PDUFA date of March 15, 2026", "target action date: March 2026", "decision by Q1 2026"
+    date_patterns = [
+        r'(?:PDUFA|target action|goal)\s*date\s*(?:of|is|:|set for)?\s*([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})',
+        r'(?:target action|PDUFA)\s*date\s*(?:of|is|:|set for)?\s*([A-Z][a-z]+\s+\d{4})',
+        r'(?:decision|review|PDUFA)\s*(?:by|in|expected)\s*(Q[1-4]\s+\d{4})',
+        r'(?:expected|anticipated)\s*(?:in|by)\s*([A-Z][a-z]+\s+\d{4})',
     ]
     
     events = []
@@ -260,25 +269,68 @@ def scan_rss_feeds(target_companies):
                             break
                     
                     if detected_company:
-                        # Parse published date
+                        # Parse publication date as fallback
                         pub_date = getattr(entry, 'published', '')
+                        fallback_date = datetime.now().strftime('%Y-%m-%d')
                         if pub_date:
                             try:
-                                # Try to parse various date formats
                                 from email.utils import parsedate_to_datetime
                                 dt = parsedate_to_datetime(pub_date)
-                                formatted_date = dt.strftime('%Y-%m-%d')
+                                fallback_date = dt.strftime('%Y-%m-%d')
                             except:
-                                formatted_date = pub_date[:10] if len(pub_date) >= 10 else pub_date
-                        else:
-                            formatted_date = datetime.now().strftime('%Y-%m-%d')
+                                pass
+
+                        # Try to extract a FUTURE date from text
+                        extracted_date = None
+                        import re
+                        for pattern in date_patterns:
+                            match = re.search(pattern, content, re.IGNORECASE)
+                            if match:
+                                date_str = match.group(1)
+                                try:
+                                    # Try various formats
+                                    for fmt in ['%B %d, %Y', '%B %d %Y', '%B, %Y', '%B %Y']:
+                                        try:
+                                            dt = datetime.strptime(date_str.replace(',', ''), fmt)
+                                            extracted_date = dt.strftime('%Y-%m-%d')
+                                            break
+                                        except:
+                                            continue
+                                    
+                                    # Handle Quarterly (Q1 2026 -> 2026-03-31)
+                                    if not extracted_date:
+                                        q_match = re.match(r'Q([1-4])\s+(\d{4})', date_str)
+                                        if q_match:
+                                            quarter = int(q_match.group(1))
+                                            year = int(q_match.group(2))
+                                            month = quarter * 3
+                                            from calendar import monthrange
+                                            day = monthrange(year, month)[1]
+                                            extracted_date = f"{year}-{month:02d}-{day:02d}"
+                                    
+                                    if extracted_date:
+                                        break
+                                except:
+                                    continue
+                        
+                        # Use extracted date if found and is in future, otherwise use publication date
+                        final_date = extracted_date if extracted_date and extracted_date >= fallback_date else fallback_date
+                        
+                        # Set type based on keyword
+                        event_type = 'Press Release'
+                        if "PDUFA" in content or "Target Action" in content:
+                            event_type = 'PDUFA Update'
+                        elif "AdComm" in content or "Advisory Committee" in content:
+                            event_type = 'AdComm Update'
+                        elif "Approval" in content or "Approved" in content:
+                            event_type = 'FDA Approval'
                         
                         events.append({
                             'company': detected_company,
                             'drug': 'Check Source',
-                            'type': 'Press Release',
-                            'date': formatted_date,
-                            'title': title[:200],  # Truncate long titles
+                            'type': event_type,
+                            'date': final_date,
+                            'title': title[:200],
                             'link': getattr(entry, 'link', '#'),
                             'source': source_name
                         })
