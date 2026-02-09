@@ -160,5 +160,23 @@
         "title": "PROMETHAZINE WITH CODEINE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A040650",
         "source": "openFDA API"
+    },
+    {
+        "company": "SIGA Tech",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-02-09",
+        "title": "Baird Medical Accelerates Global Commercial Roadmap with Strategic Clinical Education Initiatives in the U.S. and Japan",
+        "link": "https://www.prnewswire.com/news-releases/baird-medical-accelerates-global-commercial-roadmap-with-strategic-clinical-education-initiatives-in-the-us-and-japan-302682296.html",
+        "source": "PRNewsWire"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-02-09",
+        "title": "SQ Innovation's Lasix\u00ae ONYU Now Available for Order Through Major U.S. Pharmaceutical Distributors",
+        "link": "https://www.prnewswire.com/news-releases/sq-innovations-lasix-onyu-now-available-for-order-through-major-us-pharmaceutical-distributors-302682200.html",
+        "source": "PRNewsWire"
     }
 ]
