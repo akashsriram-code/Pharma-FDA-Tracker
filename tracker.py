@@ -16,6 +16,7 @@ warnings.filterwarnings('ignore')
 DATA_DIR = 'data'
 COMPANIES_FILE = os.path.join(DATA_DIR, 'NASDAQ Biotechnology (NBI).csv')
 DATA_JSON_FILE = os.path.join(DATA_DIR, 'data.json')
+PDUFA_DATES_FILE = os.path.join(DATA_DIR, 'pdufa_dates.json')
 FDA_CALENDAR_URL = 'https://www.fda.gov/advisory-committees/advisory-committee-calendar'
 
 def load_companies():
@@ -38,6 +39,39 @@ def load_companies():
     except Exception as e:
         print(f"Error loading companies: {e}")
     return companies
+
+def load_pdufa_dates():
+    """Loads curated upcoming PDUFA dates from JSON file."""
+    print("Loading upcoming PDUFA dates...")
+    events = []
+    
+    if not os.path.exists(PDUFA_DATES_FILE):
+        print(f"  No PDUFA dates file found at {PDUFA_DATES_FILE}")
+        return events
+    
+    try:
+        with open(PDUFA_DATES_FILE, 'r') as f:
+            pdufa_data = json.load(f)
+            
+        # Filter to only future dates
+        today = datetime.now().strftime('%Y-%m-%d')
+        for item in pdufa_data:
+            if item.get('date', '') >= today:
+                events.append({
+                    'company': item.get('company', ''),
+                    'drug': item.get('drug', 'Unknown'),
+                    'type': item.get('type', 'PDUFA Date'),
+                    'date': item.get('date', ''),
+                    'title': item.get('title', ''),
+                    'link': item.get('link', '#'),
+                    'source': item.get('source', 'PDUFA Calendar')
+                })
+                
+        print(f"  Loaded {len(events)} upcoming PDUFA dates.")
+    except Exception as e:
+        print(f"  Error loading PDUFA dates: {e}")
+    
+    return events
 
 def scrape_fda_adcomm(target_companies):
     """Scrapes the FDA Advisory Committee Calendar for matches."""
@@ -312,16 +346,19 @@ def main():
         
     print(f"Loaded {len(companies)} companies to track.")
     
+    # Load curated upcoming PDUFA dates
+    pdufa_events = load_pdufa_dates()
+    
     fda_events = scrape_fda_adcomm(companies)
     print(f"Found {len(fda_events)} FDA AdComm events.")
     
-    # NEW: Fetch from openFDA API (this is not blocked!)
+    # Fetch from openFDA API (this is not blocked!)
     openfda_events = fetch_openfda_approvals(companies)
     
     rss_events = scan_rss_feeds(companies)
     print(f"Found {len(rss_events)} RSS regulatory events.")
     
-    all_events = fda_events + openfda_events + rss_events
+    all_events = pdufa_events + fda_events + openfda_events + rss_events
     update_database(all_events)
     print("Done.")
 

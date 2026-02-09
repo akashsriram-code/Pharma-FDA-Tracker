@@ -1,0 +1,156 @@
+[
+    {
+        "company": "Regenxbio Inc.",
+        "ticker": "RGNX",
+        "drug": "Clemidsogene lanparvovec (RGX-121)",
+        "indication": "Mucopolysaccharidosis II (Hunter syndrome)",
+        "type": "PDUFA Date",
+        "date": "2026-02-08",
+        "title": "FDA Decision Expected: RGX-121 for Hunter Syndrome",
+        "link": "https://www.regenxbio.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Merck & Co., Inc.",
+        "ticker": "MRK",
+        "drug": "KEYTRUDA (pembrolizumab)",
+        "indication": "Platinum-Resistant Recurrent Ovarian Cancer",
+        "type": "PDUFA Date",
+        "date": "2026-02-20",
+        "title": "FDA Decision Expected: KEYTRUDA + chemotherapy for Ovarian Cancer",
+        "link": "https://www.merck.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Vanda Pharmaceuticals Inc.",
+        "ticker": "VNDA",
+        "drug": "Bysanti (milsaperidone)",
+        "indication": "Acute Bipolar I Disorder and Schizophrenia",
+        "type": "PDUFA Date",
+        "date": "2026-02-21",
+        "title": "FDA Decision Expected: Bysanti for Bipolar/Schizophrenia",
+        "link": "https://www.vandapharma.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Eton Pharmaceuticals, Inc.",
+        "ticker": "ETON",
+        "drug": "ET-600 (Desmopressin Oral Solution)",
+        "indication": "Central Diabetes Insipidus",
+        "type": "PDUFA Date",
+        "date": "2026-02-25",
+        "title": "FDA Decision Expected: ET-600 for Diabetes Insipidus",
+        "link": "https://www.etonpharma.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Ascendis Pharma A/S",
+        "ticker": "ASND",
+        "drug": "TransCon CNP (navepegritide)",
+        "indication": "Achondroplasia in Children",
+        "type": "PDUFA Date",
+        "date": "2026-02-28",
+        "title": "FDA Decision Expected: TransCon CNP for Achondroplasia",
+        "link": "https://www.ascendispharma.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "BioMarin Pharmaceutical Inc.",
+        "ticker": "BMRN",
+        "drug": "PALYNZIQ (pegvaliase-pqpz)",
+        "indication": "Phenylketonuria in Adolescents",
+        "type": "PDUFA Date",
+        "date": "2026-02-28",
+        "title": "FDA Decision Expected: PALYNZIQ for PKU in Adolescents",
+        "link": "https://www.biomarin.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Sanofi/Regeneron",
+        "ticker": "SNY/REGN",
+        "drug": "Dupixent (dupilumab)",
+        "indication": "Allergic Fungal Rhinosinusitis (AFRS)",
+        "type": "PDUFA Date",
+        "date": "2026-02-28",
+        "title": "FDA Decision Expected: Dupixent for AFRS",
+        "link": "https://www.dupixent.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Aquestive Therapeutics",
+        "ticker": "AQST",
+        "drug": "Anaphylm (epinephrine sublingual film)",
+        "indication": "Allergic Emergencies (Anaphylaxis)",
+        "type": "PDUFA Date",
+        "date": "2026-03-15",
+        "title": "FDA Decision Expected: Anaphylm for Anaphylaxis",
+        "link": "https://www.aquestive.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "MannKind Corporation",
+        "ticker": "MNKD",
+        "drug": "Afrezza (inhalable insulin)",
+        "indication": "Type 1 Diabetes - Expanded Use",
+        "type": "PDUFA Date",
+        "date": "2026-03-31",
+        "title": "FDA Decision Expected: Afrezza Label Expansion",
+        "link": "https://www.mannkindcorp.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Arvinas, Inc.",
+        "ticker": "ARVN",
+        "drug": "Vepdegestrant (ARV-471)",
+        "indication": "ER+/HER2- Breast Cancer",
+        "type": "PDUFA Date",
+        "date": "2026-04-30",
+        "title": "FDA Decision Expected: Vepdegestrant for Breast Cancer",
+        "link": "https://www.arvinas.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Pfizer Inc.",
+        "ticker": "PFE",
+        "drug": "Atirmociclib",
+        "indication": "HR+/HER2- Metastatic Breast Cancer",
+        "type": "PDUFA Date",
+        "date": "2026-04-30",
+        "title": "FDA Decision Expected: Atirmociclib for Breast Cancer",
+        "link": "https://www.pfizer.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Biogen Inc./Eisai Co.",
+        "ticker": "BIIB",
+        "drug": "LEQEMBI (lecanemab)",
+        "indication": "Alzheimer's Disease - Initiation Treatment",
+        "type": "PDUFA Date",
+        "date": "2026-05-24",
+        "title": "FDA Decision Expected: LEQEMBI Initiation Treatment for Alzheimer's",
+        "link": "https://www.biogen.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "AstraZeneca PLC",
+        "ticker": "AZN",
+        "drug": "Camizestrant",
+        "indication": "ER-positive Breast Cancer",
+        "type": "PDUFA Date",
+        "date": "2026-06-30",
+        "title": "FDA Decision Expected: Camizestrant for Breast Cancer",
+        "link": "https://www.astrazeneca.com/",
+        "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Cyngn",
+        "ticker": "CING",
+        "drug": "Phase 3 Gene Therapy Candidate",
+        "indication": "Various",
+        "type": "PDUFA Date",
+        "date": "2026-06-30",
+        "title": "FDA Decision Expected",
+        "link": "https://www.cyngn.com/",
+        "source": "PDUFA Calendar"
+    }
+]
