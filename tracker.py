@@ -176,8 +176,8 @@ def update_database(new_events):
         try:
             with open(DATA_JSON_FILE, 'r') as f:
                 content = f.read()
-                if content:
-                    existing_data = json.load(f)
+                if content.strip():
+                    existing_data = json.loads(content)
         except json.JSONDecodeError:
             pass
     
