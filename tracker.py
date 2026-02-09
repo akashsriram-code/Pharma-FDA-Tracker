@@ -95,6 +95,78 @@ def scrape_fda_adcomm(target_companies):
     
     return events
 
+def fetch_openfda_approvals(target_companies):
+    """Fetches recent drug approvals from the openFDA API."""
+    print("Fetching recent approvals from openFDA API...")
+    events = []
+    
+    # Query for recent drug approvals (last 90 days)
+    today = datetime.now()
+    
+    # openFDA API endpoint for drug applications
+    api_url = "https://api.fda.gov/drug/drugsfda.json"
+    
+    # Get submissions with recent approval dates
+    params = {
+        "limit": 100,
+        "search": "submissions.submission_status:AP"
+    }
+    
+    try:
+        response = requests.get(api_url, params=params, timeout=20)
+        
+        if response.status_code != 200:
+            print(f"openFDA API returned status: {response.status_code}")
+            return events
+            
+        data = response.json()
+        results = data.get('results', [])
+        
+        for result in results:
+            sponsor = result.get('sponsor_name', '')
+            products = result.get('products', [])
+            submissions = result.get('submissions', [])
+            app_number = result.get('application_number', '')
+            
+            # Check if sponsor matches any target company
+            detected_company = None
+            for company in target_companies:
+                company_words = company.lower().split()
+                sponsor_lower = sponsor.lower()
+                # Match if main company word is in sponsor name
+                if any(word in sponsor_lower for word in company_words if len(word) > 3):
+                    detected_company = company
+                    break
+            
+            if detected_company and products:
+                # Get the most recent approval
+                for sub in submissions:
+                    if sub.get('submission_status') == 'AP':
+                        sub_date = sub.get('submission_status_date', '')
+                        if len(sub_date) == 8:  # Format: YYYYMMDD
+                            formatted_date = f"{sub_date[:4]}-{sub_date[4:6]}-{sub_date[6:8]}"
+                        else:
+                            formatted_date = sub_date
+                        
+                        brand_name = products[0].get('brand_name', 'Unknown Drug')
+                        
+                        events.append({
+                            'company': detected_company,
+                            'drug': brand_name,
+                            'type': 'FDA Approval',
+                            'date': formatted_date,
+                            'title': f"{brand_name} - {sub.get('submission_type', 'Application')} Approved",
+                            'link': f"https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo={app_number.replace('NDA', '').replace('ANDA', '').replace('BLA', '')}",
+                            'source': 'openFDA API'
+                        })
+                        break  # Only take most recent approval per application
+                        
+    except Exception as e:
+        print(f"Error fetching from openFDA: {e}")
+    
+    print(f"Found {len(events)} openFDA approval events.")
+    return events
+
 def scan_rss_feeds(target_companies):
     """Scans RSS feeds for PDUFA/Regulatory keywords."""
     print("Scanning RSS feeds...")
@@ -197,10 +269,13 @@ def main():
     fda_events = scrape_fda_adcomm(companies)
     print(f"Found {len(fda_events)} FDA AdComm events.")
     
+    # NEW: Fetch from openFDA API (this is not blocked!)
+    openfda_events = fetch_openfda_approvals(companies)
+    
     rss_events = scan_rss_feeds(companies)
     print(f"Found {len(rss_events)} RSS regulatory events.")
     
-    all_events = fda_events + rss_events
+    all_events = fda_events + openfda_events + rss_events
     update_database(all_events)
     print("Done.")
 
