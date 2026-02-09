@@ -150,6 +150,10 @@ def fetch_openfda_approvals(target_companies):
                         
                         brand_name = products[0].get('brand_name', 'Unknown Drug')
                         
+                        # Filter out dates before 2024
+                        if formatted_date < '2024-01-01':
+                            continue
+                        
                         events.append({
                             'company': detected_company,
                             'drug': brand_name,
@@ -265,11 +269,20 @@ def update_database(new_events):
     
     existing_signatures = set()
     for item in existing_data:
+        # Also filter out old data from existing entries
+        item_date = item.get('date', '')
+        if item_date and item_date < '2024-01-01':
+            continue
         sig = (item.get('company'), item.get('date'), item.get('title'))
         existing_signatures.add(sig)
     
     added_count = 0
     for event in new_events:
+        # Filter out dates before 2024
+        event_date = event.get('date', '')
+        if event_date and event_date < '2024-01-01':
+            continue
+            
         sig = (event.get('company'), event.get('date'), event.get('title'))
         if sig not in existing_signatures:
             existing_data.append(event)
@@ -282,12 +295,13 @@ def update_database(new_events):
     except:
         pass
 
-    # Only write if we have data or if the intention was to potentially clear (but here we want preservation)
-    # If we have 0 new events and existing data is there, we just rewrite the sorted existing data
-    with open(DATA_JSON_FILE, 'w') as f:
-        json.dump(existing_data, f, indent=4)
+    # Filter out all entries before 2024 before writing
+    filtered_data = [e for e in existing_data if e.get('date', '') >= '2024-01-01']
     
-    print(f"Database updated. Total events: {len(existing_data)} (Added {added_count} new).")
+    with open(DATA_JSON_FILE, 'w') as f:
+        json.dump(filtered_data, f, indent=4)
+    
+    print(f"Database updated. Total events: {len(filtered_data)} (Added {added_count} new).")
 
 def main():
     print("Starting FDA Catalyst Tracker...")

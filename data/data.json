@@ -1,497 +1,20 @@
 [
     {
-        "company": "Harrow Health",
-        "drug": "MPI STANNOUS DIPHOSPHONATE",
-        "type": "FDA Approval",
-        "date": "1977-04-01",
-        "title": "MPI STANNOUS DIPHOSPHONATE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=017667",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "ROCALTROL",
-        "type": "FDA Approval",
-        "date": "1978-12-06",
-        "title": "ROCALTROL - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=018044",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "HYDROCORTISONE ACETATE",
-        "type": "FDA Approval",
-        "date": "1981-10-26",
-        "title": "HYDROCORTISONE ACETATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=009637",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "CHLORTHALIDONE",
-        "type": "FDA Approval",
-        "date": "1984-01-30",
-        "title": "CHLORTHALIDONE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A087296",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "AMITRIPTYLINE HYDROCHLORIDE",
-        "type": "FDA Approval",
-        "date": "1984-09-25",
-        "title": "AMITRIPTYLINE HYDROCHLORIDE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A088701",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "HYDROXYZINE PAMOATE",
-        "type": "FDA Approval",
-        "date": "1987-01-02",
-        "title": "HYDROXYZINE PAMOATE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A089033",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "MEPROBAMATE",
-        "type": "FDA Approval",
-        "date": "1987-07-21",
-        "title": "MEPROBAMATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A085721",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "THERMAZENE",
-        "type": "FDA Approval",
-        "date": "1990-05-10",
-        "title": "THERMAZENE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=018810",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "ULTRAVATE",
-        "type": "FDA Approval",
-        "date": "1993-10-27",
-        "title": "ULTRAVATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019968",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "ALBUTEROL SULFATE",
-        "type": "FDA Approval",
-        "date": "1993-12-30",
-        "title": "ALBUTEROL SULFATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A072860",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "ISONIAZID",
-        "type": "FDA Approval",
-        "date": "1994-03-10",
-        "title": "ISONIAZID - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A080136",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "TOBRAMYCIN SULFATE",
-        "type": "FDA Approval",
-        "date": "1994-10-31",
-        "title": "TOBRAMYCIN SULFATE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A063119",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "NEOMYCIN AND POLYMYXIN B SULFATE",
-        "type": "FDA Approval",
-        "date": "1995-08-16",
-        "title": "NEOMYCIN AND POLYMYXIN B SULFATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A062664",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "DILOR-400",
-        "type": "FDA Approval",
-        "date": "1995-12-15",
-        "title": "DILOR-400 - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A084751",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "TERBUTALINE SULFATE",
-        "type": "FDA Approval",
-        "date": "2001-06-26",
-        "title": "TERBUTALINE SULFATE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A075877",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "NORETHINDRONE AND MESTRANOL",
-        "type": "FDA Approval",
-        "date": "2002-05-08",
-        "title": "NORETHINDRONE AND MESTRANOL - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A070758",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "IBUPROFEN AND PSEUDOEPHEDRINE HYDROCHLORIDE",
-        "type": "FDA Approval",
-        "date": "2002-10-09",
-        "title": "IBUPROFEN AND PSEUDOEPHEDRINE HYDROCHLORIDE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A075588",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "LITHIUM CARBONATE",
-        "type": "FDA Approval",
-        "date": "2003-10-17",
-        "title": "LITHIUM CARBONATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076170",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Harrow Health",
-        "drug": "MPI DMSA KIDNEY REAGENT",
-        "type": "FDA Approval",
-        "date": "2003-11-24",
-        "title": "MPI DMSA KIDNEY REAGENT - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=017944",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "RANICLOR",
-        "type": "FDA Approval",
-        "date": "2003-12-22",
-        "title": "RANICLOR - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A065092",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "FLUCONAZOLE IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER",
-        "type": "FDA Approval",
-        "date": "2005-03-25",
-        "title": "FLUCONAZOLE IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076889",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "DESOGESTREL; ETHINYL ESTRADIOL",
-        "type": "FDA Approval",
-        "date": "2006-01-24",
-        "title": "DESOGESTREL; ETHINYL ESTRADIOL - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A077182",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Sanofi ADR",
-        "drug": "TORNALATE",
-        "type": "FDA Approval",
-        "date": "2007-12-07",
-        "title": "TORNALATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=018770",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "FLUCONAZOLE",
-        "type": "FDA Approval",
-        "date": "2008-10-03",
-        "title": "FLUCONAZOLE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076332",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "PROMETHAZINE WITH CODEINE",
-        "type": "FDA Approval",
-        "date": "2008-12-19",
-        "title": "PROMETHAZINE WITH CODEINE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A040650",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "CHLORHEXIDINE GLUCONATE",
-        "type": "FDA Approval",
-        "date": "2009-08-24",
-        "title": "CHLORHEXIDINE GLUCONATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A074356",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "DESMOPRESSIN ACETATE",
-        "type": "FDA Approval",
-        "date": "2013-01-25",
-        "title": "DESMOPRESSIN ACETATE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A091280",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "LARIN 1/20",
-        "type": "FDA Approval",
-        "date": "2013-12-04",
-        "title": "LARIN 1/20 - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202995",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "RAMELTEON",
-        "type": "FDA Approval",
-        "date": "2015-08-19",
-        "title": "RAMELTEON - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A091610",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Harrow Health",
-        "drug": "PIMOZIDE",
-        "type": "FDA Approval",
-        "date": "2015-09-28",
-        "title": "PIMOZIDE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204521",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Harrow Health",
-        "drug": "TRI-PREVIFEM",
-        "type": "FDA Approval",
-        "date": "2016-02-24",
-        "title": "TRI-PREVIFEM - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076335",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Sarepta",
-        "drug": "EXONDYS 51",
-        "type": "FDA Approval",
-        "date": "2018-02-08",
-        "title": "EXONDYS 51 - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206488",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "SODIUM POLYSTYRENE SULFONATE",
-        "type": "FDA Approval",
-        "date": "2018-03-16",
-        "title": "SODIUM POLYSTYRENE SULFONATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205727",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Anavex Life Sciences",
-        "drug": "LEVOCETIRIZINE DIHYDROCHLORIDE",
-        "type": "FDA Approval",
-        "date": "2018-11-20",
-        "title": "LEVOCETIRIZINE DIHYDROCHLORIDE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211551",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Gilead",
-        "drug": "EMTRIVA",
-        "type": "FDA Approval",
-        "date": "2018-12-10",
-        "title": "EMTRIVA - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021500",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "GLYBURIDE",
-        "type": "FDA Approval",
-        "date": "2019-01-04",
-        "title": "GLYBURIDE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A203379",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "BUPROPION HYDROCHLORIDE",
-        "type": "FDA Approval",
-        "date": "2019-09-05",
-        "title": "BUPROPION HYDROCHLORIDE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211200",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "PRAVASTATIN SODIUM",
-        "type": "FDA Approval",
-        "date": "2019-09-09",
-        "title": "PRAVASTATIN SODIUM - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A077491",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "TOPOTECAN HYDROCHLORIDE",
-        "type": "FDA Approval",
-        "date": "2020-08-06",
-        "title": "TOPOTECAN HYDROCHLORIDE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A206074",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "FOSINOPRIL SODIUM AND HYDROCHLOROTHIAZIDE",
-        "type": "FDA Approval",
-        "date": "2020-08-20",
-        "title": "FOSINOPRIL SODIUM AND HYDROCHLOROTHIAZIDE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076608",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Taysha Gene",
-        "drug": "OLANZAPINE",
-        "type": "FDA Approval",
-        "date": "2020-09-15",
-        "title": "OLANZAPINE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A200221",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "AMLODIPINE BESYLATE, VALSARTAN AND HYDROCHLOROTHIAZIDE",
-        "type": "FDA Approval",
-        "date": "2021-04-05",
-        "title": "AMLODIPINE BESYLATE, VALSARTAN AND HYDROCHLOROTHIAZIDE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A201087",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "MICAFUNGIN SODIUM",
-        "type": "FDA Approval",
-        "date": "2021-07-09",
-        "title": "MICAFUNGIN SODIUM - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213363",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Amneal Pharma A",
-        "drug": "DEFERASIROX",
-        "type": "FDA Approval",
-        "date": "2021-08-02",
-        "title": "DEFERASIROX - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214194",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "DYANAVEL XR 20",
-        "type": "FDA Approval",
-        "date": "2021-11-04",
-        "title": "DYANAVEL XR 20 - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210526",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "PALIPERIDONE",
-        "type": "FDA Approval",
-        "date": "2021-11-16",
-        "title": "PALIPERIDONE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202645",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "SOVUNA",
-        "type": "FDA Approval",
-        "date": "2022-01-14",
-        "title": "SOVUNA - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214581",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "CARGLUMIC ACID",
-        "type": "FDA Approval",
-        "date": "2022-06-22",
-        "title": "CARGLUMIC ACID - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213729",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "BUPRENORPHINE HYDROCHLORIDE AND NALOXONE HYDROCHLORIDE",
-        "type": "FDA Approval",
-        "date": "2022-12-16",
-        "title": "BUPRENORPHINE HYDROCHLORIDE AND NALOXONE HYDROCHLORIDE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205299",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "DILTIAZEM HYDROCHLORIDE",
-        "type": "FDA Approval",
-        "date": "2023-04-06",
-        "title": "DILTIAZEM HYDROCHLORIDE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216327",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "ACETAZOLAMIDE",
-        "type": "FDA Approval",
-        "date": "2023-05-09",
-        "title": "ACETAZOLAMIDE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217197",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Agios Pharm",
-        "drug": "ERYTHROMYCIN",
-        "type": "FDA Approval",
-        "date": "2023-08-31",
-        "title": "ERYTHROMYCIN - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215440",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Bioage Labs",
-        "drug": "OXCARBAZEPINE",
-        "type": "FDA Approval",
-        "date": "2023-10-20",
-        "title": "OXCARBAZEPINE - ORIG Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216749",
-        "source": "openFDA API"
-    },
-    {
-        "company": "Ionis Pharma",
-        "drug": "FENTANYL CITRATE",
-        "type": "FDA Approval",
-        "date": "2023-12-15",
-        "title": "FENTANYL CITRATE - SUPPL Approved",
-        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215870",
-        "source": "openFDA API"
-    },
-    {
         "company": "Agios Pharm",
         "drug": "EZETIMIBE AND SIMVASTATIN",
         "type": "FDA Approval",
         "date": "2024-05-30",
         "title": "EZETIMIBE AND SIMVASTATIN - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A201890",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "CARGLUMIC ACID",
+        "type": "FDA Approval",
+        "date": "2024-05-30",
+        "title": "CARGLUMIC ACID - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213729",
         "source": "openFDA API"
     },
     {
@@ -513,6 +36,42 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "LITHIUM CARBONATE",
+        "type": "FDA Approval",
+        "date": "2024-08-19",
+        "title": "LITHIUM CARBONATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076170",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "BUPROPION HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-10-01",
+        "title": "BUPROPION HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211200",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "SOVUNA",
+        "type": "FDA Approval",
+        "date": "2024-10-10",
+        "title": "SOVUNA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214581",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Sarepta",
+        "drug": "EXONDYS 51",
+        "type": "FDA Approval",
+        "date": "2024-12-27",
+        "title": "EXONDYS 51 - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206488",
+        "source": "openFDA API"
+    },
+    {
         "company": "Arcturus Therapeutics Holdings Inc",
         "drug": "FRINDOVYX",
         "type": "FDA Approval",
@@ -522,12 +81,48 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "ACETAZOLAMIDE",
+        "type": "FDA Approval",
+        "date": "2025-01-27",
+        "title": "ACETAZOLAMIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217197",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "OXCARBAZEPINE",
+        "type": "FDA Approval",
+        "date": "2025-02-07",
+        "title": "OXCARBAZEPINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216749",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "BUPRENORPHINE HYDROCHLORIDE AND NALOXONE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-02-21",
+        "title": "BUPRENORPHINE HYDROCHLORIDE AND NALOXONE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205299",
+        "source": "openFDA API"
+    },
+    {
         "company": "Harrow Health",
         "drug": "DEXLANSOPRAZOLE",
         "type": "FDA Approval",
         "date": "2025-08-14",
         "title": "DEXLANSOPRAZOLE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202294",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "DYANAVEL XR 20",
+        "type": "FDA Approval",
+        "date": "2025-09-23",
+        "title": "DYANAVEL XR 20 - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210526",
         "source": "openFDA API"
     },
     {
@@ -546,6 +141,24 @@
         "date": "2025-11-13",
         "title": "ATORVASTATIN CALCIUM - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A220276",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "FENTANYL CITRATE",
+        "type": "FDA Approval",
+        "date": "2025-12-22",
+        "title": "FENTANYL CITRATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215870",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "PROMETHAZINE WITH CODEINE",
+        "type": "FDA Approval",
+        "date": "2025-12-22",
+        "title": "PROMETHAZINE WITH CODEINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A040650",
         "source": "openFDA API"
     }
 ]
