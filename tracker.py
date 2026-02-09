@@ -112,44 +112,42 @@ def fetch_federal_register_adcomm(target_companies):
             html_url = item.get('html_url', '')
             
             # Check for company matches in the notice title or abstract
-            detected_company = None
+            detected_company = "FDA Advisory Committee" # Default if no specific company is tracked
+            
+            # Try to find a specific tracked company
             for company in target_companies:
                 if company.lower() in content.lower():
                     detected_company = company
                     break
             
-            # If no specific company, but it's clearly an AdComm, maybe list it generally? 
-            # For now, stick to target companies to avoid noise.
+            # Try to extract the actual meeting date from the text if possible
+            # (This is hard without full text parsing, so we'll use publication date 
+            # effectively as the 'announcement' date, or check 'dates' field if available details exist)
             
-            if detected_company:
-                # Try to extract the actual meeting date from the text if possible
-                # (This is hard without full text parsing, so we'll use publication date 
-                # effectively as the 'announcement' date, or check 'dates' field if available details exist)
-                
-                # Federal Register API sometimes provides 'docket_ids' or 'dates' in full text
-                # We'll use the publication date as a proxy for "New Meeting Announced" if we can't parse better
-                
-                event_date = pub_date
-                
-                # Basic future date extraction Attempt from title (e.g., "September 15, 2026 Meeting of...")
-                import re
-                date_match = re.search(r'([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})', title)
-                if date_match:
-                    try:
-                        dt = datetime.strptime(date_match.group(1).replace(',', ''), '%B %d %Y')
-                        event_date = dt.strftime('%Y-%m-%d')
-                    except:
-                        pass
-                
-                events.append({
-                    'company': detected_company,
-                    'drug': 'Check Notice',
-                    'type': 'AdComm Meeting',
-                    'date': event_date,
-                    'title': title[:200],
-                    'link': html_url or pdf_url,
-                    'source': 'Federal Register'
-                })
+            # Federal Register API sometimes provides 'docket_ids' or 'dates' in full text
+            # We'll use the publication date as a proxy for "New Meeting Announced" if we can't parse better
+            
+            event_date = pub_date
+            
+            # Basic future date extraction Attempt from title (e.g., "September 15, 2026 Meeting of...")
+            import re
+            date_match = re.search(r'([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})', title)
+            if date_match:
+                try:
+                    dt = datetime.strptime(date_match.group(1).replace(',', ''), '%B %d %Y')
+                    event_date = dt.strftime('%Y-%m-%d')
+                except:
+                    pass
+            
+            events.append({
+                'company': detected_company,
+                'drug': 'See Notice',
+                'type': 'AdComm Meeting',
+                'date': event_date,
+                'title': title[:200],
+                'link': html_url or pdf_url,
+                'source': 'Federal Register'
+            })
                 
     except Exception as e:
         print(f"Error fetching from Federal Register: {e}")
