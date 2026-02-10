@@ -108,6 +108,12 @@ document.addEventListener('DOMContentLoaded', function () {
             const date = new Date(item.date);
             if (isNaN(date)) return;
 
+            // Only show future and recent past (last 30 days), UNLESS it's a label update
+            const daysDiff = (date - today) / (1000 * 60 * 60 * 24);
+            const isLabel = categorizeEvent(item) === 'label';
+
+            if (daysDiff < -30 && !isLabel) return;
+
             // Only count future events or recent past for labels (labels are usually past events)
             // Actually, labels are "updates" so they are past events, but we want to show them.
             // Let's count them if they are in the dataset (which is already filtered to recent by scraper)
