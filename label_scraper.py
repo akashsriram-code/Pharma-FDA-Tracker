@@ -139,12 +139,16 @@ def extract_label_events(label_data, company, brand_name):
         try:
              dt = datetime.strptime(final_date, '%Y-%m-%d')
              if dt > datetime.now() - timedelta(days=365):
+                # Store full info for the "Diff" view
+                full_details = f"Section: {change.get('section', 'Unknown')}\n\n{change.get('notes', 'No details provided.')}"
+                
                 events.append({
                     'company': company,
                     'drug': brand_name,
                     'type': 'Label Update',
                     'date': final_date,
-                    'title': f"Label Update: {change_text[:100]}...",
+                    'title': f"Label Update: {change.get('section', 'General')}...",
+                    'details': full_details, # New field for the UI expansion
                     'link': link,
                     'source': 'OpenFDA'
                 })

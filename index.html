@@ -420,6 +420,66 @@
             color: var(--label-color);
         }
 
+        /* Label Card Specifics */
+        .event-card.label {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .event-card.label.expanded {
+            border-color: var(--label-color);
+            background: rgba(30, 41, 59, 0.95);
+        }
+
+        .label-details {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .diff-view {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9rem;
+            color: #d1d5db;
+        }
+
+        .diff-header {
+            color: #9ca3af;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .diff-section-label {
+            color: #fbbf24;
+            /* Amber for section headers */
+            font-weight: bold;
+            display: block;
+            margin-top: 0.5rem;
+        }
+
+        .diff-content {
+            white-space: pre-wrap;
+            line-height: 1.6;
+        }
+
+        /* "Green" for added text simulation */
+        .diff-content {
+            color: #4ade80;
+            /* Green text */
+        }
+
+        .event-card.label:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(239, 68, 68, 0.15);
+        }
+
         .event-company {
             font-size: 1.25rem;
             font-weight: 700;

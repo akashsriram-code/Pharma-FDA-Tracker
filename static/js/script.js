@@ -185,24 +185,103 @@ document.addEventListener('DOMContentLoaded', function () {
      */
     function renderData(data, tab) {
         const filtered = filterByTab(data, tab);
-        const grouped = groupByMonth(filtered);
 
         eventsContainer.innerHTML = '';
 
-        const months = Object.keys(grouped);
-
-        if (months.length === 0) {
+        if (filtered.length === 0) {
             showEmptyState('No events found for this category.');
             return;
         }
 
         hideEmptyState();
 
+        // Special Layout for Label Changes
+        if (tab === 'labels') {
+            renderLabelList(filtered);
+            return;
+        }
+
+        // Standard Monthly Grouping for other tabs
+        const grouped = groupByMonth(filtered);
+        const months = Object.keys(grouped);
+
         months.forEach(month => {
             const events = grouped[month];
             const groupEl = createMonthGroup(month, events);
             eventsContainer.appendChild(groupEl);
         });
+    }
+
+    /**
+     * Render Label Changes List (Reverse Chronological)
+     */
+    function renderLabelList(data) {
+        // Sort by date descending
+        const sorted = [...data].sort((a, b) => {
+            return new Date(b.date) - new Date(a.date);
+        });
+
+        sorted.forEach(item => {
+            const card = createLabelCard(item);
+            eventsContainer.appendChild(card);
+        });
+    }
+
+    /**
+     * Create Label Change Card (Expandable)
+     */
+    function createLabelCard(item) {
+        const card = document.createElement('div');
+        card.className = 'event-card label expandable';
+
+        let dateDisplay = item.date || 'TBD';
+        try {
+            const d = new Date(item.date);
+            if (!isNaN(d)) dateDisplay = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        } catch (e) { }
+
+        const title = item.title ? item.title.replace('Label Update:', '').trim() : 'Label Update';
+
+        card.innerHTML = `
+            <div class="event-header">
+                <span class="event-date">${dateDisplay}</span>
+                <span class="event-type label">Label Update</span>
+            </div>
+            <div class="event-company">${item.company}</div>
+            <div class="event-drug">${item.drug}</div>
+            <div class="event-title">${truncate(title, 100)}</div>
+            
+            <div class="label-details hidden">
+                <div class="diff-view">
+                    <div class="diff-header">Change Details</div>
+                    <div class="diff-content">
+                        ${formatDiffContent(item.details)}
+                    </div>
+                </div>
+                <a href="${item.link}" target="_blank" class="event-link" onclick="event.stopPropagation()">View Usage on DailyMed →</a>
+            </div>
+        `;
+
+        // Toggle Expand
+        card.addEventListener('click', () => {
+            card.classList.toggle('expanded');
+            const details = card.querySelector('.label-details');
+            details.classList.toggle('hidden');
+        });
+
+        return card;
+    }
+
+    /**
+     * Format Diff Content
+     */
+    function formatDiffContent(details) {
+        if (!details) return '<span class="text-muted">No details available.</span>';
+
+        // Simple formatting to highlight sections
+        // We assume details comes as "Section: ... \n\n Content..."
+        return details.replace(/\n/g, '<br>')
+            .replace(/(Section:)/g, '<span class="diff-section-label">$1</span>');
     }
 
     /**
