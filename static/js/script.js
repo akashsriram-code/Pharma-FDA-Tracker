@@ -94,7 +94,44 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ... (groupByMonth unchanged)
+    /**
+     * Group events by month
+     */
+    function groupByMonth(data) {
+        const groups = {};
+        const today = new Date();
+
+        // Sort by date first
+        const sorted = [...data].sort((a, b) => {
+            const dateA = new Date(a.date);
+            const dateB = new Date(b.date);
+            if (isNaN(dateA)) return 1;
+            if (isNaN(dateB)) return -1;
+            return dateA - dateB;
+        });
+
+        sorted.forEach(item => {
+            if (!item.date) return;
+
+            const date = new Date(item.date);
+            if (isNaN(date)) return;
+
+            // Only show future and recent past (last 30 days), UNLESS it's a label update
+            const daysDiff = (date - today) / (1000 * 60 * 60 * 24);
+            const isLabel = categorizeEvent(item) === 'label';
+
+            if (daysDiff < -30 && !isLabel) return;
+
+            const monthKey = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+
+            if (!groups[monthKey]) {
+                groups[monthKey] = [];
+            }
+            groups[monthKey].push(item);
+        });
+
+        return groups;
+    }
 
     /**
      * Update tab counts
