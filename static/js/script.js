@@ -180,7 +180,100 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('count-labels').textContent = counts.labels;
     }
 
-    // ...
+    /**
+     * Render data grouped by month
+     */
+    function renderData(data, tab) {
+        const filtered = filterByTab(data, tab);
+        const grouped = groupByMonth(filtered);
+
+        eventsContainer.innerHTML = '';
+
+        const months = Object.keys(grouped);
+
+        if (months.length === 0) {
+            showEmptyState('No events found for this category.');
+            return;
+        }
+
+        hideEmptyState();
+
+        months.forEach(month => {
+            const events = grouped[month];
+            const groupEl = createMonthGroup(month, events);
+            eventsContainer.appendChild(groupEl);
+        });
+    }
+
+    /**
+     * Create monthly group element
+     */
+    function createMonthGroup(month, events) {
+        const group = document.createElement('div');
+        group.className = 'month-group';
+
+        group.innerHTML = `
+            <div class="month-header">
+                <span class="month-title">${month}</span>
+                <span class="month-count">${events.length} event${events.length !== 1 ? 's' : ''}</span>
+            </div>
+            <div class="month-events"></div>
+        `;
+
+        const eventsContainer = group.querySelector('.month-events');
+
+        events.forEach(item => {
+            const card = createEventCard(item);
+            eventsContainer.appendChild(card);
+        });
+
+        return group;
+    }
+
+    /**
+     * Create event card element
+     */
+    function createEventCard(item) {
+        const category = categorizeEvent(item);
+        const card = document.createElement('div');
+        card.className = `event-card ${category}`;
+
+        // Format date nicely
+        let dateDisplay = item.date || 'TBD';
+        try {
+            const d = new Date(item.date);
+            if (!isNaN(d)) {
+                dateDisplay = d.toLocaleDateString('en-US', {
+                    weekday: 'short',
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+            }
+        } catch (e) { }
+
+        // Get display type
+        const typeLabel = getTypeLabel(item.type, category);
+
+        card.innerHTML = `
+            <div class="event-header">
+                <span class="event-date">${dateDisplay}</span>
+                <span class="event-type ${category}">${typeLabel}</span>
+            </div>
+            <div class="event-company">${item.company || 'Unknown'}</div>
+            ${item.drug && item.drug !== 'N/A' && item.drug !== 'Check Filing' && item.drug !== 'Check Source'
+                ? `<div class="event-drug">${item.drug}</div>`
+                : ''}
+            ${item.title
+                ? `<div class="event-title">${truncate(item.title, 80)}</div>`
+                : ''}
+            ${item.link
+                ? `<a href="${item.link}" target="_blank" rel="noopener" class="event-link">View Source →</a>`
+                : ''}
+        `;
+
+        return card;
+    }
 
     /**
      * Get display label for event type
