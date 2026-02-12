@@ -45,6 +45,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "VARENICLINE TARTRATE",
+        "type": "FDA Approval",
+        "date": "2024-02-29",
+        "title": "VARENICLINE TARTRATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202019",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "DEXTROAMPHETAMINE SULFATE",
         "type": "FDA Approval",
@@ -72,6 +81,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "ASPIRIN AND DIPYRIDAMOLE",
+        "type": "FDA Approval",
+        "date": "2024-04-15",
+        "title": "ASPIRIN AND DIPYRIDAMOLE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A206964",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "PITAVASTATIN CALCIUM",
         "type": "FDA Approval",
@@ -87,6 +105,15 @@
         "date": "2024-05-10",
         "title": "OSELTAMIVIR PHOSPHATE - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218131",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "EC-NAPROSYN",
+        "type": "FDA Approval",
+        "date": "2024-05-13",
+        "title": "EC-NAPROSYN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020067",
         "source": "openFDA API"
     },
     {
@@ -186,6 +213,15 @@
         "date": "2024-08-19",
         "title": "LITHIUM CARBONATE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076170",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "FLUCONAZOLE",
+        "type": "FDA Approval",
+        "date": "2024-08-26",
+        "title": "FLUCONAZOLE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076957",
         "source": "openFDA API"
     },
     {
@@ -349,6 +385,15 @@
         "title": "Reauthorization of the Over-The-Counter Monograph Drug User Fee Program; Public Meeting; Request for Comments",
         "link": "https://www.federalregister.gov/documents/2024/11/01/2024-25458/reauthorization-of-the-over-the-counter-monograph-drug-user-fee-program-public-meeting-request-for",
         "source": "Federal Register"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "LEVETIRACETAM",
+        "type": "FDA Approval",
+        "date": "2024-11-14",
+        "title": "LEVETIRACETAM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A203059",
+        "source": "openFDA API"
     },
     {
         "company": "FDA Advisory Committee",
@@ -594,6 +639,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "TENOFOVIR DISOPROXIL FUMARATE",
+        "type": "FDA Approval",
+        "date": "2025-01-28",
+        "title": "TENOFOVIR DISOPROXIL FUMARATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A206569",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "OXCARBAZEPINE",
         "type": "FDA Approval",
@@ -655,6 +709,15 @@
         "title": "Label Update: Indications and Usage, Neuroendocrine Tumors ( 1.4 ) 03/2025 Dosage and Administration, Recommended ...",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5",
         "source": "OpenFDA"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "PROGESTERONE",
+        "type": "FDA Approval",
+        "date": "2025-03-03",
+        "title": "PROGESTERONE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207724",
+        "source": "openFDA API"
     },
     {
         "company": "Ionis Pharma",
@@ -837,6 +900,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "LEVOCETIRIZINE DIHYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-07-11",
+        "title": "LEVOCETIRIZINE DIHYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A090362",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -936,6 +1008,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amgen",
+        "drug": "DMAB Discontinuation and Switching",
+        "type": "PHASE4 Completion",
+        "date": "2025-08-31",
+        "title": "DMAB Discontinuation and Switching: Osteoporosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04177940",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -970,6 +1051,15 @@
         "title": "PEGCETACOPLAN (APL-2): Geographic Atrophy Secondary to Age-related Macular Degeneration - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT04770545",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "POTASSIUM CHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-09-10",
+        "title": "POTASSIUM CHLORIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218733",
+        "source": "openFDA API"
     },
     {
         "company": "FDA Advisory Committee",
@@ -1014,6 +1104,24 @@
         "date": "2025-09-23",
         "title": "ALVIMOPAN - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216843",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "MONTELUKAST SODIUM",
+        "type": "FDA Approval",
+        "date": "2025-09-30",
+        "title": "MONTELUKAST SODIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204604",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "OLMESARTAN MEDOXOMIL AND HYDROCHLOROTHIAZIDE",
+        "type": "FDA Approval",
+        "date": "2025-09-30",
+        "title": "OLMESARTAN MEDOXOMIL AND HYDROCHLOROTHIAZIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205391",
         "source": "openFDA API"
     },
     {
@@ -1086,6 +1194,15 @@
         "date": "2025-10-27",
         "title": "Suzetrigine: Acute Pain - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06887959",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Gilead",
+        "drug": "Bictegravir",
+        "type": "PHASE3 Completion",
+        "date": "2025-10-27",
+        "title": "Bictegravir: HIV-1-infection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06333808",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -1224,6 +1341,15 @@
         "source": "GlobeNewswire Healthcare"
     },
     {
+        "company": "Amgen",
+        "drug": "Teprotumumab",
+        "type": "PHASE4 Completion",
+        "date": "2025-12-19",
+        "title": "Teprotumumab: Thyroid Eye Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05002998",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "FENTANYL CITRATE",
         "type": "FDA Approval",
@@ -1305,6 +1431,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "argenx",
+        "drug": "Efgartigimod PH20 SC",
+        "type": "PHASE3 Completion",
+        "date": "2026-01-28",
+        "title": "Efgartigimod PH20 SC: Myasthenia Gravis, Ocular - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06558279",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Twist Bioscience",
         "drug": "Check Source",
         "type": "Press Release",
@@ -1359,6 +1494,15 @@
         "source": "PRNewsWire"
     },
     {
+        "company": "Harrow Health",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-02-11",
+        "title": "WeShop Announces Offerings in the Health and Fitness Category with Nike, Adidas, GNC Under Armour and Other Leading Retailers",
+        "link": "https://www.globenewswire.com/news-release/2026/02/11/3236205/0/en/WeShop-Announces-Offerings-in-the-Health-and-Fitness-Category-with-Nike-Adidas-GNC-Under-Armour-and-Other-Leading-Retailers.html",
+        "source": "GlobeNewswire Healthcare"
+    },
+    {
         "company": "Merck & Co., Inc.",
         "drug": "KEYTRUDA (pembrolizumab)",
         "type": "PDUFA Date",
@@ -1393,6 +1537,15 @@
         "title": "FDA Decision Expected: ET-600 for Diabetes Insipidus",
         "link": "https://www.etonpharma.com/",
         "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Incyte",
+        "drug": "Povorcitinib",
+        "type": "PHASE3 Completion",
+        "date": "2026-02-25",
+        "title": "Povorcitinib: NonSegmental Vitiligo - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06113445",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Ascendis Pharma A/S",
@@ -1465,6 +1618,15 @@
         "title": "FDA Decision Expected: Anaphylm for Anaphylaxis",
         "link": "https://www.aquestive.com/",
         "source": "PDUFA Calendar"
+    },
+    {
+        "company": "Incyte",
+        "drug": "Povorcitinib",
+        "type": "PHASE3 Completion",
+        "date": "2026-03-17",
+        "title": "Povorcitinib: NonSegmental Vitiligo - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06113471",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Jazz",
@@ -1584,6 +1746,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Gilead",
+        "drug": "The Accelerate model of care",
+        "type": "PHASE4 Completion",
+        "date": "2026-05-01",
+        "title": "The Accelerate model of care: HIV Infections - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06374758",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "BNT162b2 (2025/2026 recommended SARS-CoV-2 strain)",
         "type": "PHASE3 Completion",
@@ -1665,6 +1836,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Biogen",
+        "drug": "BIIB111",
+        "type": "PHASE3 Completion",
+        "date": "2026-06-04",
+        "title": "BIIB111: Choroideremia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT03584165",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regeneron",
         "drug": "Dupilumab",
         "type": "PHASE3 Completion",
@@ -1716,6 +1896,15 @@
         "date": "2026-06-28",
         "title": "Tasimelteon: Sleep Wake Disorders - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT04652882",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Gilead",
+        "drug": "Domvanalimab",
+        "type": "PHASE3 Completion",
+        "date": "2026-06-28",
+        "title": "Domvanalimab: Advanced Upper Gastrointestinal Tract Adenocarcinoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05568095",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -1806,6 +1995,15 @@
         "date": "2026-07-31",
         "title": "Zanidatamab: Gastric Neoplasms - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05152147",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "BioNTech",
+        "drug": "BNT162b2 (2025/2026 formulation)",
+        "type": "PHASE3 Completion",
+        "date": "2026-07-31",
+        "title": "BNT162b2 (2025/2026 formulation): COVID-19 - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07222384",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -1989,6 +2187,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Biogen",
+        "drug": "Felzartamab",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-01",
+        "title": "Felzartamab: Antibody-mediated Rejection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06685757",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regeneron",
         "drug": "Dupilumab",
         "type": "PHASE4 Completion",
@@ -2106,6 +2313,24 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Regeneron",
+        "drug": "Itepekimab (SAR440340)",
+        "type": "PHASE3 Completion",
+        "date": "2027-01-08",
+        "title": "Itepekimab (SAR440340): Chronic Rhinosinusitis With Nasal Polyps - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06834347",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Vertex",
+        "drug": "Suzetrigine",
+        "type": "PHASE3 Completion",
+        "date": "2027-01-25",
+        "title": "Suzetrigine: Diabetic Peripheral Neuropathic Pain - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06696443",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Ultragenyx",
         "drug": "setrusumab",
         "type": "PHASE3 Completion",
@@ -2169,6 +2394,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Regeneron",
+        "drug": "REGN7508",
+        "type": "PHASE3 Completion",
+        "date": "2027-05-17",
+        "title": "REGN7508: Symptomatic Venous Thromboembolism (VTE) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07213778",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Biogen",
         "drug": "BIIB017 (peginterferon beta-1a)",
         "type": "PHASE3 Completion",
@@ -2184,6 +2418,15 @@
         "date": "2027-05-24",
         "title": "Prolia\u00ae: Glucocorticoid-induced Osteoporosis - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06588153",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Gilead",
+        "drug": "Dolutegravir",
+        "type": "PHASE4 Completion",
+        "date": "2027-05-28",
+        "title": "Dolutegravir: HIV - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT02656511",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -2241,6 +2484,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Ionis",
+        "drug": "Olezarsen",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-28",
+        "title": "Olezarsen: Familial Chylomicronemia Syndrome - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05185843",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Neurocrine",
         "drug": "NBI-1065845",
         "type": "PHASE3 Completion",
@@ -2274,6 +2526,15 @@
         "date": "2027-07-28",
         "title": "Pegcetacoplan: C3G - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05809531",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regeneron",
+        "drug": "nexiguran ziclumeran",
+        "type": "PHASE3 Completion",
+        "date": "2027-07-28",
+        "title": "nexiguran ziclumeran: Neuromuscular Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06672237",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -2373,6 +2634,15 @@
         "date": "2027-10-28",
         "title": "NBI-1117568: Schizophrenia - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06963034",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Biogen",
+        "drug": "Omaveloxolone",
+        "type": "PHASE3 Completion",
+        "date": "2027-11-16",
+        "title": "Omaveloxolone: Friedreich Ataxia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06953583",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -2511,6 +2781,24 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "BioNTech",
+        "drug": "BNT323/DB-1303",
+        "type": "PHASE3 Completion",
+        "date": "2028-03-28",
+        "title": "BNT323/DB-1303: Endometrial Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06340568",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Jazz",
+        "drug": "Zanidatamab",
+        "type": "PHASE3 Completion",
+        "date": "2028-04-28",
+        "title": "Zanidatamab: Metastatic HER2-positive Breast Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06435429",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regenxbio",
         "drug": "RGX-121-3102",
         "type": "PHASE3 Completion",
@@ -2571,6 +2859,15 @@
         "date": "2028-06-28",
         "title": "Pegcetacoplan: Geographic Atrophy - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06161584",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
+        "drug": "Maridebart Cafraglutide",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-30",
+        "title": "Maridebart Cafraglutide: Atherosclerotic Cardiovascular Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07037433",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -2710,6 +3007,15 @@
     },
     {
         "company": "Amgen",
+        "drug": "Xaluritamig",
+        "type": "PHASE3 Completion",
+        "date": "2029-01-02",
+        "title": "Xaluritamig: Metastatic Castration-resistant Prostate Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06691984",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
         "drug": "Etelcalcetide",
         "type": "PHASE3 Completion",
         "date": "2029-01-31",
@@ -2826,6 +3132,24 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Regeneron",
+        "drug": "Pozelimab",
+        "type": "PHASE3 Completion",
+        "date": "2029-09-08",
+        "title": "Pozelimab: Paroxysmal Nocturnal Hemoglobinuria - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07154745",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "argenx",
+        "drug": "Efgartigimod IV or Efgartigimod PH20 SC",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2029-09-28",
+        "title": "Efgartigimod IV or Efgartigimod PH20 SC: Generalized Myasthenia Gravis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05374590",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "Pumitamig",
         "type": "PHASE3 Completion",
@@ -2880,12 +3204,30 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amgen",
+        "drug": "Apremilast",
+        "type": "PHASE3 Completion",
+        "date": "2030-02-07",
+        "title": "Apremilast: Beh\u00e7et Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04528082",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Alnylam",
         "drug": "Nucresiran",
         "type": "PHASE3 Completion",
         "date": "2030-05-28",
         "title": "Nucresiran: Transthyretin Amyloidosis With Cardiomyopathy - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07052903",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Vertex",
+        "drug": "VX-121/TEZ/D-IVA",
+        "type": "PHASE3 Completion",
+        "date": "2030-06-30",
+        "title": "VX-121/TEZ/D-IVA: Cystic Fibrosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05422222",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -3012,6 +3354,15 @@
         "date": "2034-03-28",
         "title": "F/TAF (High Dose Tablet): HIV-1-infection - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06337032",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regeneron",
+        "drug": "Linvoseltamab",
+        "type": "PHASE3 Completion",
+        "date": "2036-12-28",
+        "title": "Linvoseltamab: Multiple Myeloma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06932562",
         "source": "ClinicalTrials.gov"
     },
     {
