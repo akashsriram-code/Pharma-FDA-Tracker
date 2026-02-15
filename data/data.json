@@ -73,6 +73,15 @@
     },
     {
         "company": "Agios Pharm",
+        "drug": "FINZALA",
+        "type": "FDA Approval",
+        "date": "2024-02-27",
+        "title": "FINZALA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210087",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
         "drug": "VARENICLINE TARTRATE",
         "type": "FDA Approval",
         "date": "2024-02-29",
@@ -123,6 +132,15 @@
         "date": "2024-03-29",
         "title": "ATENOLOL - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078512",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "KETOROLAC TROMETHAMINE",
+        "type": "FDA Approval",
+        "date": "2024-03-29",
+        "title": "KETOROLAC TROMETHAMINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205191",
         "source": "openFDA API"
     },
     {
@@ -279,6 +297,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "ATORVASTATIN CALCIUM",
+        "type": "FDA Approval",
+        "date": "2024-07-11",
+        "title": "ATORVASTATIN CALCIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217081",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "MYCOPHENOLATE SODIUM",
         "type": "FDA Approval",
@@ -312,6 +339,15 @@
         "date": "2024-08-26",
         "title": "FLUCONAZOLE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076957",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "LEVOFLOXACIN",
+        "type": "FDA Approval",
+        "date": "2024-08-28",
+        "title": "LEVOFLOXACIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076276",
         "source": "openFDA API"
     },
     {
@@ -819,6 +855,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "METHYLPHENIDATE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-02-06",
+        "title": "METHYLPHENIDATE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A209753",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "OXCARBAZEPINE",
         "type": "FDA Approval",
@@ -861,6 +906,15 @@
         "date": "2025-02-24",
         "title": "METAXALONE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A203399",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "DABIGATRAN ETEXILATE MESYLATE",
+        "type": "FDA Approval",
+        "date": "2025-02-24",
+        "title": "DABIGATRAN ETEXILATE MESYLATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207961",
         "source": "openFDA API"
     },
     {
@@ -963,6 +1017,15 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "DOXYCYCLINE HYCLATE",
+        "type": "FDA Approval",
+        "date": "2025-04-04",
+        "title": "DOXYCYCLINE HYCLATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A065287",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -1008,12 +1071,30 @@
         "source": "Federal Register"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "PIOGLITAZONE HYDROCHLORIDE AND METFORMIN HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-05-13",
+        "title": "PIOGLITAZONE HYDROCHLORIDE AND METFORMIN HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204802",
+        "source": "openFDA API"
+    },
+    {
         "company": "SIGA Tech",
         "drug": "PIASKY",
         "type": "FDA Approval",
         "date": "2025-05-14",
         "title": "PIASKY - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761388",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ardelyx Inc",
+        "drug": "IBSRELA",
+        "type": "FDA Approval",
+        "date": "2025-05-20",
+        "title": "IBSRELA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211801",
         "source": "openFDA API"
     },
     {
@@ -1134,6 +1215,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Supernus",
+        "drug": "OSMOLEX ER",
+        "type": "FDA Approval",
+        "date": "2025-07-10",
+        "title": "OSMOLEX ER - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209410",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -1177,6 +1267,15 @@
         "title": "Arthritis Advisory Committee; Termination",
         "link": "https://www.federalregister.gov/documents/2025/07/30/2025-14345/arthritis-advisory-committee-termination",
         "source": "Federal Register"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "ATMEKSI",
+        "type": "FDA Approval",
+        "date": "2025-07-30",
+        "title": "ATMEKSI - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219843",
+        "source": "openFDA API"
     },
     {
         "company": "Sarepta",
@@ -1692,6 +1791,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "PROBUPHINE",
+        "type": "FDA Approval",
+        "date": "2025-12-22",
+        "title": "PROBUPHINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=204442",
+        "source": "openFDA API"
+    },
+    {
         "company": "Neurocrine",
         "drug": "Placebo",
         "type": "PHASE3 Completion",
@@ -1728,6 +1836,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "PROTRIPTYLINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2026-01-07",
+        "title": "PROTRIPTYLINE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202220",
+        "source": "openFDA API"
+    },
+    {
         "company": "Neurocrine",
         "drug": "Chronocort",
         "type": "PHASE3 Completion",
@@ -1744,6 +1861,15 @@
         "title": "Minimal Residual Disease and Complete Response in Multiple Myeloma: Use as Endpoints To Support Accelerated Approval; Draft Guidance for Industry; Availability",
         "link": "https://www.federalregister.gov/documents/2026/01/21/2026-01068/minimal-residual-disease-and-complete-response-in-multiple-myeloma-use-as-endpoints-to-support",
         "source": "Federal Register"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "TEMOZOLOMIDE",
+        "type": "FDA Approval",
+        "date": "2026-01-22",
+        "title": "TEMOZOLOMIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A201742",
+        "source": "openFDA API"
     },
     {
         "company": "United Therapeutics",
