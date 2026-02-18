@@ -100,6 +100,15 @@
     },
     {
         "company": "Ionis Pharma",
+        "drug": "OXCARBAZEPINE",
+        "type": "FDA Approval",
+        "date": "2024-03-01",
+        "title": "OXCARBAZEPINE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218278",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
         "drug": "DEXTROAMPHETAMINE SULFATE",
         "type": "FDA Approval",
         "date": "2024-03-08",
@@ -150,6 +159,15 @@
         "date": "2024-03-29",
         "title": "KETOROLAC TROMETHAMINE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205191",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "IBUPROFEN",
+        "type": "FDA Approval",
+        "date": "2024-04-08",
+        "title": "IBUPROFEN - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213506",
         "source": "openFDA API"
     },
     {
@@ -270,6 +288,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "DEXAMETHASONE",
+        "type": "FDA Approval",
+        "date": "2024-06-05",
+        "title": "DEXAMETHASONE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215604",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "METHAMPHETAMINE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -294,6 +321,15 @@
         "date": "2024-06-11",
         "title": "TRANEXAMIC ACID - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218320",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "ATORVASTATIN CALCIUM",
+        "type": "FDA Approval",
+        "date": "2024-06-14",
+        "title": "ATORVASTATIN CALCIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214344",
         "source": "openFDA API"
     },
     {
@@ -339,6 +375,15 @@
         "date": "2024-07-11",
         "title": "ATORVASTATIN CALCIUM - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217081",
+        "source": "openFDA API"
+    },
+    {
+        "company": "AC Immune",
+        "drug": "ENBREL",
+        "type": "FDA Approval",
+        "date": "2024-07-22",
+        "title": "ENBREL - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103795",
         "source": "openFDA API"
     },
     {
@@ -666,6 +711,24 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "DICLOFENAC SODIUM",
+        "type": "FDA Approval",
+        "date": "2024-11-21",
+        "title": "DICLOFENAC SODIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A206655",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "ROSUVASTATIN CALCIUM",
+        "type": "FDA Approval",
+        "date": "2024-11-25",
+        "title": "ROSUVASTATIN CALCIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207408",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -709,6 +772,24 @@
         "title": "Advisory Committee; Science Board to the Food and Drug Administration; Renewal",
         "link": "https://www.federalregister.gov/documents/2024/12/12/2024-29231/advisory-committee-science-board-to-the-food-and-drug-administration-renewal",
         "source": "Federal Register"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "DEXMETHYLPHENIDATE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-12-17",
+        "title": "DEXMETHYLPHENIDATE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A079108",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "DIAZEPAM",
+        "type": "FDA Approval",
+        "date": "2024-12-17",
+        "title": "DIAZEPAM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A091076",
+        "source": "openFDA API"
     },
     {
         "company": "Bioage Labs",
@@ -1386,6 +1467,15 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "OLANZAPINE",
+        "type": "FDA Approval",
+        "date": "2025-08-04",
+        "title": "OLANZAPINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A077301",
+        "source": "openFDA API"
+    },
+    {
         "company": "Amneal Pharma A",
         "drug": "RISPERIDONE",
         "type": "FDA Approval",
@@ -1458,6 +1548,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amgen",
+        "drug": "AVSOLA",
+        "type": "FDA Approval",
+        "date": "2025-08-25",
+        "title": "AVSOLA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761086",
+        "source": "openFDA API"
+    },
+    {
         "company": "Regeneron",
         "drug": "Aflibercept 8 mg",
         "type": "PHASE3 Completion",
@@ -1519,6 +1618,15 @@
         "title": "PEGCETACOPLAN (APL-2): Geographic Atrophy Secondary to Age-related Macular Degeneration - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT04770545",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "IVERMECTIN",
+        "type": "FDA Approval",
+        "date": "2025-09-09",
+        "title": "IVERMECTIN - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218805",
+        "source": "openFDA API"
     },
     {
         "company": "Agios Pharm",
@@ -1917,6 +2025,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+        "type": "FDA Approval",
+        "date": "2025-12-22",
+        "title": "ACETAMINOPHEN AND CODEINE PHOSPHATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A087006",
+        "source": "openFDA API"
+    },
+    {
         "company": "Neurocrine",
         "drug": "Placebo",
         "type": "PHASE3 Completion",
@@ -1951,6 +2068,15 @@
         "title": "Ralinepag: PAH - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT03626688",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "GLATIRAMER ACETATE",
+        "type": "FDA Approval",
+        "date": "2025-12-31",
+        "title": "GLATIRAMER ACETATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214741",
+        "source": "openFDA API"
     },
     {
         "company": "Ionis Pharma",
@@ -2104,6 +2230,15 @@
         "title": "Vaccines and Related Biological Products Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-United States (U.S.) 2026-2027 Influenza Vaccine Strain Compositi",
         "link": "https://www.federalregister.gov/documents/2026/02/12/2026-02787/vaccines-and-related-biological-products-advisory-committee-notice-of-meeting-establishment-of-a",
         "source": "Federal Register"
+    },
+    {
+        "company": "United Therapeutics",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-02-18",
+        "title": "B.C. budget supports growth but falls short for many workers, says United Steelworkers",
+        "link": "https://www.globenewswire.com/news-release/2026/02/18/3239891/0/en/B-C-budget-supports-growth-but-falls-short-for-many-workers-says-United-Steelworkers.html",
+        "source": "GlobeNewswire Biotech"
     },
     {
         "company": "Merck & Co., Inc.",
@@ -2853,6 +2988,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Vertex",
+        "drug": "VX-121/TEZ/D-IVA",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-30",
+        "title": "VX-121/TEZ/D-IVA: Cystic Fibrosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05444257",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Sarepta",
         "drug": "Eteplirsen",
         "type": "PHASE3 Completion",
@@ -3123,6 +3267,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Biogen",
+        "drug": "baricitinib treatment",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-28",
+        "title": "baricitinib treatment: Rheumatoid Arthritis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04870203",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "Prolia",
         "type": "PHASE4 Completion",
@@ -3294,6 +3447,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amgen",
+        "drug": "Tarlatamab",
+        "type": "PHASE3 Completion",
+        "date": "2027-07-05",
+        "title": "Tarlatamab: Extensive-Stage Small-Cell Lung Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06211036",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Neurocrine",
         "drug": "NBI-1065845",
         "type": "PHASE3 Completion",
@@ -3417,6 +3579,15 @@
         "date": "2027-09-28",
         "title": "Blinatumomab: Acute Lymphoblastic Leukemia - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05327894",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Ultragenyx",
+        "drug": "DTX301",
+        "type": "PHASE3 Completion",
+        "date": "2027-09-28",
+        "title": "DTX301: OTC Deficiency - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05345171",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -3816,6 +3987,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Gilead",
+        "drug": "Lenacapavir Injection",
+        "type": "PHASE3 Completion",
+        "date": "2028-09-28",
+        "title": "Lenacapavir Injection: HIV Pre-exposure Prophylaxis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07047716",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "argenx",
         "drug": "Efgartigimod IV",
         "type": "PHASE2, PHASE3 Completion",
@@ -4140,6 +4320,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Biogen",
+        "drug": "Litifilimab",
+        "type": "PHASE3 Completion",
+        "date": "2030-03-29",
+        "title": "Litifilimab: Systemic Lupus Erythematosus (SLE) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05352919",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Alnylam",
         "drug": "Nucresiran",
         "type": "PHASE3 Completion",
@@ -4239,6 +4428,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Regeneron",
+        "drug": "Linvoseltamab",
+        "type": "PHASE3 Completion",
+        "date": "2033-04-19",
+        "title": "Linvoseltamab: Relapsed Refractory Multiple Myeloma (RRMM) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05730036",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "Omitted Doxorubicin",
         "type": "PHASE3 Completion",
@@ -4290,6 +4488,15 @@
         "date": "2036-12-28",
         "title": "Linvoseltamab: Multiple Myeloma - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06932562",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
+        "drug": "Avacopan",
+        "type": "PHASE4 Completion",
+        "date": "2036-12-31",
+        "title": "Avacopan: Antineutrophil Cytoplasmic Antibody-associated Vasculitis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06072482",
         "source": "ClinicalTrials.gov"
     },
     {
