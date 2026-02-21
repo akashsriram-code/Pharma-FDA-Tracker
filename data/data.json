@@ -109,6 +109,15 @@
     },
     {
         "company": "Ionis Pharma",
+        "drug": "FLUOXETINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-03-05",
+        "title": "FLUOXETINE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078619",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
         "drug": "DEXTROAMPHETAMINE SULFATE",
         "type": "FDA Approval",
         "date": "2024-03-08",
@@ -207,6 +216,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Amneal Pharma A",
+        "drug": "NALOXONE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-04-23",
+        "title": "NALOXONE HYDROCHLORIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217992",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "BESREMI",
         "type": "FDA Approval",
@@ -294,6 +312,15 @@
         "date": "2024-05-31",
         "title": "VENLAFAXINE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078789",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "NADOLOL",
+        "type": "FDA Approval",
+        "date": "2024-05-31",
+        "title": "NADOLOL - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210786",
         "source": "openFDA API"
     },
     {
@@ -393,6 +420,15 @@
         "date": "2024-07-05",
         "title": "ARFORMOTEROL TARTRATE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216128",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "AZITHROMYCIN",
+        "type": "FDA Approval",
+        "date": "2024-07-08",
+        "title": "AZITHROMYCIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215772",
         "source": "openFDA API"
     },
     {
@@ -684,6 +720,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "METAXALONE",
+        "type": "FDA Approval",
+        "date": "2024-11-07",
+        "title": "METAXALONE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A203695",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "OMEPRAZOLE MAGNESIUM",
         "type": "FDA Approval",
@@ -709,6 +754,15 @@
         "title": "Notice of Meeting of the Transit Advisory Committee for Safety",
         "link": "https://www.federalregister.gov/documents/2024/11/19/2024-26882/notice-of-meeting-of-the-transit-advisory-committee-for-safety",
         "source": "Federal Register"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "FLUDARABINE PHOSPHATE",
+        "type": "FDA Approval",
+        "date": "2024-11-19",
+        "title": "FLUDARABINE PHOSPHATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022137",
+        "source": "openFDA API"
     },
     {
         "company": "FDA Advisory Committee",
@@ -771,6 +825,15 @@
         "date": "2024-11-21",
         "title": "DICLOFENAC SODIUM - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A206655",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "drug": "IBUPROFEN",
+        "type": "FDA Approval",
+        "date": "2024-11-21",
+        "title": "IBUPROFEN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205647",
         "source": "openFDA API"
     },
     {
@@ -1224,6 +1287,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "LEVETIRACETAM",
+        "type": "FDA Approval",
+        "date": "2025-03-17",
+        "title": "LEVETIRACETAM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A203308",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "PRAVASTATIN SODIUM",
         "type": "FDA Approval",
@@ -1266,6 +1338,15 @@
         "date": "2025-03-31",
         "title": "TETRACYCLINE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A060783",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "MINOCYCLINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-03-31",
+        "title": "MINOCYCLINE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204453",
         "source": "openFDA API"
     },
     {
@@ -1854,6 +1935,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Gilead",
+        "drug": "Bictegravir",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2025-09-29",
+        "title": "Bictegravir: HIV-1-infection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05502341",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amneal Pharma A",
         "drug": "MONTELUKAST SODIUM",
         "type": "FDA Approval",
@@ -2059,6 +2149,15 @@
         "title": "ATORVASTATIN CALCIUM - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A220276",
         "source": "openFDA API"
+    },
+    {
+        "company": "Vertex",
+        "drug": "CTX001",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2025-11-13",
+        "title": "CTX001: Beta-Thalassemia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT03655678",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Amgen",
@@ -2952,6 +3051,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amgen",
+        "drug": "Sotorasib",
+        "type": "PHASE3 Completion",
+        "date": "2026-06-30",
+        "title": "Sotorasib: Non-Small Cell Lung Cancer (NSCLC) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05920356",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Incyte",
         "drug": "Ruxolitinib",
         "type": "PHASE3 Completion",
@@ -3610,6 +3718,15 @@
     },
     {
         "company": "Regeneron",
+        "drug": "Odronextamab",
+        "type": "PHASE3 Completion",
+        "date": "2027-05-14",
+        "title": "Odronextamab: B-Cell Non-Hodgkin Lymphoma (B-NHL) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06230224",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regeneron",
         "drug": "REGN7508",
         "type": "PHASE3 Completion",
         "date": "2027-05-17",
@@ -4149,6 +4266,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Alnylam",
+        "drug": "Vutrisiran",
+        "type": "PHASE3 Completion",
+        "date": "2028-03-31",
+        "title": "Vutrisiran: Transthyretin Amyloidosis (ATTR) With Cardiomyopathy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06679946",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Jazz",
         "drug": "Zanidatamab",
         "type": "PHASE3 Completion",
@@ -4401,6 +4527,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Vertex",
+        "drug": "Povetacicept",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2028-12-29",
+        "title": "Povetacicept: Primary Membranous Nephropathy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07204275",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Insmed",
         "drug": "Treprostinil Palmitil Inhalation Powder",
         "type": "PHASE3 Completion",
@@ -4515,6 +4650,15 @@
         "date": "2029-06-30",
         "title": "Lecanemab IV: Early Alzheimer's Disease - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT03887455",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regeneron",
+        "drug": "Odronextamab",
+        "type": "PHASE3 Completion",
+        "date": "2029-07-29",
+        "title": "Odronextamab: Follicular Lymphoma (FL) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06097364",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -4662,6 +4806,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Regeneron",
+        "drug": "fianlimab",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2030-03-11",
+        "title": "fianlimab: Advanced Non-Small Cell Lung Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05785767",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Biogen",
         "drug": "Litifilimab",
         "type": "PHASE3 Completion",
@@ -4695,6 +4848,15 @@
         "date": "2030-08-28",
         "title": "Seladelpar: Primary Biliary Cholangitis - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06051617",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Alnylam",
+        "drug": "Zilebesiran",
+        "type": "PHASE3 Completion",
+        "date": "2030-09-30",
+        "title": "Zilebesiran: High Risk Cardiovascular Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07181109",
         "source": "ClinicalTrials.gov"
     },
     {
