@@ -225,6 +225,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "VIORELE",
+        "type": "FDA Approval",
+        "date": "2024-04-25",
+        "title": "VIORELE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A091346",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "BESREMI",
         "type": "FDA Approval",
@@ -519,6 +528,15 @@
         "date": "2024-08-28",
         "title": "LEVOFLOXACIN - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076276",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "DIVALPROEX SODIUM",
+        "type": "FDA Approval",
+        "date": "2024-08-29",
+        "title": "DIVALPROEX SODIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215527",
         "source": "openFDA API"
     },
     {
@@ -838,6 +856,15 @@
     },
     {
         "company": "Agios Pharm",
+        "drug": "MELOXICAM",
+        "type": "FDA Approval",
+        "date": "2024-11-21",
+        "title": "MELOXICAM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021530",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
         "drug": "ROSUVASTATIN CALCIUM",
         "type": "FDA Approval",
         "date": "2024-11-25",
@@ -1098,6 +1125,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Amgen",
+        "drug": "LUMAKRAS",
+        "type": "FDA Approval",
+        "date": "2025-01-16",
+        "title": "LUMAKRAS - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214665",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "THIOTHIXENE",
         "type": "FDA Approval",
@@ -1266,6 +1302,15 @@
         "date": "2025-03-03",
         "title": "PROGESTERONE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207724",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "ACETAZOLAMIDE",
+        "type": "FDA Approval",
+        "date": "2025-03-13",
+        "title": "ACETAZOLAMIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210588",
         "source": "openFDA API"
     },
     {
@@ -1464,6 +1509,15 @@
         "date": "2025-05-20",
         "title": "IBSRELA - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211801",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "METHYLPHENIDATE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-06-03",
+        "title": "METHYLPHENIDATE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204602",
         "source": "openFDA API"
     },
     {
@@ -1860,6 +1914,15 @@
         "date": "2025-09-09",
         "title": "IVERMECTIN - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218805",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "ONDANSETRON",
+        "type": "FDA Approval",
+        "date": "2025-09-09",
+        "title": "ONDANSETRON - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078152",
         "source": "openFDA API"
     },
     {
@@ -2409,6 +2472,15 @@
         "date": "2026-01-22",
         "title": "TEMOZOLOMIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A201742",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "OSELTAMIVIR PHOSPHATE",
+        "type": "FDA Approval",
+        "date": "2026-01-22",
+        "title": "OSELTAMIVIR PHOSPHATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213437",
         "source": "openFDA API"
     },
     {
