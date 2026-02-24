@@ -46,6 +46,15 @@
     },
     {
         "company": "Ionis Pharma",
+        "drug": "TYRVAYA",
+        "type": "FDA Approval",
+        "date": "2024-02-02",
+        "title": "TYRVAYA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=213978",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
         "drug": "LIOTHYRONINE SODIUM",
         "type": "FDA Approval",
         "date": "2024-02-06",
@@ -249,6 +258,15 @@
         "date": "2024-04-30",
         "title": "PITAVASTATIN CALCIUM - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205977",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "PIPERACILLIN AND TAZOBACTAM",
+        "type": "FDA Approval",
+        "date": "2024-05-01",
+        "title": "PIPERACILLIN AND TAZOBACTAM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207848",
         "source": "openFDA API"
     },
     {
@@ -483,6 +501,15 @@
         "date": "2024-08-13",
         "title": "MYCOPHENOLATE SODIUM - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214289",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "MYCOPHENOLATE MOFETIL HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-08-13",
+        "title": "MYCOPHENOLATE MOFETIL HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211374",
         "source": "openFDA API"
     },
     {
@@ -738,6 +765,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "ANESTACON",
+        "type": "FDA Approval",
+        "date": "2024-11-04",
+        "title": "ANESTACON - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A080429",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "METAXALONE",
         "type": "FDA Approval",
@@ -861,6 +897,15 @@
         "date": "2024-11-21",
         "title": "MELOXICAM - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021530",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "IBUPROFEN",
+        "type": "FDA Approval",
+        "date": "2024-11-21",
+        "title": "IBUPROFEN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A071231",
         "source": "openFDA API"
     },
     {
@@ -1431,6 +1476,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "LITHIUM CARBONATE",
+        "type": "FDA Approval",
+        "date": "2025-04-21",
+        "title": "LITHIUM CARBONATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205532",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "FOSAMPRENAVIR CALCIUM",
         "type": "FDA Approval",
@@ -1608,6 +1662,15 @@
         "date": "2025-06-24",
         "title": "IMIPRAMINE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A040751",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "AMITRIPTYLINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-06-24",
+        "title": "AMITRIPTYLINE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A085031",
         "source": "openFDA API"
     },
     {
@@ -3420,6 +3483,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amgen",
+        "drug": "Rocatinlimab",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-28",
+        "title": "Rocatinlimab: Prurigo Nodularis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06527404",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "BNT162b2 (2025/2026 formulation)",
         "type": "PHASE3 Completion",
@@ -3615,6 +3687,15 @@
         "date": "2026-12-31",
         "title": "Efgartigimod: Myasthenia Gravis Crisis - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06860633",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Gilead",
+        "drug": "Lenacapavir long-acting",
+        "type": "PHASE4 Completion",
+        "date": "2027-01-05",
+        "title": "Lenacapavir long-acting: HIV Prevention - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07218211",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -4176,6 +4257,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Regeneron",
+        "drug": "Pozelimab",
+        "type": "PHASE3 Completion",
+        "date": "2027-11-29",
+        "title": "Pozelimab: Age-related Macular Degeneration (AMD) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06541704",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Gilead",
         "drug": "Filgotinib Maleate",
         "type": "PHASE4 Completion",
@@ -4254,6 +4344,24 @@
         "date": "2028-01-30",
         "title": "Povetacicept: Immunoglobulin A Nephropathy - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06564142",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
+        "drug": "FOLFIRI Regimen",
+        "type": "PHASE3 Completion",
+        "date": "2028-01-31",
+        "title": "FOLFIRI Regimen: Metastatic Colorectal Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06252649",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
+        "drug": "ABP 234",
+        "type": "PHASE3 Completion",
+        "date": "2028-02-14",
+        "title": "ABP 234: Advanced or Metastatic Non-squamous Non-Small Cell Lung Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06311721",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -4704,6 +4812,15 @@
         "date": "2029-06-15",
         "title": "Linvoseltamab: Relapsed and/or Refractory Multiple Myeloma (RRMM) - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07222761",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Biogen",
+        "drug": "BIIB059 (litifilimab)",
+        "type": "PHASE3 Completion",
+        "date": "2029-06-26",
+        "title": "BIIB059 (litifilimab): Subacute Cutaneous Lupus Erythematosus - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06044337",
         "source": "ClinicalTrials.gov"
     },
     {
