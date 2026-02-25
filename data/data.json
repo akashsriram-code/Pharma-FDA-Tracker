@@ -64,6 +64,15 @@
     },
     {
         "company": "Agios Pharm",
+        "drug": "ELETRIPTAN HYDROBROMIDE",
+        "type": "FDA Approval",
+        "date": "2024-02-13",
+        "title": "ELETRIPTAN HYDROBROMIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202040",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
         "drug": "PREMARIN",
         "type": "FDA Approval",
         "date": "2024-02-15",
@@ -105,6 +114,15 @@
         "date": "2024-02-29",
         "title": "VARENICLINE TARTRATE - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202019",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "TENOFOVIR DISOPROXIL FUMARATE",
+        "type": "FDA Approval",
+        "date": "2024-02-29",
+        "title": "TENOFOVIR DISOPROXIL FUMARATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A079071",
         "source": "openFDA API"
     },
     {
@@ -306,6 +324,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "TEMOZOLOMIDE",
+        "type": "FDA Approval",
+        "date": "2024-05-15",
+        "title": "TEMOZOLOMIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A203490",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "ARFORMOTEROL TARTRATE",
         "type": "FDA Approval",
@@ -405,6 +432,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "EZETIMIBE",
+        "type": "FDA Approval",
+        "date": "2024-06-17",
+        "title": "EZETIMIBE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A209234",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "SKELAXIN",
         "type": "FDA Approval",
@@ -456,6 +492,15 @@
         "date": "2024-07-08",
         "title": "AZITHROMYCIN - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215772",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "CHLORDIAZEPOXIDE HYDROCHLORIDE AND CLIDINIUM BROMIDE",
+        "type": "FDA Approval",
+        "date": "2024-07-08",
+        "title": "CHLORDIAZEPOXIDE HYDROCHLORIDE AND CLIDINIUM BROMIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A212344",
         "source": "openFDA API"
     },
     {
@@ -618,6 +663,15 @@
         "date": "2024-09-20",
         "title": "LEVOFLOXACIN IN DEXTROSE 5% IN PLASTIC CONTAINER - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A091397",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "GEMCITABINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-09-24",
+        "title": "GEMCITABINE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A091365",
         "source": "openFDA API"
     },
     {
@@ -909,6 +963,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "SULINDAC",
+        "type": "FDA Approval",
+        "date": "2024-11-21",
+        "title": "SULINDAC - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A071891",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "ROSUVASTATIN CALCIUM",
         "type": "FDA Approval",
@@ -970,6 +1033,15 @@
         "title": "Advisory Committee; Science Board to the Food and Drug Administration; Renewal",
         "link": "https://www.federalregister.gov/documents/2024/12/12/2024-29231/advisory-committee-science-board-to-the-food-and-drug-administration-renewal",
         "source": "Federal Register"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "DEFERASIROX",
+        "type": "FDA Approval",
+        "date": "2024-12-16",
+        "title": "DEFERASIROX - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211641",
+        "source": "openFDA API"
     },
     {
         "company": "Bioage Labs",
@@ -1185,6 +1257,15 @@
         "date": "2025-01-22",
         "title": "THIOTHIXENE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A071529",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "THIORIDAZINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-01-22",
+        "title": "THIORIDAZINE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A088476",
         "source": "openFDA API"
     },
     {
@@ -1452,6 +1533,15 @@
         "company": "Agios Pharm",
         "drug": "DOXYCYCLINE HYCLATE",
         "type": "FDA Approval",
+        "date": "2025-04-01",
+        "title": "DOXYCYCLINE HYCLATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A065134",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "DOXYCYCLINE HYCLATE",
+        "type": "FDA Approval",
         "date": "2025-04-04",
         "title": "DOXYCYCLINE HYCLATE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A065287",
@@ -1464,6 +1554,15 @@
         "date": "2025-04-09",
         "title": "CAPECITABINE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204741",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "DEXMETHYLPHENIDATE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-04-09",
+        "title": "DEXMETHYLPHENIDATE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204266",
         "source": "openFDA API"
     },
     {
@@ -1845,6 +1944,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "4D Molecular",
+        "drug": "FOLIC ACID",
+        "type": "FDA Approval",
+        "date": "2025-08-13",
+        "title": "FOLIC ACID - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A090035",
+        "source": "openFDA API"
+    },
+    {
         "company": "Harrow Health",
         "drug": "DEXLANSOPRAZOLE",
         "type": "FDA Approval",
@@ -2025,6 +2133,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Regeneron",
+        "drug": "Eylea (Aflibercept, BAY86-5321)",
+        "type": "PHASE3 Completion",
+        "date": "2025-09-19",
+        "title": "Eylea (Aflibercept, BAY86-5321): Retinopathy of Prematurity (ROP) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04015180",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "DYANAVEL XR 20",
         "type": "FDA Approval",
@@ -2085,6 +2202,15 @@
         "date": "2025-09-30",
         "title": "OLMESARTAN MEDOXOMIL AND HYDROCHLOROTHIAZIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205391",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "NEOMYCIN AND POLYMYXIN B SULFATES AND HYDROCORTISONE",
+        "type": "FDA Approval",
+        "date": "2025-09-30",
+        "title": "NEOMYCIN AND POLYMYXIN B SULFATES AND HYDROCORTISONE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217735",
         "source": "openFDA API"
     },
     {
@@ -2287,6 +2413,15 @@
     },
     {
         "company": "Amgen",
+        "drug": "Erenumab Dose 1",
+        "type": "PHASE3 Completion",
+        "date": "2025-11-19",
+        "title": "Erenumab Dose 1: Migraine - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT03836040",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
         "drug": "Apremilast",
         "type": "PHASE3 Completion",
         "date": "2025-11-20",
@@ -2383,6 +2518,15 @@
         "title": "Teprotumumab: Thyroid Eye Disease - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05002998",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "OZILTUS",
+        "type": "FDA Approval",
+        "date": "2025-12-19",
+        "title": "OZILTUS - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761457",
+        "source": "openFDA API"
     },
     {
         "company": "Ionis Pharma",
@@ -2500,6 +2644,15 @@
         "title": "PROTRIPTYLINE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202220",
         "source": "openFDA API"
+    },
+    {
+        "company": "Amgen",
+        "drug": "Teprotumumab",
+        "type": "PHASE3 Completion",
+        "date": "2026-01-14",
+        "title": "Teprotumumab: Thyroid Eye Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06248619",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Neurocrine",
@@ -2725,6 +2878,15 @@
         "title": "Efgartigimod PH20 SC: Chronic Inflammatory Demyelinating Polyneuropathy - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06637072",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2026-02-24",
+        "title": "Advisory Committee; Gastrointestinal Drugs Advisory Committee; Renewal",
+        "link": "https://www.federalregister.gov/documents/2026/02/24/2026-03587/advisory-committee-gastrointestinal-drugs-advisory-committee-renewal",
+        "source": "Federal Register"
     },
     {
         "company": "Eton Pharmaceuticals, Inc.",
@@ -2985,6 +3147,15 @@
         "date": "2026-05-05",
         "title": "BNT162b2 (2025/2026 recommended SARS-CoV-2 strain): COVID-19 - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07069309",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
+        "drug": "Evolocumab 140 MG/ML",
+        "type": "PHASE4 Completion",
+        "date": "2026-05-22",
+        "title": "Evolocumab 140 MG/ML: STEMI - ST Elevation Myocardial Infarction - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04951856",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -3915,6 +4086,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amgen",
+        "drug": "Evolocumab",
+        "type": "PHASE4 Completion",
+        "date": "2027-05-29",
+        "title": "Evolocumab: Cardiovascular Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05284747",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Vertex",
         "drug": "Suzetrigine",
         "type": "PHASE3 Completion",
@@ -4173,6 +4353,15 @@
         "date": "2027-09-28",
         "title": "DTX301: OTC Deficiency - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05345171",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
+        "drug": "Maridebart cafraglutide",
+        "type": "PHASE3 Completion",
+        "date": "2027-09-29",
+        "title": "Maridebart cafraglutide: Obstructive Sleep Apnea - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07226765",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -5010,6 +5199,15 @@
         "date": "2030-03-29",
         "title": "Litifilimab: Systemic Lupus Erythematosus (SLE) - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05352919",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regeneron",
+        "drug": "Cemiplimab",
+        "type": "PHASE3 Completion",
+        "date": "2030-05-03",
+        "title": "Cemiplimab: Cutaneous Squamous Cell Carcinoma (CSCC) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06585410",
         "source": "ClinicalTrials.gov"
     },
     {
