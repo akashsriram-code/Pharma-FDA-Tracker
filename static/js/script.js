@@ -194,10 +194,13 @@ document.addEventListener('DOMContentLoaded', function () {
      */
     function renderData(data, tab) {
         const filtered = filterByTab(data, tab);
+        const displayData = tab === 'shortages'
+            ? filtered
+            : filterCurrentMonthForward(filtered);
 
         eventsContainer.innerHTML = '';
 
-        if (filtered.length === 0) {
+        if (displayData.length === 0) {
             showEmptyState('No events found for this category.');
             return;
         }
@@ -206,24 +209,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Special Layout for Label Changes
         if (tab === 'labels') {
-            renderLabelList(filtered);
+            renderLabelList(displayData);
             return;
         }
 
         // Special Layout for Drug Shortages
         if (tab === 'shortages') {
-            renderShortageList(filtered);
+            renderShortageList(displayData);
             return;
         }
 
         // Standard Monthly Grouping for other tabs
-        const grouped = groupByMonth(filtered);
+        const grouped = groupByMonth(displayData);
         const months = Object.keys(grouped);
 
         months.forEach(month => {
             const events = grouped[month];
             const groupEl = createMonthGroup(month, events);
             eventsContainer.appendChild(groupEl);
+        });
+    }
+
+    /**
+     * Keep only events from current month and forward for display.
+     */
+    function filterCurrentMonthForward(data) {
+        if (!data || !data.length) return [];
+
+        const now = new Date();
+        const firstDayOfCurrentMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+        firstDayOfCurrentMonth.setHours(0, 0, 0, 0);
+
+        return data.filter(item => {
+            if (!item || !item.date) return false;
+            const d = new Date(item.date);
+            if (isNaN(d)) return false;
+            return d >= firstDayOfCurrentMonth;
         });
     }
 
