@@ -487,6 +487,261 @@
             margin-bottom: 8px;
         }
 
+        /* Diff Table & Content Styles */
+        .diff-summary {
+            margin-bottom: 1.5rem;
+            overflow-x: auto;
+        }
+
+        .diff-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            color: #d1d5db;
+        }
+
+        .diff-table th {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #4b5563;
+            color: #9ca3af;
+            font-weight: 600;
+        }
+
+        .diff-table td {
+            padding: 8px;
+            border-bottom: 1px solid rgba(75, 85, 99, 0.5);
+        }
+
+        .diff-full-text {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1rem;
+        }
+
+        .diff-section-block {
+            margin-bottom: 1.5rem;
+        }
+
+        .diff-section-header {
+            color: #fbbf24;
+            font-weight: bold;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            border-left: 3px solid #fbbf24;
+            padding-left: 0.75rem;
+        }
+
+        .diff-text-content {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #e5e7eb;
+            white-space: normal;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 6px;
+        }
+
+        /* ============ ARCHIVE DIFF STYLES ============ */
+
+        .diff-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
+            letter-spacing: 0.05em;
+            margin-top: 8px;
+        }
+
+        .archive-diff {
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .diff-version-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            padding-bottom: 0.75rem;
+            margin-bottom: 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .diff-version-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .diff-version-badge.old {
+            background: rgba(239, 68, 68, 0.15);
+            color: #f87171;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .diff-version-badge.new {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .diff-version-date {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .diff-version-arrow {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin: 0 2px;
+        }
+
+        .diff-section-wrapper {
+            margin-top: 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .diff-section-toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 12px;
+            background: rgba(255, 255, 255, 0.04);
+            cursor: pointer;
+            transition: background 0.2s ease;
+            user-select: none;
+        }
+
+        .diff-section-toggle:hover {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .toggle-arrow {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            flex-shrink: 0;
+            width: 14px;
+        }
+
+        .diff-section-name {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: #fbbf24;
+            flex-grow: 1;
+        }
+
+        .change-count {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .change-count.added {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+        }
+
+        .change-count.removed {
+            background: rgba(239, 68, 68, 0.15);
+            color: #f87171;
+        }
+
+        .diff-section-body {
+            max-height: 600px;
+            overflow-y: auto;
+            transition: max-height 0.3s ease;
+        }
+
+        .diff-section-body.collapsed {
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .diff-lines {
+            padding: 8px 0;
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.8rem;
+            line-height: 1.7;
+        }
+
+        .diff-line {
+            display: flex;
+            padding: 2px 12px;
+            border-left: 3px solid transparent;
+        }
+
+        .diff-line-added {
+            background: rgba(16, 185, 129, 0.08);
+            border-left-color: #10b981;
+        }
+
+        .diff-line-removed {
+            background: rgba(239, 68, 68, 0.08);
+            border-left-color: #ef4444;
+        }
+
+        .diff-line-context {
+            background: transparent;
+            border-left-color: rgba(255, 255, 255, 0.06);
+        }
+
+        .diff-line-prefix {
+            flex-shrink: 0;
+            width: 24px;
+            color: var(--text-muted);
+            user-select: none;
+        }
+
+        .diff-line-added .diff-line-prefix {
+            color: #34d399;
+        }
+
+        .diff-line-removed .diff-line-prefix {
+            color: #f87171;
+        }
+
+        .diff-line-text {
+            flex-grow: 1;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .diff-line-added .diff-line-text {
+            color: #a7f3d0;
+        }
+
+        .diff-line-removed .diff-line-text {
+            color: #fca5a5;
+        }
+
+        .diff-line-context .diff-line-text {
+            color: #9ca3af;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
         .event-drug {
             font-size: 1rem;
             color: var(--text-secondary);
@@ -630,7 +885,7 @@
             <div class="header-content">
                 <div class="logo-section">
                     <h1>FDA Catalyst Tracker</h1>
-                    <p class="tagline">Real-time PDUFA dates & AdComm meetings for biotech investors</p>
+                    <p class="tagline">Real-time PDUFA dates & AdComm meetings for drug and pharma reporters</p>
                 </div>
                 <div class="header-actions">
                     <span class="last-updated" id="lastUpdated"></span>
@@ -648,12 +903,7 @@
 
         <!-- Tab Navigation -->
         <nav class="tab-navigation">
-            <button class="tab-btn active" data-tab="all">
-                <span class="tab-icon">📊</span>
-                All Events
-                <span class="tab-count" id="count-all">0</span>
-            </button>
-            <button class="tab-btn" data-tab="pdufa">
+            <button class="tab-btn active" data-tab="pdufa">
                 <span class="tab-icon">💊</span>
                 PDUFA Dates
                 <span class="tab-count" id="count-pdufa">0</span>
@@ -669,27 +919,17 @@
                 <span class="tab-count" id="count-trials">0</span>
             </button>
             <button class="tab-btn" data-tab="labels">
-                <span class="tab-icon">⚠️</span>
+                <span class="tab-icon">🏷️</span>
                 Label Changes
                 <span class="tab-count" id="count-labels">0</span>
             </button>
+            <button class="tab-btn" data-tab="shortages">
+                <span class="tab-icon">⚠️</span>
+                Drug Shortages
+                <span class="tab-count" id="count-shortages">0</span>
+            </button>
         </nav>
 
-        <!-- Stats Bar -->
-        <div class="stats-bar">
-            <div class="stat-item">
-                <span class="stat-value" id="stat-upcoming">0</span>
-                <span class="stat-label">Upcoming</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value" id="stat-thismonth">0</span>
-                <span class="stat-label">This Month</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value" id="stat-companies">0</span>
-                <span class="stat-label">Companies</span>
-            </div>
-        </div>
 
         <!-- Main Content -->
         <main class="main-content">

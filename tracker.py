@@ -82,13 +82,19 @@ def fetch_federal_register_adcomm(target_companies):
     # agency_ids[]=199 is FDA (Food and Drug Administration)
     # conditions[term]=Advisory Committee
     base_url = "https://www.federalregister.gov/api/v1/documents.json"
-    params = {
-        "conditions[agency_ids][]": "199",
-        "conditions[term]": "Advisory Committee",
-        "conditions[type][]": "NOTICE",
-        "order": "newest",
-        "per_page": 50
-    }
+    params = [
+        ("conditions[agency_ids][]", "199"),
+        ("conditions[term]", "Advisory Committee"),
+        ("conditions[type][]", "NOTICE"),
+        ("fields[]", "title"),
+        ("fields[]", "abstract"),
+        ("fields[]", "publication_date"),
+        ("fields[]", "pdf_url"),
+        ("fields[]", "html_url"),
+        ("fields[]", "dates"),
+        ("order", "newest"),
+        ("per_page", "50")
+    ]
     
     try:
         response = requests.get(base_url, params=params, timeout=20)
@@ -106,6 +112,7 @@ def fetch_federal_register_adcomm(target_companies):
         for item in results:
             title = item.get('title', '')
             abstract = item.get('abstract', '') or ''
+            dates_text = item.get('dates', '') or ''
             content = title + " " + abstract
             pub_date = item.get('publication_date', '')
             pdf_url = item.get('pdf_url', '')
@@ -120,24 +127,29 @@ def fetch_federal_register_adcomm(target_companies):
                     detected_company = company
                     break
             
-            # Try to extract the actual meeting date from the text if possible
-            # (This is hard without full text parsing, so we'll use publication date 
-            # effectively as the 'announcement' date, or check 'dates' field if available details exist)
-            
-            # Federal Register API sometimes provides 'docket_ids' or 'dates' in full text
-            # We'll use the publication date as a proxy for "New Meeting Announced" if we can't parse better
-            
             event_date = pub_date
             
-            # Basic future date extraction Attempt from title (e.g., "September 15, 2026 Meeting of...")
+            # Basic future date extraction Attempt from title or dates_text (e.g., "September 15, 2026")
             import re
-            date_match = re.search(r'([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})', title)
-            if date_match:
+            full_text = title + " " + dates_text
+            # Find all dates
+            date_matches = re.findall(r'([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})', full_text)
+            
+            best_future_date = None
+            today = datetime.now().strftime('%Y-%m-%d')
+            
+            for d_str in date_matches:
                 try:
-                    dt = datetime.strptime(date_match.group(1).replace(',', ''), '%B %d %Y')
-                    event_date = dt.strftime('%Y-%m-%d')
+                    dt = datetime.strptime(d_str.replace(',', ''), '%B %d %Y')
+                    fmt_date = dt.strftime('%Y-%m-%d')
+                    if fmt_date >= today:
+                        best_future_date = fmt_date
+                        break # Take the first future date found
                 except:
                     pass
+            
+            if best_future_date:
+                event_date = best_future_date
             
             events.append({
                 'company': detected_company,
@@ -383,7 +395,7 @@ def update_database(new_events):
     for item in existing_data:
         # Also filter out old data from existing entries
         item_date = item.get('date', '')
-        if item_date and item_date < '2024-01-01':
+        if item.get('type') != 'Drug Shortage' and item_date and item_date < '2024-01-01':
             continue
         sig = (item.get('company'), item.get('date'), item.get('title'))
         existing_signatures.add(sig)
@@ -392,7 +404,7 @@ def update_database(new_events):
     for event in new_events:
         # Filter out dates before 2024
         event_date = event.get('date', '')
-        if event_date and event_date < '2024-01-01':
+        if event.get('type') != 'Drug Shortage' and event_date and event_date < '2024-01-01':
             continue
             
         sig = (event.get('company'), event.get('date'), event.get('title'))
@@ -408,7 +420,10 @@ def update_database(new_events):
         pass
 
     # Filter out all entries before 2024 before writing
-    filtered_data = [e for e in existing_data if e.get('date', '') >= '2024-01-01']
+    filtered_data = [
+        e for e in existing_data 
+        if e.get('date', '') >= '2024-01-01' or e.get('type') == 'Drug Shortage'
+    ]
     
     with open(DATA_JSON_FILE, 'w') as f:
         json.dump(filtered_data, f, indent=4)
