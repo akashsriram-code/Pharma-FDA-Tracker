@@ -396,6 +396,24 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "DEXAMETHASONE",
+        "type": "FDA Approval",
+        "date": "2024-06-05",
+        "title": "DEXAMETHASONE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A088254",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "DEXAMETHASONE SODIUM PHOSPHATE",
+        "type": "FDA Approval",
+        "date": "2024-06-05",
+        "title": "DEXAMETHASONE SODIUM PHOSPHATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A040802",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "METHAMPHETAMINE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -810,6 +828,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "MORPHINE SULFATE",
+        "type": "FDA Approval",
+        "date": "2024-10-31",
+        "title": "MORPHINE SULFATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A212451",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -972,6 +999,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Amneal Pharma A",
+        "drug": "IBUPROFEN",
+        "type": "FDA Approval",
+        "date": "2024-11-21",
+        "title": "IBUPROFEN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078558",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "ROSUVASTATIN CALCIUM",
         "type": "FDA Approval",
@@ -1008,6 +1044,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "PIPERACILLIN AND TAZOBACTAM",
+        "type": "FDA Approval",
+        "date": "2024-12-03",
+        "title": "PIPERACILLIN AND TAZOBACTAM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A065498",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "IC-GREEN",
         "type": "FDA Approval",
@@ -1033,6 +1078,15 @@
         "title": "Advisory Committee; Science Board to the Food and Drug Administration; Renewal",
         "link": "https://www.federalregister.gov/documents/2024/12/12/2024-29231/advisory-committee-science-board-to-the-food-and-drug-administration-renewal",
         "source": "Federal Register"
+    },
+    {
+        "company": "GH Research",
+        "drug": "PREGABALIN",
+        "type": "FDA Approval",
+        "date": "2024-12-12",
+        "title": "PREGABALIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215249",
+        "source": "openFDA API"
     },
     {
         "company": "Agios Pharm",
@@ -1068,6 +1122,15 @@
         "date": "2024-12-19",
         "title": "CHLORDIAZEPOXIDE HYDROCHLORIDE AND CLIDINIUM BROMIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214065",
+        "source": "openFDA API"
+    },
+    {
+        "company": "SIGA Tech",
+        "drug": "XOFLUZA",
+        "type": "FDA Approval",
+        "date": "2024-12-19",
+        "title": "XOFLUZA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214410",
         "source": "openFDA API"
     },
     {
@@ -1320,6 +1383,15 @@
         "date": "2025-02-04",
         "title": "MINOCYCLINE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A065470",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "ISONIAZID",
+        "type": "FDA Approval",
+        "date": "2025-02-05",
+        "title": "ISONIAZID - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=008678",
         "source": "openFDA API"
     },
     {
@@ -1611,6 +1683,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "AVERI",
+        "type": "FDA Approval",
+        "date": "2025-05-02",
+        "title": "AVERI - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218933",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -1665,6 +1746,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "OSTEOLITE",
+        "type": "FDA Approval",
+        "date": "2025-05-22",
+        "title": "OSTEOLITE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=017972",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "METHYLPHENIDATE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -1680,6 +1770,24 @@
         "date": "2025-06-04",
         "title": "NALOXONE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215964",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "SCOPOLAMINE",
+        "type": "FDA Approval",
+        "date": "2025-06-09",
+        "title": "SCOPOLAMINE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218384",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Amgen",
+        "drug": "RIABNI",
+        "type": "FDA Approval",
+        "date": "2025-06-09",
+        "title": "RIABNI - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761140",
         "source": "openFDA API"
     },
     {
@@ -1842,6 +1950,15 @@
         "date": "2025-07-11",
         "title": "LEVOCETIRIZINE DIHYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A090362",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "ANDROID 10",
+        "type": "FDA Approval",
+        "date": "2025-07-11",
+        "title": "ANDROID 10 - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A086450",
         "source": "openFDA API"
     },
     {
@@ -2799,6 +2916,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "ISOTRETINOIN",
+        "type": "FDA Approval",
+        "date": "2026-02-09",
+        "title": "ISOTRETINOIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213571",
+        "source": "openFDA API"
+    },
+    {
         "company": "Harrow Health",
         "drug": "Check Source",
         "type": "Press Release",
@@ -2905,6 +3031,15 @@
         "title": "Povorcitinib: NonSegmental Vitiligo - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06113445",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Vera Therapeutics",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-02-25",
+        "title": "ABC: 9 in 10 Construction Workers in 24 States Are Not Union Members",
+        "link": "https://www.globenewswire.com/news-release/2026/02/25/3244762/0/en/ABC-9-in-10-Construction-Workers-in-24-States-Are-Not-Union-Members.html",
+        "source": "GlobeNewswire Biotech"
     },
     {
         "company": "Ascendis Pharma A/S",
@@ -3939,6 +4074,15 @@
         "date": "2027-01-28",
         "title": "Ravulizumab: Paroxysmal Nocturnal Hemoglobinuria - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05133531",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regeneron",
+        "drug": "Dupilumab",
+        "type": "PHASE4 Completion",
+        "date": "2027-01-28",
+        "title": "Dupilumab: Asthma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT03694158",
         "source": "ClinicalTrials.gov"
     },
     {
