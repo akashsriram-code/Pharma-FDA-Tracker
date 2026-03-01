@@ -11431,6 +11431,15 @@
         }
     },
     {
+        "company": "Vericel Corp Ord",
+        "drug": "TRANSDERM SCOP",
+        "type": "FDA Approval",
+        "date": "2024-03-01",
+        "title": "TRANSDERM SCOP - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=017874",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "FLUOXETINE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -11476,6 +11485,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Rigel",
+        "drug": "GAVRETO",
+        "type": "FDA Approval",
+        "date": "2024-03-22",
+        "title": "GAVRETO - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=213721",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "ATENOLOL",
         "type": "FDA Approval",
@@ -11500,6 +11518,15 @@
         "date": "2024-04-01",
         "title": "TRANEXAMIC ACID - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A212676",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "MYTESI",
+        "type": "FDA Approval",
+        "date": "2024-04-03",
+        "title": "MYTESI - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=202292",
         "source": "openFDA API"
     },
     {
@@ -11572,6 +11599,15 @@
         "date": "2024-04-30",
         "title": "PITAVASTATIN CALCIUM - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205977",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "CUPRIC CHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-04-30",
+        "title": "CUPRIC CHLORIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217626",
         "source": "openFDA API"
     },
     {
@@ -11936,6 +11972,15 @@
         "date": "2024-08-13",
         "title": "MYCOPHENOLATE MOFETIL HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211374",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "MYCOPHENOLATE MOFETIL",
+        "type": "FDA Approval",
+        "date": "2024-08-13",
+        "title": "MYCOPHENOLATE MOFETIL - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A090606",
         "source": "openFDA API"
     },
     {
@@ -22997,6 +23042,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "FAMOTIDINE",
+        "type": "FDA Approval",
+        "date": "2025-06-23",
+        "title": "FAMOTIDINE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A219153",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "TRAZODONE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -27594,6 +27648,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Amneal Pharma A",
+        "drug": "RISPERIDONE",
+        "type": "FDA Approval",
+        "date": "2025-09-02",
+        "title": "RISPERIDONE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218586",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -29505,6 +29568,15 @@
         "details": "[{\"section\": \"Atopic Dermatitis\", \"subsection\": \"1.2\", \"date\": \"10/2025\", \"content\": \"Content not available in API response.\"}, {\"section\": \"Dosage and Administration\", \"subsection\": \"2\", \"date\": \"10/2025\", \"content\": \"2 DOSAGE AND ADMINISTRATION Plaque Psoriasis Use ZORYVE cream, 0.3%, for the treatment of plaque psoriasis in adult and pediatric patients 6 years of age and older. Atopic Dermatitis Use ZORYVE cream, 0.15%, for the treatment of mild to moderate atopic dermatitis in adult and pediatric patients 6 years of age and older. Use ZORYVE cream, 0.05%, for the treatment of mild to moderate atopic dermatitis in pediatric patients 2 to 5 years of age. Administration Instructions Apply ZORYVE cream to affected areas once daily and rub in completely. Wash hands after application. ZORYVE cream is for topical use only and not for ophthalmic, oral, or intravaginal use. For topical use only. ( 2 ) Not for ophthalmic, oral, or intravaginal use. ( 2 ) Plaque Psoriasis Apply ZORYVE cream, 0.3%, once daily to affected areas. ( 2 ) Atopic Dermatitis Adult and Pediatric Patients 6 Years of Age and Older Apply ZORYVE cream, 0.15%, once daily to affected areas. ( 2 ) Pediatric Patients 2 to 5 Years of Age Apply ZORYVE cream, 0.05%, once daily to affected areas. ( 2 )\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ec1bb0d1-f38a-4080-831a-68791d1d1fdb",
         "source": "OpenFDA"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "DOXYCYCLINE",
+        "type": "FDA Approval",
+        "date": "2025-10-01",
+        "title": "DOXYCYCLINE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A219978",
+        "source": "openFDA API"
     },
     {
         "company": "FDA Advisory Committee",
@@ -47162,6 +47234,184 @@
         "date": "2026-02-28",
         "title": "Label Update: ...",
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-02-28\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-03-01\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                },
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "GALZIN",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-03-01\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-03-01\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Betaine Anhydrous",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-03-01\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee8a95c3-df9f-6e55-e053-2a95a90ab17b",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-03-01\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
     },
