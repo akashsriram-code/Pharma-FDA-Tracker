@@ -11814,6 +11814,15 @@
     },
     {
         "company": "Agios Pharm",
+        "drug": "VALSARTAN AND HYDROCHLOROTHIAZIDE",
+        "type": "FDA Approval",
+        "date": "2024-04-11",
+        "title": "VALSARTAN AND HYDROCHLOROTHIAZIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078020",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
         "drug": "PIRFENIDONE",
         "type": "FDA Approval",
         "date": "2024-04-12",
@@ -12867,6 +12876,15 @@
         "date": "2024-09-20",
         "title": "LEVOFLOXACIN - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202328",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "CEVIMELINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-09-20",
+        "title": "CEVIMELINE HYDROCHLORIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A206808",
         "source": "openFDA API"
     },
     {
@@ -15674,6 +15692,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "CARBIDOPA AND LEVODOPA",
+        "type": "FDA Approval",
+        "date": "2025-01-14",
+        "title": "CARBIDOPA AND LEVODOPA - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218939",
+        "source": "openFDA API"
+    },
+    {
         "company": "Amgen",
         "drug": "LUMAKRAS",
         "type": "FDA Approval",
@@ -15806,6 +15833,15 @@
         "date": "2025-01-22",
         "title": "FLUPHENAZINE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213784",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "PROCHLORPERAZINE MALEATE",
+        "type": "FDA Approval",
+        "date": "2025-01-22",
+        "title": "PROCHLORPERAZINE MALEATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216598",
         "source": "openFDA API"
     },
     {
@@ -29926,6 +29962,15 @@
         "date": "2025-09-17",
         "title": "GLYCOPYRROLATE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A091182",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "MEROPENEM",
+        "type": "FDA Approval",
+        "date": "2025-09-17",
+        "title": "MEROPENEM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210773",
         "source": "openFDA API"
     },
     {
@@ -46438,6 +46483,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "HYDROCODONE BITARTRATE AND IBUPROFEN",
+        "type": "FDA Approval",
+        "date": "2025-12-22",
+        "title": "HYDROCODONE BITARTRATE AND IBUPROFEN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A077723",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "OXYCODONE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -52489,6 +52543,1128 @@
         }
     },
     {
+        "company": "Vertex",
+        "drug": "Kalydeco",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: Warnings and Precautions, Intracranial Hypertension ( 5.3 ) 09/2025 Warnings and Precautions, Neurop...",
+        "details": "[{\"section\": \"Intracranial Hypertension\", \"subsection\": \"5.3\", \"date\": \"09/2025\", \"content\": \"Content not available in API response.\"}, {\"section\": \"Including Suicidal Thoughts and Behaviors\", \"subsection\": \"5.4\", \"date\": \"03/2026\", \"content\": \"Content not available in API response.\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ab0c9f8-3eee-4e0f-9f3f-c1e16aaffe25",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 36,
+            "previous_version": 35,
+            "current_date": "Mar 30, 2026",
+            "previous_date": "Jan 08, 2026",
+            "sections": [
+                {
+                    "section": "Spl Patient Package Insert",
+                    "has_changes": true,
+                    "added_count": 5,
+                    "removed_count": 2,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "This Patient Information has been approved by the U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Food and Drug Administration."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Revised: 09/2025 Patient Information KALYDECO \u00ae (kuh-LYE-deh-koh) (ivacaftor) tablets, for oral use (ivacaftor) oral granules What is KALYDECO?"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Revised: 03/2026 Patient Information KALYDECO \u00ae (kuh-LYE-deh-koh) (ivacaftor) tablets, for oral use (ivacaftor) oral granules What is KALYDECO?"
+                        },
+                        {
+                            "type": "context",
+                            "text": "KALYDECO is a prescription medicine used for the treatment of cystic fibrosis (CF) in people aged 1 month and older who have at least one mutation in the cystic fibrosis transmembrane conductance regulator (CFTR gene) that is responsive to KALYDECO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Talk to your doctor to learn if you have an indicated CF gene mutation."
+                        },
+                        {
+                            "type": "context",
+                            "text": "are allergic to KALYDECO or any ingredients in KALYDECO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "See the end of this patient information leaflet for a complete list of ingredients in KALYDECO."
+                        },
+                        {
+                            "type": "added",
+                            "text": "have or have had mental health problems."
+                        },
+                        {
+                            "type": "context",
+                            "text": "are pregnant or plan to become pregnant."
+                        },
+                        {
+                            "type": "context",
+                            "text": "It is not known if KALYDECO will harm your unborn baby."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Symptoms of an allergic reaction may include: rash or hives tightness of the chest or throat or difficulty breathing light-headedness or dizziness Increased pressure around the brain (intracranial hypertension) has happened in people treated with medicines containing the same or similar ingredients as KALYDECO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "If you experience an unusual headache, blurred vision, double vision, or vision loss, call your doctor right away."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Serious mental health problems such as anxiety, depression, suicidal thoughts and behaviors, and trouble sleeping have happened in people treated with KALYDECO or medicines containing the same or similar ingredient as KALYDECO."
+                        },
+                        {
+                            "type": "added",
+                            "text": "If you experience new or worsening mental health problems, call your doctor right away."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Abnormality of the eye lens (cataract) , which has happened in some children and adolescents receiving KALYDECO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Your doctor should perform eye examinations before and during treatment with KALYDECO to look for cataracts."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Manufactured for: Vertex Pharmaceuticals Incorporated, 50 Northern Avenue, Boston, MA 02210 KALYDECO, VERTEX, and the VERTEX triangle logo are registered trademarks of Vertex Pharmaceuticals Incorporated."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All other trademarks referenced herein are the property of their respective owners."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a92025 Vertex Pharmaceuticals Incorporated For more information, go to www.kalydeco.com or call 1-877-752-5933."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a92026 Vertex Pharmaceuticals Incorporated For more information, go to www.kalydeco.com or call 1-877-752-5933."
+                        }
+                    ]
+                },
+                {
+                    "section": "Adverse Reactions",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "The following adverse reactions are discussed in greater detail in other sections of the labeling: Transaminase Elevations [ see Warnings and Precautions (5.1) ] Hypersensitivity Reactions, Including Anaphylaxis [see Warnings and Precautions (5.2) ] Intracranial Hypertension [see Warnings and Precautions (5.3) ] Cataracts [see Warnings and Precautions (5.5) ]"
+                        },
+                        {
+                            "type": "added",
+                            "text": "The following adverse reactions are discussed in greater detail in other sections of the labeling: Transaminase Elevations [ see Warnings and Precautions (5.1) ] Hypersensitivity Reactions, Including Anaphylaxis [see Warnings and Precautions (5.2) ] Intracranial Hypertension [see Warnings and Precautions (5.3) ] Neuropsychiatric Events, Including Suicidal Thoughts and Behaviors [see Warnings and Precautions (5.4) ] Cataracts [see Warnings and Precautions (5.6) ]"
+                        }
+                    ]
+                },
+                {
+                    "section": "SPL Unclassified Section",
+                    "has_changes": true,
+                    "added_count": 13,
+                    "removed_count": 7,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Patients should be monitored until IH resolution and for recurrence."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Patients with elevated vitamin A levels may be at increased risk."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Serious neuropsychiatric events, including symptoms of anxiety, depression, suicidal ideation and behavior, and sleep disturbances, have been reported in the postmarketing setting in patients taking KALYDECO or drugs containing the same or similar active ingredient [see Adverse Reactions (6.2) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The events were reported in adult and pediatric patients with and without a previous history of neuropsychiatric symptoms."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Symptoms may occur within the first three months of treatment initiation."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Assess patients for baseline neuropsychiatric symptoms and monitor for new or worsening symptoms of anxiety, depression, suicidal ideation or behavior, or sleep disturbances."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Consider the benefits and risks for the individual patient to determine if therapy with KALYDECO should be interrupted at the occurrence of neuropsychiatric symptoms and whether to resume therapy with symptom improvement."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Use of KALYDECO with strong CYP3A inducers, such as rifampin, substantially decreases the exposure of ivacaftor, which may reduce the therapeutic effectiveness of KALYDECO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Therefore, co-administration of KALYDECO with strong CYP3A inducers (e.g., rifampin, St."
+                        },
+                        {
+                            "type": "context",
+                            "text": "In the cohort of patients aged 4 months to less than 6 months (N=6), no patients had elevated ALT or AST (>3\u00d7 ULN)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "In the cohort of patients aged 1 month to less than 4 months (N=7), 1 patient (14.3%) had maximum ALT or AST >3 \u00d7 ULN (ALT >8 \u00d7 ULN and AST of >3 to \u22645 \u00d7 ULN); the patient discontinued ivacaftor treatment [see Warnings and Precautions (5.1) ] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Postmarketing Adverse Reactions with KALYDECO The following adverse reactions have been identified during post approval use of KALYDECO."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The following adverse reactions have been identified during post approval use of KALYDECO or drugs containing the same or similar active ingredient as KALYDECO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Immune System Disorders : anaphylaxis\nPostmarketing Adverse Reactions with Other Drugs Containing the Same or Similar Active Ingredients as KALYDECO The following adverse reactions have been identified during post approval use of drugs containing the same or similar active ingredients as KALYDECO."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Nervous System Disorders : intracranial hypertension\nIvacaftor is a sensitive CYP3A substrate."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Immune System Disorders : anaphylaxis Nervous System Disorders : intracranial hypertension Psychiatric Disorders: anxiety, depression, suicidal ideation and behavior, insomnia\nIvacaftor is a sensitive CYP3A substrate."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Co-administration with ketoconazole, a strong CYP3A inhibitor, significantly increased ivacaftor exposure [measured as area under the curve (AUC)] by 8.5-fold."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Based on simulations of these results, a reduction of the KALYDECO dosage is recommended for patients aged 6 months and older taking concomitant strong CYP3A inhibitors, such as ketoconazole, itraconazole, posaconazole, voriconazole, telithromycin, and clarithromycin."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Co-administration with rifampin, a strong CYP3A inducer, significantly decreased ivacaftor exposure (AUC) by approximately 9-fold."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Therefore, co-administration with strong CYP3A inducers, such as rifampin, rifabutin, phenobarbital, carbamazepine, phenytoin, and St."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "John's wort is not recommended [ see Warnings and Precautions (5.4) and Clinical Pharmacology (12.3) ]."
+                        },
+                        {
+                            "type": "added",
+                            "text": "John's wort is not recommended [ see Warnings and Precautions (5.5) and Clinical Pharmacology (12.3) ]."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Co-administration of KALYDECO with ciprofloxacin had no effect on the exposure of ivacaftor."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Therefore, no dosage adjustment is necessary during concomitant administration of KALYDECO with ciprofloxacin [ see Clinical Pharmacology (12.3) ]."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Intracranial Hypertension Inform patients that intracranial hypertension has occurred in patients who received drugs containing the same or similar active ingredients as KALYDECO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Instruct patients to notify their healthcare provider right away if they experience signs and symptoms of intracranial hypertension, including headache, blurred vision, diplopia, and vision loss [see Warnings and Precautions (5.3) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Neuropsychiatric Events, Including Suicidal Thoughts and Behaviors Inform patients that neuropsychiatric symptoms, including anxiety, depression, suicidal thoughts and behaviors, and sleep disturbances (e.g., insomnia), have been reported with the use of KALYDECO or drugs containing the same or similar active ingredient as KALYDECO."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The symptoms have been observed in patients with and without a history of similar symptoms and may occur within three months of KALYDECO initiation."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Instruct patients to contact their healthcare provider immediately if changes in behavior or thinking that are not typical for the patient occur, or if the patient develops suicidal ideation or behavior [see Warnings and Precautions (5.4) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Drug Interactions with CYP3A Inducers and Inhibitors Ask patients to tell you all the medications they are taking including any herbal supplements or vitamins."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Co-administration of KALYDECO with strong CYP3A inducers (e.g., rifampin, St."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Patients should be advised to contact their healthcare provider if they have questions."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Cataracts Inform patients that abnormality of the eye lens (cataract) has been noted in some children and adolescents receiving KALYDECO."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Baseline and follow-up ophthalmological examinations should be performed in pediatric patients initiating KALYDECO treatment [ see Warnings and Precautions (5.5) ]."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Baseline and follow-up ophthalmological examinations should be performed in pediatric patients initiating KALYDECO treatment [ see Warnings and Precautions (5.6) ]."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Manufactured for Vertex Pharmaceuticals Incorporated 50 Northern Avenue Boston, MA 02210 KALYDECO, VERTEX, and the VERTEX triangle logo are registered trademarks of Vertex Pharmaceuticals Incorporated."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All other trademarks referenced herein are the property of their respective owners."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a92025 Vertex Pharmaceuticals Incorporated ALL RIGHTS RESERVED"
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a92026 Vertex Pharmaceuticals Incorporated ALL RIGHTS RESERVED"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Vertex",
+        "drug": "SYMDEKO",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: Warnings and Precautions, Intracranial Hypertension ( 5.3 ) 09/2025 Warnings and Precautions, Neurop...",
+        "details": "[{\"section\": \"Intracranial Hypertension\", \"subsection\": \"5.3\", \"date\": \"09/2025\", \"content\": \"Content not available in API response.\"}, {\"section\": \"Including Suicidal Thoughts and Behaviors\", \"subsection\": \"5.4\", \"date\": \"03/2026\", \"content\": \"Content not available in API response.\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=302ae804-37db-44fd-ac2f-3dbdeda9aa4b",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 21,
+            "previous_version": 20,
+            "current_date": "Mar 30, 2026",
+            "previous_date": "Nov 17, 2025",
+            "sections": [
+                {
+                    "section": "Spl Patient Package Insert",
+                    "has_changes": true,
+                    "added_count": 5,
+                    "removed_count": 2,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "See the end of this patient information leaflet for a complete list of ingredients in SYMDEKO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "have kidney problems."
+                        },
+                        {
+                            "type": "added",
+                            "text": "have or have had mental health problems."
+                        },
+                        {
+                            "type": "context",
+                            "text": "are pregnant or plan to become pregnant."
+                        },
+                        {
+                            "type": "context",
+                            "text": "It is not known if SYMDEKO will harm your unborn baby."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Symptoms of an allergic reaction may include: rash or hives tightness of the chest or throat or difficulty breathing light-headedness or dizziness Increased pressure around the brain (intracranial hypertension) has happened in people treated with medicines containing the same or similar ingredients as SYMDEKO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "If you experience an unusual headache, blurred vision, double vision, or vision loss, call your doctor right away."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Serious mental health problems such as anxiety, depression, suicidal thoughts and behaviors, and trouble sleeping have happened in people treated with SYMDEKO or medicines containing the same or similar ingredients as SYMDEKO."
+                        },
+                        {
+                            "type": "added",
+                            "text": "If you experience new or worsening mental health problems, call your doctor right away."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Abnormality of the eye lens (cataract) in some children and adolescents treated with SYMDEKO or treated with ivacaftor alone."
+                        },
+                        {
+                            "type": "context",
+                            "text": "If you are a child or adolescent, your doctor should perform eye examinations before and during treatment with SYMDEKO to look for cataracts."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Manufactured for: Vertex Pharmaceuticals Incorporated; 50 Northern Avenue, Boston, MA 02210 SYMDEKO, VERTEX and the VERTEX triangle logo are registered trademarks of Vertex Pharmaceuticals Incorporated."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All other trademarks referenced herein are the property of their respective owners."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a92025 Vertex Pharmaceuticals Incorporated For more information, go to www.symdeko.com or call 1-877-752-5933."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a92026 Vertex Pharmaceuticals Incorporated For more information, go to www.symdeko.com or call 1-877-752-5933."
+                        },
+                        {
+                            "type": "context",
+                            "text": "This Patient Information has been approved by the U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Food and Drug Administration."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Revised: 09/2025"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Revised: 03/2026"
+                        }
+                    ]
+                },
+                {
+                    "section": "Adverse Reactions",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "The following adverse reactions are discussed in greater detail in other sections of the label: Transaminase Elevations [see Warnings and Precautions (5.1) ] Hypersensitivity Reactions, Including Anaphylaxis [see Warnings and Precautions (5.2) ] Intracranial Hypertension [see Warnings and Precautions (5.3) ] Cataracts [see Warnings and Precautions (5.5) ]"
+                        },
+                        {
+                            "type": "added",
+                            "text": "The following adverse reactions are discussed in greater detail in other sections of the label: Transaminase Elevations [see Warnings and Precautions (5.1) ] Hypersensitivity Reactions, Including Anaphylaxis [see Warnings and Precautions (5.2) ] Intracranial Hypertension [see Warnings and Precautions (5.3) ] Neuropsychiatric Events, Including Suicidal Thoughts and Behaviors [see Warnings and Precautions (5.4) ] Cataracts [see Warnings and Precautions (5.6) ]"
+                        }
+                    ]
+                },
+                {
+                    "section": "Postmarketing Experience",
+                    "has_changes": true,
+                    "added_count": 2,
+                    "removed_count": 4,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Postmarketing Adverse Reactions with SYMDEKO The following adverse reactions have been identified during post approval use of SYMDEKO."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The following adverse reactions have been identified during postapproval use of SYMDEKO or drugs containing the same or similar active ingredients as SYMDEKO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Immune System Disorders : anaphylaxis Skin : rash Postmarketing Adverse Reactions with Other Drugs Containing the Same or Similar Active Ingredients as SYMDEKO The following adverse reactions have been identified during post approval use of drugs containing the same or similar active ingredients as SYMDEKO."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Nervous System Disorders : intracranial hypertension"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Immune System Disorders : anaphylaxis Skin : rash Nervous System Disorders : intracranial hypertension Psychiatric Disorders : anxiety, depression, suicidal ideation and behavior, insomnia"
+                        }
+                    ]
+                },
+                {
+                    "section": "SPL Unclassified Section",
+                    "has_changes": true,
+                    "added_count": 12,
+                    "removed_count": 4,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Patients should be monitored until IH resolution and for recurrence."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Patients with elevated vitamin A levels may be at increased risk."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Serious neuropsychiatric events, including symptoms of anxiety, depression, suicidal ideation and behavior, and sleep disturbances, have been reported in the postmarketing setting in patients taking SYMDEKO or drugs containing the same or similar active ingredients [see Adverse Reactions (6.2) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The events were reported in adult and pediatric patients with and without a previous history of neuropsychiatric symptoms."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Symptoms may occur within the first three months of treatment initiation."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Assess patients for baseline neuropsychiatric symptoms and monitor for new or worsening symptoms of anxiety, depression, suicidal ideation or behavior, or sleep disturbances."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Consider the benefits and risks for the individual patient to determine if therapy with SYMDEKO should be interrupted at the occurrence of neuropsychiatric symptoms and whether to resume therapy with symptom improvement."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Exposure to ivacaftor is significantly decreased and exposure to tezacaftor may be reduced by the concomitant use of CYP3A inducers, which may reduce the therapeutic effectiveness of SYMDEKO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Therefore, co-administration with strong CYP3A inducers is not recommended [see Drug Interactions (7.1) , Clinical Pharmacology (12.3) , and Patient Counseling Information (17) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Co-administration of ivacaftor with rifampin, a strong CYP3A inducer, significantly decreased ivacaftor exposure (area under the curve [AUC]) by 89%."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Tezacaftor exposures can also be expected to decrease significantly during co-administration with strong CYP3A inducers."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Therefore, co-administration of SYMDEKO with strong CYP3A inducers is not recommended [see Warnings and Precautions (5.4) , Clinical Pharmacology (12.3) , and Patient Counseling Information (17) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Therefore, co-administration of SYMDEKO with strong CYP3A inducers is not recommended [see Warnings and Precautions (5.5) , Clinical Pharmacology (12.3) , and Patient Counseling Information (17) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Examples of strong CYP3A inducers include: rifampin, rifabutin, phenobarbital, carbamazepine, phenytoin, and St."
+                        },
+                        {
+                            "type": "context",
+                            "text": "John's wort (Hypericum perforatum)\nCo-administration with itraconazole, a strong CYP3A inhibitor, increased tezacaftor exposure (AUC) by 4.0-fold and ivacaftor by 15.6-fold."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Intracranial Hypertension Inform patients that intracranial hypertension has occurred in patients who received drugs containing the same or similar active ingredients as SYMDEKO."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Instruct patients to notify their healthcare provider right away if they experience signs and symptoms of intracranial hypertension, including headache, blurred vision, diplopia, and vision loss [see Warnings and Precautions (5.3) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Neuropsychiatric Events, Including Suicidal Thoughts and Behaviors Inform patients that neuropsychiatric symptoms, including anxiety, depression, suicidal thoughts and behaviors, and sleep disturbances (e.g., insomnia), have been reported with the use of SYMDEKO or drugs containing the same or similar active ingredients as SYMDEKO."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The symptoms have been observed in patients with and without a history of similar symptoms and may occur within three months of SYMDEKO initiation."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Instruct patients to contact their healthcare provider immediately if changes in behavior or thinking that are not typical for the patient occur, or if the patient develops suicidal ideation or behavior [see Warnings and Precautions (5.4) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Drug Interactions with CYP3A Inducers and Inhibitors Ask patients to tell you all the medications they are taking including any herbal supplements or vitamins."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Co-administration of SYMDEKO with strong CYP3A inducers (e.g., rifampin, St."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Dosage reduction to one tablet of tezacaftor/ivacaftor or ivacaftor, taken on alternate days in the morning is recommended when co-administered with moderate CYP3A inhibitors, such as fluconazole."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Advise the patient not to take the evening dose of ivacaftor."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Food or drink containing grapefruit should be avoided [see Warnings and Precautions (5.4) , Drug Interactions (7) , and Clinical Pharmacology (12.3) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Food or drink containing grapefruit should be avoided [see Warnings and Precautions (5.5) , Drug Interactions (7) , and Clinical Pharmacology (12.3) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Cataracts Inform patients that abnormality of the eye lens (cataract) has been noted in some children and adolescents receiving SYMDEKO or with ivacaftor alone."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Baseline and follow-up ophthalmological examinations should be performed in pediatric patients initiating treatment with SYMDEKO [see Warnings and Precautions (5.5) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Baseline and follow-up ophthalmological examinations should be performed in pediatric patients initiating treatment with SYMDEKO [see Warnings and Precautions (5.6) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Use in Patients with Hepatic Impairment Inquire and/or assess whether patients have liver impairment."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Adjust the dosage in patients with moderately impaired hepatic function (Child-Pugh Class B, score 7-9) to one tablet of tezacaftor/ivacaftor once daily in the morning and advise the patient not to take the evening dose of ivacaftor."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Manufactured for Vertex Pharmaceuticals Incorporated 50 Northern Avenue Boston, MA 02210 SYMDEKO, VERTEX, and the VERTEX triangle logo are registered trademarks of Vertex Pharmaceuticals Incorporated."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All other trademarks referenced herein are the property of their respective owners."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a92025 Vertex Pharmaceuticals Incorporated ALL RIGHTS RESERVED"
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a92026 Vertex Pharmaceuticals Incorporated ALL RIGHTS RESERVED"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Vertex",
+        "drug": "ORKAMBI",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: Warnings and Precautions, Intracranial Hypertension ( 5.4 ) 09/2025 Warnings and Precautions, Neurop...",
+        "details": "[{\"section\": \"Intracranial Hypertension\", \"subsection\": \"5.4\", \"date\": \"09/2025\", \"content\": \"Content not available in API response.\"}, {\"section\": \"Including Suicidal Thoughts and Behaviors\", \"subsection\": \"5.5\", \"date\": \"03/2026\", \"content\": \"Content not available in API response.\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 24,
+            "previous_version": 23,
+            "current_date": "Mar 31, 2026",
+            "previous_date": "Nov 17, 2025",
+            "sections": [
+                {
+                    "section": "Pediatric Use",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "The safety and effectiveness of ORKAMBI in patients with CF younger than 1 year of age have not been established."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Cases of non-congenital lens opacities have been reported in pediatric patients treated with ORKAMBI and ivacaftor, a component of ORKAMBI."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Although other risk factors were present in some cases (such as corticosteroid use and exposure to radiation), a possible risk attributable to ivacaftor cannot be excluded [see Warnings and Precautions (5.8) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Although other risk factors were present in some cases (such as corticosteroid use and exposure to radiation), a possible risk attributable to ivacaftor cannot be excluded [see Warnings and Precautions (5.9) ] ."
+                        }
+                    ]
+                },
+                {
+                    "section": "SPL Unclassified Section",
+                    "has_changes": true,
+                    "added_count": 22,
+                    "removed_count": 14,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Patients should be monitored until IH resolution and for recurrence."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Patients with elevated vitamin A levels may be at increased risk."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Serious neuropsychiatric events, including symptoms of anxiety, depression, suicidal ideation and behavior, and sleep disturbances, have been reported in the postmarketing setting in patients taking ORKAMBI or drugs containing the same or similar active ingredients [see Adverse Reactions (6.2) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The events were reported in adult and pediatric patients with and without a previous history of neuropsychiatric symptoms."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Symptoms may occur within the first three months of treatment initiation."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Assess patients for baseline neuropsychiatric symptoms and monitor for new or worsening symptoms of anxiety, depression, suicidal ideation or behavior, or sleep disturbances."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Consider the benefits and risks for the individual patient to determine if therapy with ORKAMBI should be interrupted at the occurrence of neuropsychiatric symptoms and whether to resume therapy with symptom improvement."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Respiratory events (e.g., chest discomfort, dyspnea, and respiration abnormal) were observed more commonly in patients during initiation of ORKAMBI compared to those who received placebo."
+                        },
+                        {
+                            "type": "context",
+                            "text": "These events have led to drug discontinuation and can be serious, particularly in patients with advanced lung disease (percent predicted FEV 1 <40)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Respiratory Adverse Reactions In Trials 1 and 2, the incidence of respiratory symptom-related adverse reactions (e.g., chest discomfort, dyspnea, and respiration abnormal) was more common in patients treated with ORKAMBI (22%) compared to patients who received placebo (14%)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The incidence of these adverse reactions was more common in patients treated with ORKAMBI with lower pre-treatment FEV 1 ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In patients treated with ORKAMBI, the majority of the events began during the first week of treatment [see Warnings and Precautions (5.5) ] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "During the 24-week, open-label, clinical trial in 46 patients aged 12 years and older (Trial 5) with advanced lung disease (ppFEV 1 <40) [mean ppFEV 1 29.1 at baseline (range: 18.3 to 42.0)], the incidence of respiratory symptom-related adverse reactions was 65% [see Warnings and Precautions (5.5) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In patients treated with ORKAMBI, the majority of the events began during the first week of treatment [see Warnings and Precautions (5.6) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "During the 24-week, open-label, clinical trial in 46 patients aged 12 years and older (Trial 5) with advanced lung disease (ppFEV 1 <40) [mean ppFEV 1 29.1 at baseline (range: 18.3 to 42.0)], the incidence of respiratory symptom-related adverse reactions was 65% [see Warnings and Precautions (5.6) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "During the 24-week, open-label, clinical trial (Trial 3) in 58 patients aged 6 through 11 years (mean baseline ppFEV 1 was 91.4), the incidence of respiratory symptom-related adverse reactions was 3% (2/58)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "During the 24-week, placebo-controlled, clinical trial (Trial 4) in patients aged 6 through 11 years [mean ppFEV 1 89.8 at baseline (range: 48.6 to 119.6)], the incidence of respiratory symptom-related adverse reactions was 11% in lumacaftor/ivacaftor patients and 9% in placebo patients."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The post-dose decline was resolved by Week 16."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Menstrual Abnormalities In Trials 1 and 2, the incidence of combined menstrual abnormality adverse reactions (e.g., amenorrhea, dysmenorrhea, menorrhagia, menstrual irregular) was more common in female patients treated with ORKAMBI (10%) compared to placebo (2%)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "These events occurred more frequently in the subset of female patients treated with ORKAMBI who were using hormonal contraceptives (27%) compared to those not using hormonal contraceptives (3%) [see Warnings and Precautions (5.7) and Drug Interactions (7.11) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "These events occurred more frequently in the subset of female patients treated with ORKAMBI who were using hormonal contraceptives (27%) compared to those not using hormonal contraceptives (3%) [see Warnings and Precautions (5.8) and Drug Interactions (7.11) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Increased Blood Pressure In Trials 1 and 2, adverse reactions related to increases in blood pressure (e.g., hypertension, blood pressure increased) were reported in 1.1% (4/369) of patients treated with ORKAMBI and in no patients who received placebo."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The proportion of patients who experienced a systolic blood pressure value >140 mmHg or a diastolic blood pressure >90 mmHg on at least two occasions was 3.6% and 2.2% in patients treated with ORKAMBI, respectively, compared with 1.6% and 0.5% in patients who received placebo [see Warnings and Precautions (5.6) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The proportion of patients who experienced a systolic blood pressure value >140 mmHg or a diastolic blood pressure >90 mmHg on at least two occasions was 3.6% and 2.2% in patients treated with ORKAMBI, respectively, compared with 1.6% and 0.5% in patients who received placebo [see Warnings and Precautions (5.7) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Potential for Other Drugs to Affect Lumacaftor/Ivacaftor\nCo-administration of lumacaftor/ivacaftor with itraconazole, a strong CYP3A inhibitor, did not impact the exposure of lumacaftor, but increased ivacaftor exposure by 4.3-fold."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Due to the induction effect of lumacaftor on CYP3A, at steady-state, the net exposure of ivacaftor is not expected to exceed that when given in the absence of lumacaftor at a dose of 150 mg every 12 hours (the approved dose of ivacaftor monotherapy)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "This may reduce the effectiveness of ORKAMBI."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Therefore, co-administration with strong CYP3A inducers, such as rifampin, rifabutin, phenobarbital, carbamazepine, phenytoin, and St."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "John's wort ( Hypericum perforatum ), is not recommended [see Warnings and Precautions (5.7) and Clinical Pharmacology (12.3) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "John's wort ( Hypericum perforatum ), is not recommended [see Warnings and Precautions (5.8) and Clinical Pharmacology (12.3) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "No dosage adjustment is recommended when used with moderate or weak CYP3A inducers."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Potential for Lumacaftor/Ivacaftor to Affect Other Drugs\nLumacaftor is a strong inducer of CYP3A."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Co-administration of lumacaftor with ivacaftor, a sensitive CYP3A substrate, decreased ivacaftor exposure by approximately 80%."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Administration of ORKAMBI may decrease systemic exposure of medicinal products which are substrates of CYP3A, thereby decreasing the therapeutic effect of the medicinal product."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Co-administration of ORKAMBI is not recommended with sensitive CYP3A substrates or CYP3A substrates with a narrow therapeutic index [see Warnings and Precautions (5.7) and Clinical Pharmacology (12.3) ] such as: Benzodiazepines : midazolam, triazolam (consider an alternative to these benzodiazepines)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Co-administration of ORKAMBI is not recommended with sensitive CYP3A substrates or CYP3A substrates with a narrow therapeutic index [see Warnings and Precautions (5.8) and Clinical Pharmacology (12.3) ] such as: Benzodiazepines : midazolam, triazolam (consider an alternative to these benzodiazepines)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Immunosuppressants : cyclosporine, everolimus, sirolimus, and tacrolimus (avoid the use of ORKAMBI)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "In vitro studies suggest that lumacaftor has the potential to induce CYP2B6, CYP2C8, CYP2C9, and CYP2C19; inhibition of CYP2C8 and CYP2C9 has also been observed in vitro ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Therefore, concomitant use of ORKAMBI with CYP2B6, CYP2C8, CYP2C9, and CYP2C19 substrates may alter the exposure of these substrates [see Drug Interactions (7.4) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Potential for Other Drugs to Affect Lumacaftor/Ivacaftor Lumacaftor exposure is not affected by concomitant CYP3A inducers or inhibitors."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Exposure of ivacaftor when given in combination with lumacaftor is reduced by concomitant CYP3A inducers and increased by concomitant CYP3A inhibitors [see Dosage and Administration (2.3) , Warnings and Precautions (5.7) , and Drug Interactions (7) ] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The effects of co-administered drugs on the exposure of lumacaftor and ivacaftor are shown in Table 6 [see Dosage and Administration (2.3) , Warnings and Precautions (5.7) , and Drug Interactions (7) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Exposure of ivacaftor when given in combination with lumacaftor is reduced by concomitant CYP3A inducers and increased by concomitant CYP3A inhibitors [see Dosage and Administration (2.3) , Warnings and Precautions (5.8) , and Drug Interactions (7) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The effects of co-administered drugs on the exposure of lumacaftor and ivacaftor are shown in Table 6 [see Dosage and Administration (2.3) , Warnings and Precautions (5.8) , and Drug Interactions (7) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 6: Impact of Other Drugs on Lumacaftor 200 mg q12h/Ivacaftor 250 mg q12h Co-administered Drug Dose of Co-administered Drug Effect on PK \u2191 = increase, \u2193 = decrease, \u2194 = no change."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Mean Ratio (90% CI) of Lumacaftor and Ivacaftor No Effect=1.0 AUC C max CI = Confidence Interval; PK = Pharmacokinetics."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Intracranial Hypertension Inform patients that intracranial hypertension has occurred with the use of ORKAMBI."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Instruct patients to notify their healthcare provider right away if they experience signs and symptoms of intracranial hypertension, including headache, blurred vision, diplopia, and vision loss [see Warnings and Precautions (5.4) ] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Respiratory Events Inform patients that chest discomfort, dyspnea, and respiration abnormal were more common during initiation of ORKAMBI therapy, especially in patients with advanced lung disease and to contact their healthcare provider if they develop any of these symptoms [see Warnings and Precautions (5.5) ] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Effect on Blood Pressure Inform patients that increased blood pressure has been observed in some patients treated with ORKAMBI and that periodic monitoring of their blood pressure during treatment is recommended and to contact their healthcare provider if they develop elevated blood pressure or notice elevations in pre-existing high blood pressure [see Warnings and Precautions (5.6) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Neuropsychiatric Events, Including Suicidal Thoughts and Behaviors Inform patients that neuropsychiatric symptoms, including anxiety, depression, suicidal thoughts and behaviors, and sleep disturbances (e.g., insomnia), have been reported with the use of ORKAMBI or drugs containing the same or similar active ingredients as ORKAMBI."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The symptoms have been observed in patients with and without a history of similar symptoms and may occur within three months of ORKAMBI initiation."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Instruct patients to contact their healthcare provider immediately if changes in behavior or thinking that are not typical for the patient occur, or if the patient develops suicidal ideation or behavior [see Warnings and Precautions (5.5) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Respiratory Events Inform patients that chest discomfort, dyspnea, and respiration abnormal were more common during initiation of ORKAMBI therapy, especially in patients with advanced lung disease and to contact their healthcare provider if they develop any of these symptoms [see Warnings and Precautions (5.6) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Effect on Blood Pressure Inform patients that increased blood pressure has been observed in some patients treated with ORKAMBI and that periodic monitoring of their blood pressure during treatment is recommended and to contact their healthcare provider if they develop elevated blood pressure or notice elevations in pre-existing high blood pressure [see Warnings and Precautions (5.7) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Drug Interactions with CYP3A Inhibitors and Inducers Advise patients to inform their healthcare providers of all concomitant medications, herbal and dietary supplements."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Advise patients to avoid grapefruit products during the first week after treatment initiation with ORKAMBI [see Dosage and Administration (2.3) , Warnings and Precautions (5.7) , and Drug Interactions (7) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Advise patients to avoid grapefruit products during the first week after treatment initiation with ORKAMBI [see Dosage and Administration (2.3) , Warnings and Precautions (5.8) , and Drug Interactions (7) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Instruct post-menarchal patients including females of reproductive potential on alternative methods of birth control because hormonal contraceptives should not be relied upon as an effective method of contraception."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "ORKAMBI may decrease the effectiveness of hormonal contraceptives and there is an increased incidence of menstruation-related adverse reactions when co-administered with ORKAMBI [see Warnings and Precautions (5.7) , Adverse Reactions (6.1) , and Drug Interactions (7.11) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "ORKAMBI may decrease the effectiveness of hormonal contraceptives and there is an increased incidence of menstruation-related adverse reactions when co-administered with ORKAMBI [see Warnings and Precautions (5.8) , Adverse Reactions (6.1) , and Drug Interactions (7.11) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Cataracts Inform patients that abnormalities of the eye lens (cataract) have been noted in some children and adolescents receiving ORKAMBI."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Advise pediatric patients and their caregivers that they will receive ophthalmological examinations before initiating and during ORKAMBI treatment."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Advise pediatric patients and/or their caregivers to contact their healthcare provider if they experience visual changes [see Warnings and Precautions (5.8) ]."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Advise pediatric patients and/or their caregivers to contact their healthcare provider if they experience visual changes [see Warnings and Precautions (5.9) ]."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Administration Inform patients that ORKAMBI should be taken with fat-containing food."
+                        },
+                        {
+                            "type": "context",
+                            "text": "A typical CF diet will satisfy this requirement."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Manufactured for Vertex Pharmaceuticals Incorporated 50 Northern Avenue Boston, MA 02210 ORKAMBI, the ORKAMBI logo, VERTEX, and the VERTEX triangle logo are registered trademarks of Vertex Pharmaceuticals Incorporated."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All other trademarks referenced herein are the property of their respective owners."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a92025 Vertex Pharmaceuticals Incorporated ALL RIGHTS RESERVED"
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a92026 Vertex Pharmaceuticals Incorporated ALL RIGHTS RESERVED"
+                        }
+                    ]
+                },
+                {
+                    "section": "Females and Males of Reproductive Potential",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "ORKAMBI may decrease hormonal contraceptive exposure, reducing the effectiveness."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Hormonal contraceptives, including oral, injectable, transdermal, and implantable, should not be relied upon as an effective method of contraception when co-administered with ORKAMBI [see Warnings and Precautions (5.7) and Drug Interactions (7.11) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Hormonal contraceptives, including oral, injectable, transdermal, and implantable, should not be relied upon as an effective method of contraception when co-administered with ORKAMBI [see Warnings and Precautions (5.8) and Drug Interactions (7.11) ] ."
+                        }
+                    ]
+                },
+                {
+                    "section": "Postmarketing Experience",
+                    "has_changes": true,
+                    "added_count": 2,
+                    "removed_count": 2,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "The following adverse reactions have been identified during post approval use of ORKAMBI."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The following adverse reactions have been identified during postapproval use of ORKAMBI or drugs containing the same or similar active ingredients as ORKAMBI."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Hepatobiliary : liver function decompensation including liver failure leading to death in patients with pre-existing cirrhosis with portal hypertension [see Warnings and Precautions (5.1) ] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Immune System Disorders : anaphylaxis, angioedema Nervous System Disorders : intracranial hypertension"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Immune System Disorders : anaphylaxis, angioedema Nervous System Disorders : intracranial hypertension Psychiatric Disorders : anxiety, depression, suicidal ideation and behavior, insomnia"
+                        }
+                    ]
+                },
+                {
+                    "section": "Spl Patient Package Insert",
+                    "has_changes": true,
+                    "added_count": 7,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "This Patient Information has been approved by the U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Food and Drug Administration."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Revised: 09/2025 PATIENT INFORMATION ORKAMBI (or-KAM-bee) (lumacaftor and ivacaftor) tablets for oral use (lumacaftor and ivacaftor) oral granules What is ORKAMBI?"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Revised: 03/2026 PATIENT INFORMATION ORKAMBI (or-KAM-bee) (lumacaftor and ivacaftor) tablets for oral use (lumacaftor and ivacaftor) oral granules What is ORKAMBI?"
+                        },
+                        {
+                            "type": "context",
+                            "text": "ORKAMBI is a prescription medicine used for the treatment of cystic fibrosis (CF) in people aged 1 year and older who have two copies of the F508del mutation ( F508del/F508del ) in their CFTR gene."
+                        },
+                        {
+                            "type": "context",
+                            "text": "ORKAMBI should not be used in people other than those who have two copies of the F508del mutation in their CFTR gene."
+                        },
+                        {
+                            "type": "context",
+                            "text": "have lung problems."
+                        },
+                        {
+                            "type": "context",
+                            "text": "have had an organ transplant."
+                        },
+                        {
+                            "type": "added",
+                            "text": "have or have had mental health problems."
+                        },
+                        {
+                            "type": "context",
+                            "text": "are using birth control (hormonal contraceptives, including oral, injectable, transdermal, or implantable forms)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Hormonal contraceptives should not be used as a method of birth control when taking ORKAMBI."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Carefully pour all of the ORKAMBI granules in the packet into one teaspoon (5 mL) of soft food or liquid in a small container (like an empty bowl)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The food or liquid should be at or below room temperature."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Examples of soft foods or liquids include pur\u00e9ed fruits or vegetables, flavored yogurt or pudding, applesauce, water, milk, breast milk, infant formula or juice.Mix the ORKAMBI granules with food or liquid."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Examples of soft foods or liquids include pur\u00e9ed fruits or vegetables, flavored yogurt or pudding, applesauce, water, milk, breast milk, infant formula or juice."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Mix the ORKAMBI granules with food or liquid."
+                        },
+                        {
+                            "type": "context",
+                            "text": "After mixing, give ORKAMBI within 1 hour."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Make sure all medicine is taken."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Symptoms of an allergic reaction may include: rash or hives tightness of the chest or throat or difficulty breathing swelling of the face, lips, and/or tongue, difficulty swallowing light-headedness or dizziness Increased pressure around the brain (intracranial hypertension) has happened in people treated with ORKAMBI."
+                        },
+                        {
+                            "type": "context",
+                            "text": "If you experience an unusual headache, blurred vision, double vision, or vision loss, call your doctor right away."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Serious mental health problems such as anxiety, depression, suicidal thoughts and behaviors, and trouble sleeping have happened in people treated with ORKAMBI or medicines containing the same or similar ingredients as ORKAMBI."
+                        },
+                        {
+                            "type": "added",
+                            "text": "If you experience new or worsening mental health problems, call your doctor right away."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Breathing problems such as trouble breathing, shortness of breath or chest tightness in people when starting ORKAMBI, especially in people who have poor lung function."
+                        },
+                        {
+                            "type": "context",
+                            "text": "If you have poor lung function, your doctor may monitor you more closely when you start ORKAMBI."
+                        },
+                        {
+                            "type": "context",
+                            "text": "ORKAMBI, the ORKAMBI logo, VERTEX, and the VERTEX triangle logo are registered trademarks of Vertex Pharmaceuticals Incorporated."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All other trademarks referenced herein are the property of their respective owners."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a92025 Vertex Pharmaceuticals Incorporated"
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a92026 Vertex Pharmaceuticals Incorporated"
+                        }
+                    ]
+                },
+                {
+                    "section": "Adverse Reactions",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "The following adverse reactions are discussed in greater detail in other sections of the label: Use in Patients with Advanced Liver Disease [see Warnings and Precautions (5.1) ] Liver-related Events [see Warnings and Precautions (5.2) ] Hypersensitivity Reactions, Including Anaphylaxis [see Warnings and Precautions (5.3) ] Intracranial Hypertension [see Warnings and Precautions (5.4) ] Respiratory Events [see Warnings and Precautions (5.5) ] Effect on Blood Pressure [see Warnings and Precautions (5.6) ] Cataracts [see Warnings and Precautions (5.8) ]"
+                        },
+                        {
+                            "type": "added",
+                            "text": "The following adverse reactions are discussed in greater detail in other sections of the label: Use in Patients with Advanced Liver Disease [see Warnings and Precautions (5.1) ] Liver-related Events [see Warnings and Precautions (5.2) ] Hypersensitivity Reactions, Including Anaphylaxis [see Warnings and Precautions (5.3) ] Intracranial Hypertension [see Warnings and Precautions (5.4) ] Neuropsychiatric Events, Including Suicidal Thoughts and Behaviors [see Warnings and Precautions (5.5) ] Respiratory Events [see Warnings and Precautions (5.6) ] Effect on Blood Pressure [see Warnings and Precautions (5.7) ] Cataracts [see Warnings and Precautions (5.9) ]"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -52665,6 +53841,15 @@
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-03-02\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "OXCARBAZEPINE",
+        "type": "FDA Approval",
+        "date": "2026-03-02",
+        "title": "OXCARBAZEPINE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A219556",
+        "source": "openFDA API"
     },
     {
         "company": "FDA Advisory Committee",
@@ -58442,6 +59627,193 @@
         "date": "2026-04-02",
         "title": "Label Update: ...",
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-04-02\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Vera Therapeutics",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-04-02",
+        "title": "The 30-Year Fixed-Rate Mortgage Averages 6.46%",
+        "link": "https://www.globenewswire.com/news-release/2026/04/02/3267659/0/en/The-30-Year-Fixed-Rate-Mortgage-Averages-6-46.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-04-03",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-04-03\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                },
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "GALZIN",
+        "type": "Label Update",
+        "date": "2026-04-03",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-04-03\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c4fb943-4b2f-273d-e063-6394a90abb47",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-04-03",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-04-03\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Betaine Anhydrous",
+        "type": "Label Update",
+        "date": "2026-04-03",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-04-03\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee8a95c3-df9f-6e55-e053-2a95a90ab17b",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-04-03",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-04-03\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
     },
