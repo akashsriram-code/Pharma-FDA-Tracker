@@ -135718,6 +135718,65 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Structure Therapeutics ADR",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-08-17",
+        "title": "Power Transformer Market to Reach $41.62 Billion, at a 6.5% CAGR by 2030 | MarketsandMarkets\u2122",
+        "link": "https://www.globenewswire.com/news-release/2026/08/17/3346165/0/en/power-transformer-market-to-reach-41-62-billion-at-a-6-5-cagr-by-2030-marketsandmarkets.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Amicus",
+        "drug": "POMBILITI ATGA",
+        "type": "Label Update",
+        "date": "2026-08-18",
+        "title": "Label Update: Indications and Usage ( 1 ) X/2026 Dosage and Administration ( 2.2 , 2.6 ) X/2026...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-18\", \"content\": \"Indications and Usage ( 1 ) X/2026 Dosage and Administration ( 2.2 , 2.6 ) X/2026\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d77aa596-910d-516b-e053-2995a90a0839",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-08-18",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-18\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-08-18",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-18\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Betaine Anhydrous",
+        "type": "Label Update",
+        "date": "2026-08-18",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-18\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee8a95c3-df9f-6e55-e053-2a95a90ab17b",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-08-18",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-18\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
         "company": "Amgen",
         "drug": "Dazodalibep",
         "type": "PHASE3 Completion",
@@ -135967,6 +136026,15 @@
         "date": "2026-10-01",
         "title": "efgartigimod PH20 SC: Primary Immune Thrombocytopenia - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT04812925",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Gilead",
+        "drug": "Sacituzumab govitecan",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-01",
+        "title": "Sacituzumab govitecan: Triple Negative Breast Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05552001",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -138229,6 +138297,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Gilead",
+        "drug": "Lenacapavir",
+        "type": "PHASE3 Completion",
+        "date": "2029-03-28",
+        "title": "Lenacapavir: HIV-1-infection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07683000",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "BNT113",
         "type": "PHASE2, PHASE3 Completion",
@@ -138685,6 +138762,15 @@
         "date": "2030-06-30",
         "title": "VX-121/TEZ/D-IVA: Cystic Fibrosis - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05422222",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Gilead",
+        "drug": "Lenacapavir",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2030-07-28",
+        "title": "Lenacapavir: HIV-1-infection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06532656",
         "source": "ClinicalTrials.gov"
     },
     {
