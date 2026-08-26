@@ -12708,6 +12708,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "ATENOLOL",
+        "type": "FDA Approval",
+        "date": "2024-03-28",
+        "title": "ATENOLOL - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076900",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "ATENOLOL",
         "type": "FDA Approval",
@@ -15656,6 +15665,15 @@
     },
     {
         "company": "Bioage Labs",
+        "drug": "DEXMETHYLPHENIDATE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-09-09",
+        "title": "DEXMETHYLPHENIDATE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204534",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
         "drug": "LEVOTHYROXINE SODIUM",
         "type": "FDA Approval",
         "date": "2024-09-10",
@@ -16057,6 +16075,15 @@
         "date": "2024-09-26",
         "title": "HYDROXYZINE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A040391",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "LEFLUNOMIDE",
+        "type": "FDA Approval",
+        "date": "2024-09-26",
+        "title": "LEFLUNOMIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A213652",
         "source": "openFDA API"
     },
     {
@@ -19459,6 +19486,15 @@
     },
     {
         "company": "Agios Pharm",
+        "drug": "DIHYDROERGOTAMINE MESYLATE",
+        "type": "FDA Approval",
+        "date": "2024-12-09",
+        "title": "DIHYDROERGOTAMINE MESYLATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207264",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
         "drug": "CHLORPROMAZINE HYDROCHLORIDE",
         "type": "FDA Approval",
         "date": "2024-12-10",
@@ -21259,6 +21295,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Anavex Life Sciences",
+        "drug": "PROCHLORPERAZINE EDISYLATE",
+        "type": "FDA Approval",
+        "date": "2025-01-22",
+        "title": "PROCHLORPERAZINE EDISYLATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204147",
+        "source": "openFDA API"
+    },
+    {
         "company": "Arcturus Therapeutics Holdings Inc",
         "drug": "FRINDOVYX",
         "type": "FDA Approval",
@@ -22382,6 +22427,15 @@
     },
     {
         "company": "Ionis Pharma",
+        "drug": "LEVETIRACETAM",
+        "type": "FDA Approval",
+        "date": "2025-02-05",
+        "title": "LEVETIRACETAM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078993",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
         "drug": "METHYLPHENIDATE HYDROCHLORIDE",
         "type": "FDA Approval",
         "date": "2025-02-06",
@@ -22396,6 +22450,15 @@
         "date": "2025-02-07",
         "title": "OXCARBAZEPINE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216749",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "VENLAFAXINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-02-07",
+        "title": "VENLAFAXINE HYDROCHLORIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217841",
         "source": "openFDA API"
     },
     {
@@ -25818,6 +25881,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Sana Biotechnology",
+        "drug": "GRANISETRON HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-03-17",
+        "title": "GRANISETRON HYDROCHLORIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A219282",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "PRAVASTATIN SODIUM",
         "type": "FDA Approval",
@@ -29133,6 +29205,15 @@
         "date": "2025-04-10",
         "title": "DARZALEX - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761036",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Indivior",
+        "drug": "SUBLOCADE",
+        "type": "FDA Approval",
+        "date": "2025-04-11",
+        "title": "SUBLOCADE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209819",
         "source": "openFDA API"
     },
     {
@@ -58893,6 +58974,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "RUBRACA",
+        "type": "FDA Approval",
+        "date": "2025-12-17",
+        "title": "RUBRACA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209115",
+        "source": "openFDA API"
+    },
+    {
         "company": "Amgen",
         "drug": "Teprotumumab",
         "type": "PHASE4 Completion",
@@ -70274,6 +70364,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "BISOPROLOL FUMARATE",
+        "type": "FDA Approval",
+        "date": "2026-03-09",
+        "title": "BISOPROLOL FUMARATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218303",
+        "source": "openFDA API"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -73480,6 +73579,15 @@
         "title": "Social Media is Now the Top Source for Breaking News, New Sprout Social Research Finds",
         "link": "https://www.globenewswire.com/news-release/2026/03/25/3262239/0/en/Social-Media-is-Now-the-Top-Source-for-Breaking-News-New-Sprout-Social-Research-Finds.html",
         "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Ionis",
+        "drug": "Eplontersen",
+        "type": "PHASE3 Completion",
+        "date": "2026-03-25",
+        "title": "Eplontersen: Transthyretin-Mediated Amyloid Cardiomyopathy (ATTR CM) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04136171",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Jazz",
@@ -84909,6 +85017,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "LENALIDOMIDE",
+        "type": "FDA Approval",
+        "date": "2026-04-27",
+        "title": "LENALIDOMIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210154",
+        "source": "openFDA API"
+    },
+    {
         "company": "Neurocrine",
         "drug": "Valbenazine",
         "type": "PHASE3 Completion",
@@ -93824,6 +93941,15 @@
         "title": "US pulls further ahead on AI pay as Europe reshuffles and emerging markets accelerate, according to WTW",
         "link": "https://www.globenewswire.com/news-release/2026/05/06/3288859/0/en/US-pulls-further-ahead-on-AI-pay-as-Europe-reshuffles-and-emerging-markets-accelerate-according-to-WTW.html",
         "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Gilead",
+        "drug": "Seladelpar 10 mg",
+        "type": "PHASE3 Completion",
+        "date": "2026-05-06",
+        "title": "Seladelpar 10 mg: Primary Biliary Cholangitis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06060665",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "ADMA Biologics Inc",
@@ -112474,6 +112600,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Viatris",
+        "drug": "METHYLPHENIDATE",
+        "type": "FDA Approval",
+        "date": "2026-07-22",
+        "title": "METHYLPHENIDATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A206497",
+        "source": "openFDA API"
+    },
+    {
         "company": "BioNTech",
         "drug": "Bivalent BNT162b2 (original/Omicron BA.4/BA.5) 3 m",
         "type": "PHASE3 Completion",
@@ -119355,6 +119490,15 @@
         "source": "GlobeNewswire Biotech"
     },
     {
+        "company": "Biogen",
+        "drug": "Nusinersen",
+        "type": "PHASE3 Completion",
+        "date": "2026-07-30",
+        "title": "Nusinersen: Muscular Atrophy, Spinal - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04729907",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "BNT162b2 Vaccine",
         "type": "PHASE3 Completion",
@@ -121347,6 +121491,252 @@
                         {
                             "type": "context",
                             "text": "Elevidys delandistrogene moxeparvovec-rokl suspension for intracenous infusion"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Gilead",
+        "drug": "Yeztugo",
+        "type": "Label Update",
+        "date": "2026-08-01",
+        "title": "Label Update: Dosage and Administration ( 2.6 ) 08/2026...",
+        "details": "[{\"section\": \"Dosage and Administration\", \"subsection\": \"2.6\", \"date\": \"08/2026\", \"content\": \"2 DOSAGE AND ADMINISTRATION HIV-1 screening: Screen all individuals for HIV-1 infection prior to initiating YEZTUGO, prior to each injection of YEZTUGO, and additionally as clinically appropriate. ( 2.1 ) Dosing schedule: Initiation dosing (injection and tablets) followed by once every 6-months continuation injection dosing. Tablets may be taken without regard to food. ( 2.3 ) Initiation Day 1 927 mg by subcutaneous injection (2 x 1.5 mL injections) and 600 mg orally (2 x 300 mg tablets) Day 2 600 mg orally (2 x 300 mg tablets) Continuation 927 mg by subcutaneous injection (2 x 1.5 mL injections) every 6-months (26 weeks) from the date of the last injection +/-2 weeks. Anticipated delayed injections: If scheduled injection is anticipated to be delayed by more than 2 weeks, YEZTUGO tablets may be used on an interim basis (for up to 6 months if needed) until injections resume. Dosing schedule for delayed injection is 300 mg orally once every 7 days. ( 2.4 ) Missed injections: If more than 28 weeks have elapsed since last injection and tablets have not been taken, restart initiation from Day 1 if clinically appropriate. ( 2.4 ) Dosage modifications (supplemental doses) of YEZTUGO are recommended when initiating strong or moderate CYP3A inducers. ( 2.5 ) YEZTUGO injection is for subcutaneous administration only. Two 1.5 mL injections are required for complete dose. ( 2.6 ) 2.1 HIV-1 Screening for Individuals Receiving YEZTUGO for HIV-1 Pre-Exposure Prophylaxis Screen all individuals for HIV-1 infection prior to initiating YEZTUGO, prior to each subsequent injection of YEZTUGO, and additionally as clinically appropriate, using a test approved or cleared by the FDA for the diagnosis of acute or primary HIV-1 infection. When screening for HIV-1 infection prior to initiating YEZTUGO, if an antigen/antibody-specific test is used and provides negative results, then such negative results should be confirmed using an RNA-specific assay, even if the results of the RNA-assay are available after YEZTUGO initiation. When screening for HIV-1 infection prior to continuing YEZTUGO, negative results from a rapid, point-of-care antigen/antibody test should be confirmed using a more sensitive assay [see Indications and Usage (1) , Contraindications (4) , Warnings and Precautions (5.1 , 5.2) and Clinical Studies (14) ]. 2.2 Adherence to YEZTUGO Prior to starting YEZTUGO, healthcare providers should select individuals who agree to the required testing and every 6 month injection dosing schedule, and counsel individuals about the importance of adherence to scheduled YEZTUGO dosing visits to help reduce the risk of acquiring HIV-1 infection and development of resistance [see Dosage and Administration (2.1) , Warnings and Precautions (5.1 , 5.2) , and Microbiology (12.4) ] . 2.3 Recommended Dosage The YEZTUGO dosing schedule in adults and adolescents weighing at least 35 kg consists of a required initiation dosing (subcutaneous injections and oral tablets) followed by once every 6-months continuation dosing (subcutaneous injections) ( Table 1 ). YEZTUGO oral tablets may be taken with or without food [see Clinical Pharmacology (12.3) ] . Table 1. Dosing Schedule for YEZTUGO Initiation and Continuation in Adults and Adolescents Weighing at Least 35 kg Time Dosage of YEZTUGO: Initiation The complete initiation dosing schedule, consisting of subcutaneous injections and oral tablets, is required; the efficacy of YEZTUGO has only been established with this dosing schedule. Day 1 927 mg by subcutaneous injection (2 x 1.5 mL injections) and 600 mg orally (2 x 300 mg tablets) Day 2 600 mg orally (2 x 300 mg tablets) Dosage of YEZTUGO: Continuation Every 6-months (26 weeks) From the date of the last injection. +/-2 weeks 927 mg by subcutaneous injection (2 x 1.5 mL injections) 2.4 Dosing Schedule for Missed Dose Missed Oral Initiation Dose If the Day 2 oral initiation dose (600 mg; see Table 1 ) is missed, take it as soon as possible. Do not take Day 1 and Day 2 oral initiation doses on the same day. Anticipated Delayed Injections During continuation dosing, if the scheduled 6-month injection is anticipated to be delayed by more than 2 weeks, YEZTUGO tablets may be taken on an interim basis (for up to 6 months if needed), until injections resume. Refer to Table 2 below for the dosing schedule for delayed injections. Table 2. Dosing Schedule for Anticipated Delayed Injections: Weekly Oral Dosage Time since Last Injection Dosage of YEZTUGO 26 to 28 weeks Oral dosage of 300 mg taken once every 7 days. Use on an interim basis only (for up to 6 months if needed). Resume the continuation injection dosage within 7 days after the last oral dose. Missed Injections Individuals who miss a scheduled injection visit should be clinically reassessed to ensure resumption of YEZTUGO remains appropriate and that the individual remains HIV-1 negative. During continuation dosing, if more than 28 weeks have elapsed since the last injection and YEZTUGO tablets have... (truncated)\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c241af1-ce62-4b0a-9eb7-f6b626174f01",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 5,
+            "previous_version": 4,
+            "current_date": "Aug 20, 2026",
+            "previous_date": "Feb 17, 2026",
+            "sections": [
+                {
+                    "section": "Spl Patient Package Insert",
+                    "has_changes": true,
+                    "added_count": 2,
+                    "removed_count": 2,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Foster City, CA 94404 YEZTUGO is a trademark of Gilead Sciences, Inc., or its related companies."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All other trademarks referenced herein are the property of their respective owners."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a9 2025 Gilead Sciences, Inc."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a9 2026 Gilead Sciences, Inc."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All rights reserved."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "220018-GS-000/IFU-WD-000 For more information, call 1-800-445-3235 or go to www.YEZTUGO.com ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "220018-GS-001/IFU-WD-000/IFU-WDS-000 For more information, call 1-800-445-3235 or go to www.YEZTUGO.com ."
+                        }
+                    ]
+                },
+                {
+                    "section": "SPL Unclassified Section",
+                    "has_changes": true,
+                    "added_count": 13,
+                    "removed_count": 8,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Do not use YEZTUGO injection if the solution is discolored or if it contains particulate matter."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Once the solution is withdrawn from the vials, the subcutaneous injections should be administered as soon as possible [see How Supplied/Storage and Handling (16) ]."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Figure 1 identifies the components for use in the administration steps for the withdrawal needle injection kit, and the administration steps are provided in Figure 2 ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The 18-gauge needle is for withdrawal only in this kit."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The Withdrawal Needle Injection Kit contains withdrawal needles that may be supplied with or without a safety shield."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The presence or absence of a safety shield does not change how YEZTUGO injection is prepared."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Refer to the figure below for the relevant injection kit."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The injection kit components are for single use only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Two 1.5 mL injections are required for a complete dose."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Figure 1 YEZTUGO Withdrawal Needle Injection Kit Components Figure 2 YEZTUGO Injection Steps for Withdrawal Needle Injection Kit\nYEZTUGO tablets: Each tablet contains 300 mg of lenacapavir (present as 306.8 mg of lenacapavir sodium)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Withdrawal Needle Injection Kit (withdrawal needle without safety shield) Figure 1 identifies the components for use in the administration steps for the Withdrawal Needle Injection Kit (withdrawal needle supplied without a safety shield), and the administration steps are provided in Figure 2 ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The 18-gauge needle is for withdrawal only in this kit."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Figure 1 YEZTUGO Withdrawal Needle Injection Kit Components (withdrawal needle without safety shield) Figure 2 YEZTUGO Injection Steps for Withdrawal Needle Injection Kit (withdrawal needle without safety shield) Withdrawal Needle Injection Kit (withdrawal needle with safety shield) Figure 3 identifies the components for use in the administration steps for the Withdrawal Needle Injection Kit (withdrawal needle supplied with a safety shield), and the administration steps are provided in Figure 4 ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The 18-gauge safety needle is for withdrawal only in this kit."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Figure 3 YEZTUGO Withdrawal Needle Injection Kit Components (withdrawal needle with safety shield) Figure 4 YEZTUGO Injection Steps for Withdrawal Needle Injection Kit (withdrawal needle with safety shield)\nYEZTUGO tablets: Each tablet contains 300 mg of lenacapavir (present as 306.8 mg of lenacapavir sodium)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The tablets are beige, capsule-shaped, film-coated, and debossed with \u2018GSI\u2019 on one side of the tablet and \u201862L\u2019 on the other side of the tablet."
+                        },
+                        {
+                            "type": "context",
+                            "text": "YEZTUGO injection: Each single-dose vial contains 463.5 mg/1.5 mL (309 mg/mL) of lenacapavir (present as 473.1 mg/1.5 mL of lenacapavir sodium)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Some individuals, such as adolescents, may benefit from additional counseling and appointment reminders to support adherence to the dosing and testing schedule [see Use in Specific Populations (8.4) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "There is a potential risk of developing resistance to YEZTUGO if an individual acquires HIV-1 either before or when receiving YEZTUGO, or following discontinuation of YEZTUGO."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "HIV-1 resistance substitutions may emerge in individuals with undiagnosed HIV-1 infection who are taking only YEZTUGO, because YEZTUGO alone does not constitute a complete regimen for HIV-1 treatment [see Microbiology (12.4) ] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "HIV-1 resistance substitutions may emerge in individuals with undiagnosed HIV-1 infection who are taking only YEZTUGO because YEZTUGO alone does not constitute a complete regimen for HIV-1 treatment [see Microbiology (12.4) ] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "To minimize this risk, it is essential to test before each injection and additionally as clinically appropriate (e.g., upon diagnosis of other sexually transmitted infections or if clinical symptoms consistent with acute HIV-1 infection are present) to confirm HIV-1 negative status using a test approved or cleared by the FDA for the diagnosis of acute or primary HIV-1 infection."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Individuals who are confirmed to have HIV-1 must immediately begin a complete HIV-1 treatment regimen to reduce the risk of developing resistance."
+                        },
+                        {
+                            "type": "context",
+                            "text": "In women without HIV-1 infection, the developmental and health benefits of breastfeeding and the mother\u2019s clinical need for YEZTUGO for HIV-1 PrEP should be considered along with any potential adverse effects on the breastfed child from YEZTUGO and the risk of HIV-1 acquisition due to nonadherence and subsequent mother to child transmission."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Data Human Data The median lenacapavir concentration in human breast milk to maternal plasma ratio in participants (n=8) who received YEZTUGO was 0.63 (range: 0.29 to 1.90)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The median infant-to-mother plasma ratio for lenacapavir in infants (n=10) who were breastfed by individuals receiving YEZTUGO from 0 to less than 13 weeks after delivery was 0.06 (range: 0.01 to 0.20)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The median infant-to-mother plasma ratio for lenacapavir in infants (n=10) who were breastfed by participants receiving YEZTUGO from 0 to less than 13 weeks after delivery was 0.06 (range: 0.01 to 0.20)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "YEZTUGO tablets are for oral administration."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each film-coated tablet contains 300 mg of lenacapavir (present as 306.8 mg lenacapavir sodium) and the following inactive ingredients: copovidone, croscarmellose sodium, magnesium stearate, mannitol, microcrystalline cellulose, and poloxamer 407."
+                        },
+                        {
+                            "type": "context",
+                            "text": "One of the incident infections occurred after the time of the primary analysis."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Lenacapavir resistance-associated substitutions were detected in viruses from the 3 participants with incident infections, 2 with N74D, and 1 with Q67H/K70R."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Gentoypic data were available for 3 of the 4 participants with prevalent infections."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Genotypic data were available for 3 of the 4 participants with prevalent infections."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Viruses with lenacapavir resistance-associated capsid substitutions were detected in 2 of these 3 participants, both with N74D."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Cross-Resistance The antiviral activity in cell culture of lenacapavir was determined against a broad spectrum of HIV-1 site-directed mutants and patient-derived HIV-1 isolates with resistance to the four main classes of anti-retroviral agents (INSTI, NNRTI, NRTI, and PI; n=58), as well as to viruses resistant to the gp120-directed attachment inhibitor fostemsavir, the CD4 + -directed post-attachment inhibitor ibalizumab, the CCR5 co-receptor antagonist maraviroc, and the gp41 fusion inhibitor enfuvirtide (n=42)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The injection solution is sterile, preservative-free, clear, and yellow with no visible particles."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Vials are sealed with a stopper and aluminum overseal with flip-off cap."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2 disposable syringes, 2 withdrawal needles (18-gauge, 1\u00bd inch), and 2 injection safety needles for subcutaneous injection (22-gauge, \u00bd inch)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "2 disposable syringes, 2 withdrawal needles (18-gauge, 1\u00bd inch; may be supplied with or without a safety shield), and 2 injection safety needles for subcutaneous injection (22-gauge, \u00bd inch)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The vial stoppers are not made with natural rubber latex."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Store at 20 \u00b0C \u2013 25 \u00b0C (68 \u00b0F \u2013 77 \u00b0F), excursions permitted to 15 \u00b0C \u2013 30 \u00b0C (59 \u00b0F \u2013 86 \u00b0F)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "333 Lakeside Dr."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Foster City, CA 94404."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a9 2025 Gilead Sciences, Inc."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a9 2026 Gilead Sciences, Inc."
+                        },
+                        {
+                            "type": "context",
+                            "text": "All rights reserved."
                         }
                     ]
                 }
@@ -130669,6 +131059,15 @@
         "source": "GlobeNewswire Biotech"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "GLIPIZIDE AND METFORMIN HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2026-08-11",
+        "title": "GLIPIZIDE AND METFORMIN HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A077507",
+        "source": "openFDA API"
+    },
+    {
         "company": "Amicus",
         "drug": "POMBILITI ATGA",
         "type": "Label Update",
@@ -133430,6 +133829,15 @@
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-14\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "BUPRENORPHINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2026-08-14",
+        "title": "BUPRENORPHINE HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A090622",
+        "source": "openFDA API"
     },
     {
         "company": "Regeneron",
@@ -137453,6 +137861,192 @@
         "date": "2026-08-25",
         "title": "Label Update: ...",
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-25\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Rapport Therapeutics",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-08-25",
+        "title": "Rapport sur l\u2019inflation des prix des aliments du mois d\u2019ao\u00fbt de Loblaw",
+        "link": "https://www.globenewswire.com/news-release/2026/08/25/3350294/0/fr/rapport-sur-l-inflation-des-prix-des-aliments-du-mois-d-ao%C3%BBt-de-loblaw.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Taysha Gene",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-08-25",
+        "title": "Solar Energy Markets to Reach $974.7 Billion by 2031, Driven by Policy Mandates, Falling Costs, and Surging EV Infrastructure Demand",
+        "link": "https://www.globenewswire.com/news-release/2026/08/25/3350286/0/en/solar-energy-markets-to-reach-974-7-billion-by-2031-driven-by-policy-mandates-falling-costs-and-surging-ev-infrastructure-demand.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-08-26",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-26\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                },
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-08-26",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-26\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Betaine Anhydrous",
+        "type": "Label Update",
+        "date": "2026-08-26",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-26\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee8a95c3-df9f-6e55-e053-2a95a90ab17b",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-08-26",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-08-26\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
     },
