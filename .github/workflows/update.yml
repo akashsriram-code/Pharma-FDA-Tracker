@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   update-data:
@@ -62,33 +60,14 @@ jobs:
         continue-on-error: true
         run: python check_pipeline_health.py /tmp/data_before.json data/data.json
 
+      # NOTE: deliberately no "[skip ci]" in this commit message. This repo's
+      # Pages deploy now lives in deploy-pages.yml, triggered on push to
+      # main -- "[skip ci]" would suppress that deploy too, and the whole
+      # point of this commit is to get today's data live. schedule-triggered
+      # runs of *this* workflow are unaffected by commit messages anyway
+      # (schedule doesn't re-fire from a push), so there's no loop risk.
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automated data update [skip ci]"
+          commit_message: "Automated data update"
           file_pattern: data/data.json data/pipeline_health.json
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: update-data
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

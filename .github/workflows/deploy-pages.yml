@@ -1,0 +1,44 @@
+name: Deploy Pages
+
+# Split out from update.yml. Previously the Pages deploy only ran as a job
+# *inside* the data-update workflow (`needs: update-data`), and that
+# workflow only triggers on a schedule or manual dispatch -- so a plain
+# `git push` of code/HTML/CSS/JS changes to main never rebuilt the live
+# site; it silently kept serving whatever the last cron run had deployed.
+# This triggers on every push to main instead, so both manual pushes and
+# the daily automated data-update commit redeploy immediately.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
