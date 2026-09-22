@@ -45,6 +45,15 @@
             --approval-glow: rgba(59, 130, 246, 0.3);
             --label-color: #ef4444;
             --label-glow: rgba(239, 68, 68, 0.3);
+            --shortage-color: #ef4444;
+            --shortage-glow: rgba(239, 68, 68, 0.3);
+            --recall-color: #f43f5e;
+            --recall-glow: rgba(244, 63, 94, 0.3);
+
+            --confirmed-color: #10b981;
+            --confirmed-glow: rgba(16, 185, 129, 0.2);
+            --reported-color: #94a3b8;
+            --reported-glow: rgba(148, 163, 184, 0.2);
 
             --border-glass: rgba(255, 255, 255, 0.1);
             --border-radius: 16px;
@@ -305,6 +314,178 @@
             padding: 24px;
         }
 
+        /* ============ CALENDAR VIEW ============ */
+        .calendar-wrapper {
+            background: var(--bg-glass);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-glass);
+            border-radius: 24px;
+            overflow: hidden;
+            margin-bottom: 32px;
+        }
+
+        .calendar-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 28px;
+            background: rgba(255, 255, 255, 0.02);
+            border-bottom: 1px solid var(--border-glass);
+        }
+
+        .calendar-nav-btn {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--border-glass);
+            color: var(--text-primary);
+            border-radius: 10px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .calendar-nav-btn:hover {
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .calendar-month-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .calendar-legend {
+            display: flex;
+            gap: 16px;
+            padding: 12px 28px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+        }
+
+        .calendar-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .calendar-legend-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+        }
+
+        .calendar-weekday {
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-glass);
+        }
+
+        .calendar-day {
+            min-height: 88px;
+            padding: 10px;
+            border-right: 1px solid var(--border-glass);
+            border-bottom: 1px solid var(--border-glass);
+            cursor: default;
+            transition: background 0.2s ease;
+        }
+
+        .calendar-day.empty {
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar-day.has-events {
+            cursor: pointer;
+        }
+
+        .calendar-day.has-events:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .calendar-day.selected {
+            background: rgba(99, 102, 241, 0.15);
+            box-shadow: inset 0 0 0 2px var(--accent-primary);
+        }
+
+        .calendar-day.today .calendar-day-number {
+            background: var(--accent-primary);
+            color: white;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .calendar-day-number {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+
+        .calendar-day-dots {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .calendar-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .calendar-dot.pdufa,
+        .calendar-legend-dot.pdufa {
+            background: var(--pdufa-color);
+        }
+
+        .calendar-dot.adcomm,
+        .calendar-legend-dot.adcomm {
+            background: var(--adcomm-color);
+        }
+
+        .calendar-dot.approval,
+        .calendar-legend-dot.approval {
+            background: var(--approval-color);
+        }
+
+        .calendar-day-panel {
+            padding: 24px;
+            border-top: 1px solid var(--border-glass);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .calendar-day-panel-header {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .calendar-day-panel-events {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 20px;
+        }
+
+        @media (max-width: 700px) {
+            .calendar-day {
+                min-height: 56px;
+                padding: 6px;
+            }
+        }
+
         /* ============ EVENT CARD ============ */
         .event-card {
             background: var(--bg-card);
@@ -363,6 +544,44 @@
 
         .event-card.approval:hover {
             box-shadow: 0 20px 40px var(--approval-glow);
+        }
+
+        .event-card.recall::before {
+            background: var(--recall-color);
+        }
+
+        .event-card.recall:hover {
+            box-shadow: 0 20px 40px var(--recall-glow);
+        }
+
+        .event-type.recall {
+            background: var(--recall-glow);
+            color: var(--recall-color);
+        }
+
+        /* Confidence badge: distinguishes hand-curated PDUFA dates
+           (source: "PDUFA Calendar") from ones detected in SEC filings or
+           press releases. FDA never publishes PDUFA dates itself, so
+           "Reported" dates carry inherently more uncertainty than
+           "Confirmed" ones and readers should be able to tell at a glance. */
+        .confidence-badge {
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-left: 8px;
+        }
+
+        .confidence-badge.confirmed {
+            background: var(--confirmed-glow);
+            color: var(--confirmed-color);
+        }
+
+        .confidence-badge.reported {
+            background: var(--reported-glow);
+            color: var(--reported-color);
         }
 
         .event-header {
@@ -903,6 +1122,10 @@
 
         <!-- Tab Navigation -->
         <nav class="tab-navigation">
+            <button class="tab-btn" data-tab="calendar">
+                <span class="tab-icon">📅</span>
+                Calendar
+            </button>
             <button class="tab-btn active" data-tab="pdufa">
                 <span class="tab-icon">💊</span>
                 PDUFA Dates
@@ -928,6 +1151,11 @@
                 Drug Shortages
                 <span class="tab-count" id="count-shortages">0</span>
             </button>
+            <button class="tab-btn" data-tab="recalls">
+                <span class="tab-icon">🚨</span>
+                Recalls
+                <span class="tab-count" id="count-recalls">0</span>
+            </button>
         </nav>
 
 
@@ -943,7 +1171,7 @@
 
         <!-- Footer -->
         <footer class="app-footer">
-            <p>Data sourced from SEC EDGAR, ClinicalTrials.gov, openFDA API, and company press releases</p>
+            <p>Data sourced from SEC EDGAR, ClinicalTrials.gov, openFDA (approvals, labels, shortages, enforcement/recalls), Federal Register, and company press releases</p>
             <p class="disclaimer">For informational purposes only. Verify dates with official sources.</p>
         </footer>
     </div>

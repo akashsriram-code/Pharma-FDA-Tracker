@@ -9,6 +9,8 @@ import re
 import pandas as pd
 import warnings
 
+import data_store
+
 # Suppress warnings
 warnings.filterwarnings('ignore')
 
@@ -17,7 +19,6 @@ DATA_DIR = 'data'
 COMPANIES_FILE = os.path.join(DATA_DIR, 'NASDAQ Biotechnology (NBI).csv')
 DATA_JSON_FILE = os.path.join(DATA_DIR, 'data.json')
 PDUFA_DATES_FILE = os.path.join(DATA_DIR, 'pdufa_dates.json')
-FDA_CALENDAR_URL = 'https://www.fda.gov/advisory-committees/advisory-committee-calendar'
 
 def load_companies():
     """Loads company names and symbols from the CSV file."""
@@ -77,7 +78,8 @@ def fetch_federal_register_adcomm(target_companies):
     """Fetches FDA Advisory Committee meeting notices from the Federal Register API."""
     print("Fetching FDA Advisory Committee meetings from Federal Register...")
     events = []
-    
+    skipped_non_fda = 0
+
     # diverse set of keywords to catch all relevant meeting notices
     # agency_ids[]=199 is FDA (Food and Drug Administration)
     # conditions[term]=Advisory Committee
@@ -92,6 +94,7 @@ def fetch_federal_register_adcomm(target_companies):
         ("fields[]", "pdf_url"),
         ("fields[]", "html_url"),
         ("fields[]", "dates"),
+        ("fields[]", "agencies"),
         ("order", "newest"),
         ("per_page", "50")
     ]
@@ -117,7 +120,23 @@ def fetch_federal_register_adcomm(target_companies):
             pub_date = item.get('publication_date', '')
             pdf_url = item.get('pdf_url', '')
             html_url = item.get('html_url', '')
-            
+
+            # Defense-in-depth: the agency_ids=199 filter above should already
+            # scope this to FDA-only notices, but that filter has drifted to
+            # the wrong ID before (it briefly pointed at agency 193, which let
+            # an unrelated DOT "Transit Advisory Committee" notice into
+            # data.json, where it silently persisted for years since nothing
+            # ever re-validates already-written rows). Explicitly confirm FDA
+            # is one of the returned agencies before accepting the event.
+            agencies = item.get('agencies', []) or []
+            agency_names = " ".join(
+                (a.get('name', '') or '') + " " + (a.get('raw_name', '') or '')
+                for a in agencies
+            )
+            if 'food and drug administration' not in agency_names.lower():
+                skipped_non_fda += 1
+                continue
+
             # Check for company matches in the notice title or abstract
             detected_company = "FDA Advisory Committee" # Default if no specific company is tracked
             
@@ -163,7 +182,9 @@ def fetch_federal_register_adcomm(target_companies):
                 
     except Exception as e:
         print(f"Error fetching from Federal Register: {e}")
-            
+
+    if skipped_non_fda:
+        print(f"  Skipped {skipped_non_fda} non-FDA notices (agency mismatch).")
     print(f"Found {len(events)} AdComm events from Federal Register.")
     return events
 
@@ -241,6 +262,78 @@ def fetch_openfda_approvals(target_companies):
         print(f"Error fetching from openFDA: {e}")
     
     print(f"Found {len(events)} openFDA approval events.")
+    return events
+
+def fetch_fda_recalls(target_companies):
+    """Fetches recent drug recalls from the openFDA Enforcement Reports API.
+
+    This is a genuinely new FDA data source (not currently used anywhere in
+    the pipeline) -- api.fda.gov/drug/enforcement.json, free/keyless, same
+    matching approach as fetch_openfda_approvals() above.
+    """
+    print("Fetching recent drug recalls from openFDA Enforcement API...")
+    events = []
+
+    api_url = "https://api.fda.gov/drug/enforcement.json"
+    params = {
+        "limit": 100,
+        "sort": "recall_initiation_date:desc",
+    }
+
+    try:
+        response = requests.get(api_url, params=params, timeout=20)
+
+        if response.status_code != 200:
+            print(f"openFDA Enforcement API returned status: {response.status_code}")
+            return events
+
+        data = response.json()
+        results = data.get('results', [])
+
+        for result in results:
+            recalling_firm = result.get('recalling_firm', '')
+
+            detected_company = None
+            for company in target_companies:
+                company_words = company.lower().split()
+                firm_lower = recalling_firm.lower()
+                if any(word in firm_lower for word in company_words if len(word) > 3):
+                    detected_company = company
+                    break
+
+            if not detected_company:
+                continue
+
+            recall_date = result.get('recall_initiation_date', '')
+            if len(recall_date) == 8:  # Format: YYYYMMDD
+                formatted_date = f"{recall_date[:4]}-{recall_date[4:6]}-{recall_date[6:8]}"
+            else:
+                formatted_date = recall_date
+
+            if formatted_date < '2024-01-01':
+                continue
+
+            openfda = result.get('openfda', {}) or {}
+            brand_names = openfda.get('brand_name', [])
+            drug_name = brand_names[0] if brand_names else result.get('product_description', 'Unknown Product')[:60]
+            classification = result.get('classification', 'Unclassified')
+            reason = result.get('reason_for_recall', 'Not specified')
+
+            events.append({
+                'company': detected_company,
+                'drug': drug_name,
+                'type': 'Recall',
+                'date': formatted_date,
+                'title': f"{drug_name} - {classification} Recall",
+                'details': f"Reason: {reason}",
+                'link': f"https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query={result.get('recall_number', '')}",
+                'source': 'openFDA Enforcement'
+            })
+
+    except Exception as e:
+        print(f"Error fetching from openFDA Enforcement API: {e}")
+
+    print(f"Found {len(events)} openFDA recall events.")
     return events
 
 def scan_rss_feeds(target_companies):
@@ -379,81 +472,34 @@ def scan_rss_feeds(target_companies):
     print(f"Found {len(events)} regulatory press releases.")
     return events
 
-def update_database(new_events):
-    """Updates the JSON database with new events, avoiding duplicates."""
-    existing_data = []
-    if os.path.exists(DATA_JSON_FILE):
-        try:
-            with open(DATA_JSON_FILE, 'r') as f:
-                content = f.read()
-                if content.strip():
-                    existing_data = json.loads(content)
-        except json.JSONDecodeError:
-            pass
-    
-    existing_signatures = set()
-    for item in existing_data:
-        # Also filter out old data from existing entries
-        item_date = item.get('date', '')
-        if item.get('type') != 'Drug Shortage' and item_date and item_date < '2024-01-01':
-            continue
-        sig = (item.get('company'), item.get('date'), item.get('title'))
-        existing_signatures.add(sig)
-    
-    added_count = 0
-    for event in new_events:
-        # Filter out dates before 2024
-        event_date = event.get('date', '')
-        if event.get('type') != 'Drug Shortage' and event_date and event_date < '2024-01-01':
-            continue
-            
-        sig = (event.get('company'), event.get('date'), event.get('title'))
-        if sig not in existing_signatures:
-            existing_data.append(event)
-            existing_signatures.add(sig)
-            added_count += 1
-    
-    # Sort by date
-    try:
-        existing_data.sort(key=lambda x: x.get('date') or '9999-12-31')
-    except:
-        pass
-
-    # Filter out all entries before 2024 before writing
-    filtered_data = [
-        e for e in existing_data 
-        if e.get('date', '') >= '2024-01-01' or e.get('type') == 'Drug Shortage'
-    ]
-    
-    with open(DATA_JSON_FILE, 'w') as f:
-        json.dump(filtered_data, f, indent=4)
-    
-    print(f"Database updated. Total events: {len(filtered_data)} (Added {added_count} new).")
-
 def main():
     print("Starting FDA Catalyst Tracker...")
     companies = load_companies()
     if not companies:
         print("No companies loaded. Exiting.")
         return
-        
+
     print(f"Loaded {len(companies)} companies to track.")
-    
+
     # Load curated upcoming PDUFA dates
     pdufa_events = load_pdufa_dates()
-    
+
     # Use Federal Register API for AdComm meetings (more reliable than scraping FDA)
     fda_events = fetch_federal_register_adcomm(companies)
     print(f"Found {len(fda_events)} FDA AdComm events.")
-    
+
     # Fetch from openFDA API (this is not blocked!)
     openfda_events = fetch_openfda_approvals(companies)
-    
+
+    # New FDA data source: recalls/enforcement reports
+    recall_events = fetch_fda_recalls(companies)
+
     rss_events = scan_rss_feeds(companies)
     print(f"Found {len(rss_events)} RSS regulatory events.")
-    
-    all_events = pdufa_events + fda_events + openfda_events + rss_events
-    update_database(all_events)
+
+    all_events = pdufa_events + fda_events + openfda_events + recall_events + rss_events
+    added, updated, total = data_store.update_database(all_events, path=DATA_JSON_FILE)
+    print(f"Database updated. Added {added} new events. Total events: {total}.")
     print("Done.")
 
 if __name__ == "__main__":

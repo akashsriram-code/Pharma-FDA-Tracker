@@ -8,16 +8,23 @@ API: Free, no API key required
 """
 
 import requests
-import json
 import os
 import csv
 from datetime import datetime, timedelta
 import time
 
+import data_store
+
 # Configuration
 DATA_DIR = 'data'
 COMPANIES_FILE = os.path.join(DATA_DIR, 'NASDAQ Biotechnology (NBI).csv')
 DATA_JSON_FILE = os.path.join(DATA_DIR, 'data.json')
+
+# Upper bound on how far out a "primary completion date" estimate can be and
+# still count as a near-term catalyst. Without this, ClinicalTrials.gov
+# registry placeholders (e.g. 2039/2040 estimated completion dates) dilute
+# the near-term Clinical Trials feed with low-relevance long-horizon entries.
+MAX_FUTURE_DAYS = 730  # ~24 months
 
 # ClinicalTrials.gov API v2
 CT_API_URL = "https://clinicaltrials.gov/api/v2/studies"
@@ -125,10 +132,14 @@ def extract_trial_events(studies, company_name):
             except:
                 continue
             
-            # Only include if date is in the future or recent past (last 6 months)
+            # Only include if date is in the future (but not implausibly far
+            # out) or recent past (last 6 months)
             try:
                 dt = datetime.strptime(completion_date, '%Y-%m-%d')
-                if dt < datetime.now() - timedelta(days=180):
+                now = datetime.now()
+                if dt < now - timedelta(days=180):
+                    continue
+                if dt > now + timedelta(days=MAX_FUTURE_DAYS):
                     continue
             except:
                 pass
@@ -171,19 +182,14 @@ def search_all_companies(companies):
     print("=" * 60)
     
     all_events = []
-    
-    # Focus on major biotechs that typically have Phase 3 trials
-    priority_companies = [
-        "Vertex", "Gilead", "Amgen", "Biogen", "Regeneron", 
-        "Moderna", "BioNTech", "Alnylam", "Sarepta", "BioMarin",
-        "Neurocrine", "Incyte", "Ultragenyx", "Jazz", "Exelixis",
-        "Ionis", "Cytokinetics", "Insmed", "United Therapeutics",
-        "Arvinas", "Legend", "Madrigal", "Ascendis", "argenx",
-        "Apellis", "Krystal", "Blueprint", "Nuvalent", "Vanda",
-        "Eton", "Aquestive", "MannKind", "Regenxbio"
-    ]
-    
-    for company in priority_companies:
+
+    # Search the full tracked-company universe (loaded from the NBI CSV),
+    # not just a hardcoded shortlist. `companies` used to be loaded and then
+    # silently discarded here in favor of a 33-name internal list, which
+    # meant ~88% of tracked companies never got searched at all.
+    search_companies = [c.strip() for c in companies if c and c.strip()]
+
+    for company in search_companies:
         print(f"\nSearching: {company}...")
         
         # Search Phase 3
@@ -209,56 +215,15 @@ def search_all_companies(companies):
     return all_events
 
 
-def update_database(new_events):
-    """Updates the JSON database with new events."""
-    existing_data = []
-    if os.path.exists(DATA_JSON_FILE):
-        try:
-            with open(DATA_JSON_FILE, 'r') as f:
-                content = f.read()
-                if content.strip():
-                    existing_data = json.loads(content)
-        except json.JSONDecodeError:
-            pass
-    
-    existing_signatures = set()
-    for item in existing_data:
-        sig = (item.get('company'), item.get('date'), item.get('title', '')[:50])
-        existing_signatures.add(sig)
-    
-    added_count = 0
-    for event in new_events:
-        event_date = event.get('date', '')
-        if event_date and event_date < '2024-01-01':
-            continue
-            
-        sig = (event.get('company'), event.get('date'), event.get('title', '')[:50])
-        if sig not in existing_signatures:
-            existing_data.append(event)
-            existing_signatures.add(sig)
-            added_count += 1
-    
-    try:
-        existing_data.sort(key=lambda x: x.get('date') or '9999-12-31')
-    except:
-        pass
-
-    filtered_data = [e for e in existing_data if e.get('date', '') >= '2024-01-01']
-    
-    with open(DATA_JSON_FILE, 'w') as f:
-        json.dump(filtered_data, f, indent=4)
-    
-    print(f"Database updated. Added {added_count} new events.")
-
-
 def main():
     companies = load_companies()
     if not companies:
         print("No companies loaded from CSV.")
-    
+
     events = search_all_companies(companies)
     if events:
-        update_database(events)
+        added, updated, total = data_store.update_database(events, path=DATA_JSON_FILE)
+        print(f"Database updated. Added {added} new events. Total events: {total}.")
     print("\nDone!")
 
 

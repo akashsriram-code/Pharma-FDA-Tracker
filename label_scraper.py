@@ -25,6 +25,8 @@ import html as html_module
 import xml.etree.ElementTree as ET
 import sys
 
+import data_store
+
 # Suppress SSL warnings for local proxy issues
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -615,95 +617,50 @@ def run_scraper(compute_diff=True):
     else:
         print("  (DailyMed diff disabled — fast mode)")
     print("=" * 60)
-    
+
+    # Fetch drug shortages FIRST and independently of the (slow) per-company
+    # label/diff loop below. Previously this ran only after looping over all
+    # ~261 companies with a full DailyMed SPL diff per label -- if that loop
+    # ran long or the CI job got cut off, shortages (a cheap single bulk
+    # download) never got a chance to run at all, which is the most likely
+    # reason data.json had zero Drug Shortage events despite the underlying
+    # openFDA shortages feed working fine.
+    shortage_events = fetch_drug_shortages()
+
     companies = load_companies()
     print(f"Loaded {len(companies)} companies to check.")
-    
-    all_events = []
-    
+
+    label_events = []
+
     for i, company in enumerate(companies):
         if i % 10 == 0:
             print(f"Progress: [{i}/{len(companies)}] companies checked...")
-            
+
         labels = get_company_labels(company)
         if labels:
             for label in labels:
                 brand_name = "Unknown Drug"
                 if 'openfda' in label and 'brand_name' in label['openfda']:
                     brand_name = label['openfda']['brand_name'][0]
-                
+
                 events = extract_label_events(label, company, brand_name, compute_diff=compute_diff)
                 if events:
-                    all_events.extend(events)
-        
+                    label_events.extend(events)
+
         time.sleep(0.05)
-        
-    print(f"\nFound {len(all_events)} total label updates.")
-    
-    # Also fetch current drug shortages
-    shortage_events = fetch_drug_shortages()
-    all_events.extend(shortage_events)
+
+    print(f"\nFound {len(label_events)} total label updates.")
+
+    all_events = shortage_events + label_events
     print(f"Total events (including shortages): {len(all_events)}")
-    
+
     return all_events
-
-def update_database(new_events):
-    start_time = datetime.now()
-    existing_data = []
-    if os.path.exists(DATA_JSON_FILE):
-        try:
-            with open(DATA_JSON_FILE, 'r') as f:
-                content = f.read()
-                if content.strip():
-                    existing_data = json.loads(content)
-        except json.JSONDecodeError:
-            pass
-    
-    existing_signatures = {}
-    for i, item in enumerate(existing_data):
-        sig = (item.get('company'), item.get('date'), item.get('title', '')[:50])
-        existing_signatures[sig] = i
-    
-    added_count = 0
-    updated_count = 0
-    
-    for event in new_events:
-        sig = (event.get('company'), event.get('date'), event.get('title', '')[:50])
-        
-        if sig in existing_signatures:
-            idx = existing_signatures[sig]
-            old_event = existing_data[idx]
-            # Update if old data is missing details or diff_data
-            needs_update = (
-                ('details' not in old_event and 'details' in event) or
-                ('diff_data' not in old_event and 'diff_data' in event)
-            )
-            if needs_update:
-                existing_data[idx] = event
-                updated_count += 1
-        else:
-            existing_data.append(event)
-            added_count += 1
-            
-    try:
-        existing_data.sort(key=lambda x: x.get('date') or '9999-12-31')
-    except:
-        pass
-
-    filtered_data = [
-        e for e in existing_data 
-        if e.get('date', '') >= '2024-01-01' or e.get('type') == 'Drug Shortage'
-    ]
-    
-    with open(DATA_JSON_FILE, 'w') as f:
-        json.dump(filtered_data, f, indent=4)
-        
-    print(f"Database updated. Added {added_count} new, Updated {updated_count} existing label events.")
 
 if __name__ == "__main__":
     skip_diff = '--skip-diff' in sys.argv
     compute_diff = not skip_diff
-    
+
     events = run_scraper(compute_diff=compute_diff)
     if events:
-        update_database(events)
+        added, updated, total = data_store.update_database(events, path=DATA_JSON_FILE, allow_update=True)
+        print(f"Database updated. Added {added} new, Updated {updated} existing. Total events: {total}.")

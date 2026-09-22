@@ -26,22 +26,47 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: Snapshot data.json before this run
+        run: cp data/data.json /tmp/data_before.json
+
       - name: Run Scrapers
         run: |
           python tracker.py
           python sec_edgar_scraper.py
           python clinicaltrials_scraper.py
-          python label_scraper.py
+
+      # Label metadata + drug shortages run every day (cheap). The DailyMed
+      # per-label diff computation is the slow part (multiple HTTP calls per
+      # label across ~261 companies), so it runs on its own timeboxed step
+      # with --skip-diff as a fallback if it doesn't finish in time -- that
+      # way a slow diff pass can no longer prevent shortages/label metadata
+      # (which run first inside label_scraper.py) from being committed.
+      - name: Run Label + Drug Shortage Scraper (with diff)
+        id: label_diff
+        timeout-minutes: 45
+        continue-on-error: true
+        run: python label_scraper.py
+
+      # continue-on-error above marks the job "success" even if this timed
+      # out or errored, so we key off the step's own outcome rather than
+      # failure() (which would never be true here).
+      - name: Run Label + Drug Shortage Scraper (fast fallback, skips diff)
+        if: steps.label_diff.outcome == 'failure'
+        run: python label_scraper.py --skip-diff
 
       # Historical scraper is one-time only, removed from daily run to prevent 503s
       # - name: Run Historical Press Release Scraper
       #   run: python historical_scraper.py
 
+      - name: Pipeline health check
+        continue-on-error: true
+        run: python check_pipeline_health.py /tmp/data_before.json data/data.json
+
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated data update [skip ci]"
-          file_pattern: data/data.json
+          file_pattern: data/data.json data/pipeline_health.json
 
   deploy:
     environment:

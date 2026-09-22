@@ -15,6 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
     let globalData = [];
     let currentTab = 'pdufa';
 
+    // Calendar view state
+    let calendarViewDate = new Date(); // month/year currently shown
+    let calendarSelectedDay = null;    // 'YYYY-MM-DD' of the expanded day, or null
+    let calendarData = [];             // dataset currently backing the calendar
+
     // Fetch and render data
     // Add a cache-buster to ensure we always get the latest data.json
     const cacheBuster = `?t=${new Date().getTime()}`;
@@ -80,7 +85,24 @@ document.addEventListener('DOMContentLoaded', function () {
         if (type.includes('shortage')) {
             return 'shortage';
         }
+        if (type.includes('recall')) {
+            return 'recall';
+        }
         return 'pdufa'; // Default
+    }
+
+    /**
+     * Is this PDUFA-category event hand-curated (from pdufa_dates.json) or
+     * detected from an SEC filing / press release? FDA never publishes
+     * PDUFA dates itself, so "Reported" carries more uncertainty than
+     * "Confirmed" -- worth surfacing rather than presenting every date with
+     * equal confidence.
+     */
+    function getConfidenceLabel(item) {
+        if (categorizeEvent(item) !== 'pdufa') return null;
+        const source = (item.source || '').toLowerCase();
+        if (source.includes('pdufa calendar')) return 'confirmed';
+        return 'reported';
     }
 
     /**
@@ -90,11 +112,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         return data.filter(item => {
             const category = categorizeEvent(item);
+            if (tab === 'calendar') return category === 'pdufa' || category === 'adcomm' || category === 'approval';
             if (tab === 'pdufa') return category === 'pdufa' || category === 'approval';
             if (tab === 'adcomm') return category === 'adcomm';
             if (tab === 'trials') return category === 'trial';
             if (tab === 'labels') return category === 'label';
             if (tab === 'shortages') return category === 'shortage';
+            if (tab === 'recalls') return category === 'recall';
             return true;
         });
     }
@@ -142,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
      * Update tab counts
      */
     function updateCounts(data) {
-        const counts = { pdufa: 0, adcomm: 0, trials: 0, labels: 0, shortages: 0 };
+        const counts = { pdufa: 0, adcomm: 0, trials: 0, labels: 0, shortages: 0, recalls: 0 };
         const today = new Date();
 
         data.forEach(item => {
@@ -150,31 +174,28 @@ document.addEventListener('DOMContentLoaded', function () {
             const date = new Date(item.date);
             if (isNaN(date)) return;
 
-            // Only show future and recent past (last 30 days), UNLESS it's a label update or shortage
+            // Only show future and recent past (last 30 days), UNLESS it's a
+            // label update, shortage, or recall (all "current status" types)
             const daysDiff = (date - today) / (1000 * 60 * 60 * 24);
-            const isLabelOrShortage = categorizeEvent(item) === 'label' || categorizeEvent(item) === 'shortage';
+            const isStatusType = ['label', 'shortage', 'recall'].includes(categorizeEvent(item));
 
-            if (daysDiff < -30 && !isLabelOrShortage) return;
+            if (daysDiff < -30 && !isStatusType) return;
 
-            // Only count future events or recent past for labels (labels are usually past events)
-            // Actually, labels are "updates" so they are past events, but we want to show them.
-            // Let's count them if they are in the dataset (which is already filtered to recent by scraper)
-            if (date >= today || categorizeEvent(item) === 'label') {
-
-                // Special logic: The scraper only saves future/recent events.
-                // The frontend 'date >= today' logic hides past PDUFAs.
-                // But Label updates are technically "past" actions.
-                // We should show them if they are in the file.
+            // Only count future events or recent past, UNLESS it's a
+            // "current status" type (label/shortage/recall are inherently
+            // past-dated actions/statuses that we still want surfaced).
+            if (date >= today || isStatusType) {
 
                 const category = categorizeEvent(item);
 
-                if (date >= today || category === 'label' || category === 'shortage') {
+                if (date >= today || category === 'label' || category === 'shortage' || category === 'recall') {
 
                     if (category === 'pdufa' || category === 'approval') counts.pdufa++;
                     if (category === 'adcomm') counts.adcomm++;
                     if (category === 'trial') counts.trials++;
                     if (category === 'label') counts.labels++;
                     if (category === 'shortage') counts.shortages++;
+                    if (category === 'recall') counts.recalls++;
                 }
             }
         });
@@ -186,6 +207,8 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('count-labels').textContent = counts.labels;
         const countShortagesEl = document.getElementById('count-shortages');
         if (countShortagesEl) countShortagesEl.textContent = counts.shortages;
+        const countRecallsEl = document.getElementById('count-recalls');
+        if (countRecallsEl) countRecallsEl.textContent = counts.recalls;
     }
 
 
@@ -194,11 +217,24 @@ document.addEventListener('DOMContentLoaded', function () {
      */
     function renderData(data, tab) {
         const filtered = filterByTab(data, tab);
-        const displayData = tab === 'shortages'
+        // Shortages/Recalls are "current status" lists (their dates are
+        // when something started, not an upcoming date) and Calendar needs
+        // the full range so month navigation actually works -- all three
+        // skip the current-month-forward restriction applied elsewhere.
+        const displayData = (tab === 'shortages' || tab === 'recalls' || tab === 'calendar')
             ? filtered
             : filterCurrentMonthForward(filtered);
 
         eventsContainer.innerHTML = '';
+
+        // Calendar renders its own grid even with zero events for the
+        // currently-viewed month (the user still needs to be able to
+        // navigate), so it skips the generic empty-state short-circuit.
+        if (tab === 'calendar') {
+            hideEmptyState();
+            renderCalendar(displayData);
+            return;
+        }
 
         if (displayData.length === 0) {
             showEmptyState('No events found for this category.');
@@ -473,11 +509,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Get display type
         const typeLabel = getTypeLabel(item.type, category);
+        const confidence = getConfidenceLabel(item);
+        const confidenceBadge = confidence
+            ? `<span class="confidence-badge ${confidence}">${confidence === 'confirmed' ? 'Confirmed' : 'Reported'}</span>`
+            : '';
 
         card.innerHTML = `
             <div class="event-header">
                 <span class="event-date">${dateDisplay}</span>
-                <span class="event-type ${category}">${typeLabel}</span>
+                <span>
+                    <span class="event-type ${category}">${typeLabel}</span>${confidenceBadge}
+                </span>
             </div>
             <div class="event-company">${item.company || 'Unknown'}</div>
             ${item.drug && item.drug !== 'N/A' && item.drug !== 'Check Filing' && item.drug !== 'Check Source'
@@ -499,7 +541,7 @@ document.addEventListener('DOMContentLoaded', function () {
      */
     function getTypeLabel(type, category) {
         if (!type) {
-            const labels = { pdufa: 'PDUFA', adcomm: 'AdComm', trial: 'Trial', approval: 'Approval', label: 'Label Update' };
+            const labels = { pdufa: 'PDUFA', adcomm: 'AdComm', trial: 'Trial', approval: 'Approval', label: 'Label Update', recall: 'Recall' };
             return labels[category] || 'Event';
         }
 
@@ -509,6 +551,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (t.includes('adcomm') || t.includes('advisory')) return 'AdComm';
         if (t.includes('phase 3')) return 'Phase 3';
         if (t.includes('phase 4')) return 'Phase 4';
+        if (t.includes('recall')) return 'Recall';
         if (t.includes('approval')) return 'Approval';
         if (t.includes('trial')) return 'Trial';
         if (t.includes('label') || t.includes('boxed')) return 'Label Update';
@@ -619,6 +662,141 @@ document.addEventListener('DOMContentLoaded', function () {
         `;
 
         return card;
+    }
+
+    /**
+     * Render the Calendar tab: a month grid of PDUFA/AdComm/Approval events.
+     * Entry point called from renderData(); stores `data` so month
+     * navigation can re-draw without re-filtering globalData.
+     */
+    function renderCalendar(data) {
+        calendarData = data;
+        drawCalendarGrid();
+    }
+
+    function toDateKey(d) {
+        const y = d.getFullYear();
+        const m = String(d.getMonth() + 1).padStart(2, '0');
+        const day = String(d.getDate()).padStart(2, '0');
+        return `${y}-${m}-${day}`;
+    }
+
+    function drawCalendarGrid() {
+        eventsContainer.innerHTML = '';
+
+        // Bucket events by exact calendar day (YYYY-MM-DD)
+        const eventsByDay = {};
+        calendarData.forEach(item => {
+            if (!item.date) return;
+            const d = new Date(item.date);
+            if (isNaN(d)) return;
+            const key = toDateKey(d);
+            if (!eventsByDay[key]) eventsByDay[key] = [];
+            eventsByDay[key].push(item);
+        });
+
+        const year = calendarViewDate.getFullYear();
+        const month = calendarViewDate.getMonth(); // 0-11
+        const monthLabel = calendarViewDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+        const todayKey = toDateKey(new Date());
+
+        const firstOfMonth = new Date(year, month, 1);
+        const startWeekday = firstOfMonth.getDay(); // 0 = Sunday
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+        const weekdayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'calendar-wrapper';
+
+        wrapper.innerHTML = `
+            <div class="calendar-nav">
+                <button class="calendar-nav-btn" id="cal-prev">‹ Prev</button>
+                <span class="calendar-month-title">${monthLabel}</span>
+                <button class="calendar-nav-btn" id="cal-next">Next ›</button>
+            </div>
+            <div class="calendar-legend">
+                <span class="calendar-legend-item"><span class="calendar-legend-dot pdufa"></span> PDUFA / Approval</span>
+                <span class="calendar-legend-item"><span class="calendar-legend-dot adcomm"></span> AdComm Meeting</span>
+            </div>
+            <div class="calendar-grid">
+                ${weekdayNames.map(w => `<div class="calendar-weekday">${w}</div>`).join('')}
+            </div>
+        `;
+
+        const grid = wrapper.querySelector('.calendar-grid');
+
+        // Leading blanks so day 1 lands on the correct weekday column
+        for (let i = 0; i < startWeekday; i++) {
+            const blank = document.createElement('div');
+            blank.className = 'calendar-day empty';
+            grid.appendChild(blank);
+        }
+
+        for (let day = 1; day <= daysInMonth; day++) {
+            const dateObj = new Date(year, month, day);
+            const key = toDateKey(dateObj);
+            const dayEvents = eventsByDay[key] || [];
+
+            const cell = document.createElement('div');
+            cell.className = 'calendar-day';
+            if (key === todayKey) cell.classList.add('today');
+            if (dayEvents.length > 0) cell.classList.add('has-events');
+            if (key === calendarSelectedDay) cell.classList.add('selected');
+
+            const dots = dayEvents.slice(0, 6).map(item =>
+                `<span class="calendar-dot ${categorizeEvent(item)}"></span>`
+            ).join('');
+
+            cell.innerHTML = `
+                <div class="calendar-day-number">${day}</div>
+                <div class="calendar-day-dots">${dots}</div>
+            `;
+
+            if (dayEvents.length > 0) {
+                cell.addEventListener('click', () => {
+                    calendarSelectedDay = (calendarSelectedDay === key) ? null : key;
+                    drawCalendarGrid();
+                });
+            }
+
+            grid.appendChild(cell);
+        }
+
+        eventsContainer.appendChild(wrapper);
+
+        // Day detail panel, shown below the grid when a day is selected
+        if (calendarSelectedDay && eventsByDay[calendarSelectedDay]) {
+            const panel = document.createElement('div');
+            panel.className = 'calendar-day-panel';
+
+            const panelDate = new Date(calendarSelectedDay);
+            const panelDateLabel = panelDate.toLocaleDateString('en-US', {
+                weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
+            });
+
+            panel.innerHTML = `<div class="calendar-day-panel-header">${panelDateLabel}</div>
+                <div class="calendar-day-panel-events"></div>`;
+
+            const panelEvents = panel.querySelector('.calendar-day-panel-events');
+            eventsByDay[calendarSelectedDay].forEach(item => {
+                panelEvents.appendChild(createEventCard(item));
+            });
+
+            wrapper.appendChild(panel);
+        }
+
+        // Wire up nav buttons after they're in the DOM
+        wrapper.querySelector('#cal-prev').addEventListener('click', () => {
+            calendarViewDate = new Date(year, month - 1, 1);
+            calendarSelectedDay = null;
+            drawCalendarGrid();
+        });
+        wrapper.querySelector('#cal-next').addEventListener('click', () => {
+            calendarViewDate = new Date(year, month + 1, 1);
+            calendarSelectedDay = null;
+            drawCalendarGrid();
+        });
     }
 
 });
