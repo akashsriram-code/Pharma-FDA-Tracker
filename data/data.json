@@ -11414,6 +11414,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Harrow Health",
+        "drug": "VARENICLINE TARTRATE",
+        "type": "FDA Approval",
+        "date": "2024-01-23",
+        "title": "VARENICLINE TARTRATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A201785",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "TRAMADOL HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -14537,6 +14546,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "SIGA Tech",
+        "drug": "VABYSMO",
+        "type": "FDA Approval",
+        "date": "2024-07-03",
+        "title": "VABYSMO - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761235",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "ARFORMOTEROL TARTRATE",
         "type": "FDA Approval",
@@ -16415,6 +16433,15 @@
         "date": "2024-10-10",
         "title": "LINEZOLID - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210378",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "TOPIRAMATE",
+        "type": "FDA Approval",
+        "date": "2024-10-10",
+        "title": "TOPIRAMATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218642",
         "source": "openFDA API"
     },
     {
@@ -74995,6 +75022,15 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "AXS-05",
+        "type": "PHASE4 Completion",
+        "date": "2026-03-28",
+        "title": "AXS-05: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06223880",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -80818,6 +80854,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Protagonist Therapeutics",
+        "drug": "Open-label rusfertide",
+        "type": "PHASE3 Completion",
+        "date": "2026-04-01",
+        "title": "Open-label rusfertide: Polycythemia Vera - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06033586",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -86341,6 +86386,15 @@
         "title": "FDA-Related 8-K Filing - REGENERON PHARMACEUTICALS, INC.  (REGN)  (CIK 0000872589)",
         "link": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000014/exhibit991q12026.htm",
         "source": "SEC EDGAR 8-K"
+    },
+    {
+        "company": "Ocular Therapeutix Inc",
+        "drug": "OTX-TKI (axitinib implant)",
+        "type": "PHASE3 Completion",
+        "date": "2026-04-29",
+        "title": "OTX-TKI (axitinib implant): Neovascular Age-Related Macular Degeneration - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06223958",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Arvinas, Inc.",
@@ -94404,6 +94458,15 @@
         "source": "GlobeNewswire Healthcare"
     },
     {
+        "company": "Neumora Therapeutics",
+        "drug": "NMRA-335140",
+        "type": "PHASE3 Completion",
+        "date": "2026-05-04",
+        "title": "NMRA-335140: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06058039",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "BNT162b2 (2025/2026 recommended SARS-CoV-2 strain)",
         "type": "PHASE3 Completion",
@@ -94820,6 +94883,15 @@
         "date": "2026-05-06",
         "title": "Seladelpar 10 mg: Primary Biliary Cholangitis - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06060665",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Neumora Therapeutics",
+        "drug": "NMRA-335140",
+        "type": "PHASE3 Completion",
+        "date": "2026-05-06",
+        "title": "NMRA-335140: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06058013",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -96382,6 +96454,15 @@
         "source": "GlobeNewswire Biotech"
     },
     {
+        "company": "Praxis Precision",
+        "drug": "20mg/day PRAX-628 for 6 weeks then 30mg/day PRAX-6",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2026-05-14",
+        "title": "20mg/day PRAX-628 for 6 weeks then 30mg/day PRAX-628 for remaining 6 weeks: Focal Seizure - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06999902",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -97511,6 +97592,15 @@
         "title": "Repligen Announces Publication of the Company\u2019s 2025 Corporate Sustainability Report",
         "link": "https://www.globenewswire.com/news-release/2026/05/20/3298369/24603/en/Repligen-Announces-Publication-of-the-Company-s-2025-Corporate-Sustainability-Report.html",
         "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Definium Therapeutics",
+        "drug": "Placebo",
+        "type": "PHASE3 Completion",
+        "date": "2026-05-20",
+        "title": "Placebo: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06941844",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "ADMA Biologics Inc",
@@ -108481,6 +108571,15 @@
         "source": "SEC EDGAR 8-K"
     },
     {
+        "company": "Zenas Biopharma",
+        "drug": "Obexelimab",
+        "type": "PHASE3 Completion",
+        "date": "2026-06-30",
+        "title": "Obexelimab: Warm Autoimmune Hemolytic Anemia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05786573",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -111042,6 +111141,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Amylyx Pharmaceuticals",
+        "drug": "Avexitide",
+        "type": "PHASE3 Completion",
+        "date": "2026-07-08",
+        "title": "Avexitide: Post Bariatric Hypoglycemia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06747468",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -112360,6 +112468,15 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Definium Therapeutics",
+        "drug": "Placebo",
+        "type": "PHASE3 Completion",
+        "date": "2026-07-15",
+        "title": "Placebo: Generalized Anxiety Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06741228",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -113502,6 +113619,15 @@
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-07-21\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
+    },
+    {
+        "company": "PTC Therapeutics",
+        "drug": "PTC923",
+        "type": "PHASE3 Completion",
+        "date": "2026-07-21",
+        "title": "PTC923: Phenylketonuria - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05166161",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "ADMA Biologics Inc",
@@ -114941,6 +115067,16 @@
         "type": "Recall",
         "date": "2026-07-24",
         "title": "CEFAZOLIN - Class I Recall",
+        "details": "Reason: Presence of Particulate Matter",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0787-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Vericel Corp Ord",
+        "drug": "Cefazolin in Dextrose, Injection, USP, 2g / 100mL (20mg / mL",
+        "type": "Recall",
+        "date": "2026-07-24",
+        "title": "Cefazolin in Dextrose, Injection, USP, 2g / 100mL (20mg / mL - Class I Recall",
         "details": "Reason: Presence of Particulate Matter",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0787-2026",
         "source": "openFDA Enforcement"
@@ -120724,6 +120860,15 @@
         "source": "SEC EDGAR 8-K"
     },
     {
+        "company": "Illumina",
+        "drug": "18F-MFBG",
+        "type": "PHASE3 Completion",
+        "date": "2026-07-30",
+        "title": "18F-MFBG: Neuroblastoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04724369",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "BNT162b2 Vaccine",
         "type": "PHASE3 Completion",
@@ -124884,6 +125029,16 @@
         "source": "openFDA Enforcement"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "Carbamazepine Tablets, USP, 200mg, 1000 count bottles, Rx on",
+        "type": "Recall",
+        "date": "2026-08-03",
+        "title": "Carbamazepine Tablets, USP, 200mg, 1000 count bottles, Rx on - Class II Recall",
+        "details": "Reason: CGMP Deviations; black spots found on tablets from burnt excipient during manufacturing",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0770-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "Amicus",
         "drug": "POMBILITI ATGA",
         "type": "Label Update",
@@ -126785,6 +126940,16 @@
         "source": "openFDA Enforcement"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "Glutathione 200 mg/mL, 30 mL sterile multidose vial, Each vi",
+        "type": "Recall",
+        "date": "2026-08-05",
+        "title": "Glutathione 200 mg/mL, 30 mL sterile multidose vial, Each vi - Class I Recall",
+        "details": "Reason: Microbial Contamination of Sterile Products - out of specifications results were obtained for bacterial endotoxin.",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0851-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "Amgen",
         "drug": "Apremilast",
         "type": "PHASE3 Completion",
@@ -127837,6 +128002,16 @@
         "title": "VANCOMYCIN HYDROCHLORIDE - Class II Recall",
         "details": "Reason: CGMP Deviations",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0820-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Vericel Corp Ord",
+        "drug": "Dexmedetomidine Hydrochloride in 0.9% Sodium Chloride Inject",
+        "type": "Recall",
+        "date": "2026-08-06",
+        "title": "Dexmedetomidine Hydrochloride in 0.9% Sodium Chloride Inject - Class II Recall",
+        "details": "Reason: CGMP Deviations",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0810-2026",
         "source": "openFDA Enforcement"
     },
     {
@@ -134448,6 +134623,25 @@
         "source": "openFDA Enforcement"
     },
     {
+        "company": "Vericel Corp Ord",
+        "drug": "Paxil CR, Paroxetine, Extended-Release Tablets, 37.5mg, 30 c",
+        "type": "Recall",
+        "date": "2026-08-13",
+        "title": "Paxil CR, Paroxetine, Extended-Release Tablets, 37.5mg, 30 c - Class II Recall",
+        "details": "Reason: Failed Dissolution Specifications; product failed to meet 24-month stability testing acceptance criteria",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0804-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Definium Therapeutics",
+        "drug": "Placebo",
+        "type": "PHASE3 Completion",
+        "date": "2026-08-13",
+        "title": "Placebo: Generalized Anxiety Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06809595",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amicus",
         "drug": "POMBILITI ATGA",
         "type": "Label Update",
@@ -135382,6 +135576,16 @@
         "title": "BUPRENORPHINE HYDROCHLORIDE AND NALOXONE HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214930",
         "source": "openFDA API"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "Ibuprofen, 150 mg per 7.5 mL, Delivers: 7.5 mL, Conc: 20 mg/",
+        "type": "Recall",
+        "date": "2026-08-14",
+        "title": "Ibuprofen, 150 mg per 7.5 mL, Delivers: 7.5 mL, Conc: 20 mg/ - Not Yet Classified Recall",
+        "details": "Reason: Cross Contamination with Other Products",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=N/A",
+        "source": "openFDA Enforcement"
     },
     {
         "company": "Regeneron",
@@ -138156,6 +138360,36 @@
         "source": "GlobeNewswire Biotech"
     },
     {
+        "company": "Vericel Corp Ord",
+        "drug": "SODIUM CHLORIDE",
+        "type": "Recall",
+        "date": "2026-08-17",
+        "title": "SODIUM CHLORIDE - Class I Recall",
+        "details": "Reason: Presence of particulate matter: Particulates identified as fiberglass",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0849-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Vericel Corp Ord",
+        "drug": "Dextrose Injection, USP, 70 %, 2000 mL bags, Rx Only, Baxter",
+        "type": "Recall",
+        "date": "2026-08-17",
+        "title": "Dextrose Injection, USP, 70 %, 2000 mL bags, Rx Only, Baxter - Class I Recall",
+        "details": "Reason: Presence of Particulate Matter: particulate matter identified as stainless steel particles in the solution.",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0850-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "PRASUGREL",
+        "type": "Recall",
+        "date": "2026-08-17",
+        "title": "PRASUGREL - Class II Recall",
+        "details": "Reason: Failed Dissolution Specifications; product failed to meet 18-month stability testing acceptance criteria",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0839-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "Amicus",
         "drug": "POMBILITI ATGA",
         "type": "Label Update",
@@ -138399,6 +138633,16 @@
         "title": "Shoppers Now Trust Strangers Over Discounts: Syndigo's State of Product Experience 2026 Finds Proof Has Overtaken Price",
         "link": "https://www.globenewswire.com/news-release/2026/08/19/3347686/0/en/shoppers-now-trust-strangers-over-discounts-syndigo-s-state-of-product-experience-2026-finds-proof-has-overtaken-price.html",
         "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "BUPRENORPHINE",
+        "type": "Recall",
+        "date": "2026-08-19",
+        "title": "BUPRENORPHINE - Class III Recall",
+        "details": "Reason: Labeling: Label Mix-up",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0840-2026",
+        "source": "openFDA Enforcement"
     },
     {
         "company": "ADMA Biologics Inc",
@@ -139492,6 +139736,16 @@
         "source": "SEC EDGAR 8-K"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "FLUPHENAZINE HYDROCHLORIDE",
+        "type": "Recall",
+        "date": "2026-08-25",
+        "title": "FLUPHENAZINE HYDROCHLORIDE - Class III Recall",
+        "details": "Reason: Failed impurities/degradation specifications: (OOS) for Organic Impurities by HPLC (Impurity-A) during testing at the 18 months long term stability. Result: 1.1 percent. Spec: 1.0 percent.",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0836-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -140178,6 +140432,51 @@
         "source": "GlobeNewswire Biotech"
     },
     {
+        "company": "Xenon Pharmaceuticals",
+        "drug": "Azetukalner",
+        "type": "PHASE3 Completion",
+        "date": "2026-08-28",
+        "title": "Azetukalner: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06775379",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Kodiak Sciences",
+        "drug": "Tarcocimab tedromer",
+        "type": "PHASE3 Completion",
+        "date": "2026-08-28",
+        "title": "Tarcocimab tedromer: Wet Age-related Macular Degeneration - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06556368",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Mirum Pharmaceuticals",
+        "drug": "Brelovitug 300 mg",
+        "type": "PHASE3 Completion",
+        "date": "2026-08-28",
+        "title": "Brelovitug 300 mg: Chronic Hepatitis D Infection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07298330",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Invivyd",
+        "drug": "COVID-19 mRNA vaccine",
+        "type": "PHASE3 Completion",
+        "date": "2026-08-28",
+        "title": "COVID-19 mRNA vaccine: COVID-19 - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07655180",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Invivyd",
+        "drug": "VYD2311-SD",
+        "type": "PHASE3 Completion",
+        "date": "2026-08-28",
+        "title": "VYD2311-SD: COVID-19 - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07298434",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -140714,6 +141013,16 @@
         "type": "Recall",
         "date": "2026-08-31",
         "title": "TROKENDI XR - Class III Recall",
+        "details": "Reason: Failed dissolution specifications.",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0833-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "Trokendi XR, (topiramate) extended-release capsules, 50 mg, ",
+        "type": "Recall",
+        "date": "2026-08-31",
+        "title": "Trokendi XR, (topiramate) extended-release capsules, 50 mg,  - Class III Recall",
         "details": "Reason: Failed dissolution specifications.",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0833-2026",
         "source": "openFDA Enforcement"
@@ -141311,6 +141620,16 @@
         "title": "Mortgage Rates Average 6.71%",
         "link": "https://www.globenewswire.com/news-release/2026/09/03/3356148/0/en/mortgage-rates-average-6-71.html",
         "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "fentaNYL Citrate, 1,000 mcg/100 mL (10mcg/mL) Injection solu",
+        "type": "Recall",
+        "date": "2026-09-03",
+        "title": "fentaNYL Citrate, 1,000 mcg/100 mL (10mcg/mL) Injection solu - Not Yet Classified Recall",
+        "details": "Reason: Labeling: Not Elsewhere Classified: Complaint received on 08/31/2026 regarding the discrepancy of the IV bag expiry (07/31/2026 and 11/30/2026) and the product expiry (12/09/2026).",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=",
+        "source": "openFDA Enforcement"
     },
     {
         "company": "FDA Advisory Committee",
@@ -144640,6 +144959,15 @@
         "source": "SEC EDGAR 8-K"
     },
     {
+        "company": "SIGA Tech",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-09-22",
+        "title": "REALTORS\u00ae Adopt Technology to Save Time and Improve the Client Experience, NAR Report Finds",
+        "link": "https://www.globenewswire.com/news-release/2026/09/22/3366545/0/en/realtors-adopt-technology-to-save-time-and-improve-the-client-experience-nar-report-finds.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
         "company": "Grail",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -144647,6 +144975,164 @@
         "title": "Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-GRAIL, Inc. Galleri",
         "link": "https://www.federalregister.gov/documents/2026/08/10/2026-16245/molecular-and-clinical-genetics-panel-of-the-medical-devices-advisory-committee-notice-of-meeting",
         "source": "Federal Register"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-09-23",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-09-23\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                },
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-09-23",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-09-23\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-09-23",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-09-23\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
     },
     {
         "company": "Biogen",
@@ -144700,6 +145186,42 @@
         "date": "2026-09-28",
         "title": "Tasimelteon: Sleep Wake Disorders - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT04652882",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Supernus",
+        "drug": "SPN-812",
+        "type": "PHASE3 Completion",
+        "date": "2026-09-28",
+        "title": "SPN-812: Attention-Deficit/Hyperactivity Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT02736656",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regenxbio Inc",
+        "drug": "RGX-202",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2026-09-28",
+        "title": "RGX-202: Duchenne Muscular Dystrophy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05693142",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Disc Medicine",
+        "drug": "Placebo",
+        "type": "PHASE3 Completion",
+        "date": "2026-09-28",
+        "title": "Placebo: Erythropoietic Protoporphyria (EPP) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06910358",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Atea",
+        "drug": "Bemnifosbuvir-Ruzasvir (BEM/RZR)",
+        "type": "PHASE3 Completion",
+        "date": "2026-09-28",
+        "title": "Bemnifosbuvir-Ruzasvir (BEM/RZR): HEPATITIS C VIRUS CHRONIC INFECTION - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06868264",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -144838,6 +145360,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Biomarin Pharma",
+        "drug": "INZ-701",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-14",
+        "title": "INZ-701: Ectonucleotide Pyrophosphatase/phosphodiesterase1 Deficiency - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07473973",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Incyte",
         "drug": "Povorcitinib",
         "type": "PHASE3 Completion",
@@ -144892,6 +145423,33 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Xenon Pharmaceuticals",
+        "drug": "XEN1101",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-28",
+        "title": "XEN1101: Focal Onset Seizures - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05716100",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regenxbio Inc",
+        "drug": "ABBV-RGX-314 Dose 1",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-28",
+        "title": "ABBV-RGX-314 Dose 1: AMD - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05407636",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Mirum Pharmaceuticals",
+        "drug": "Maralixibat",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-28",
+        "title": "Maralixibat: Cholestatic Liver Disease (Except ALGS, PFIC, PBC and PSC) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06553768",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "BNT162b2 (2025/2026 formulation)",
         "type": "PHASE3 Completion",
@@ -144916,6 +145474,33 @@
         "date": "2026-10-31",
         "title": "Eteplirsen: Muscular Dystrophy, Duchenne - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT03992430",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Annexon",
+        "drug": "Vonaprument",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-31",
+        "title": "Vonaprument: Geographic Atrophy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06510816",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Olema",
+        "drug": "Palazestrant",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-31",
+        "title": "Palazestrant: Breast Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06016738",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Scholar Rock",
+        "drug": "Apitegromab",
+        "type": "PHASE3 Completion",
+        "date": "2026-11-01",
+        "title": "Apitegromab: Spinal Muscular Atrophy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05626855",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -144946,6 +145531,15 @@
         "source": "SEC EDGAR 8-K"
     },
     {
+        "company": "Novavax",
+        "drug": "NVX-CoV2705",
+        "type": "PHASE4 Completion",
+        "date": "2026-11-18",
+        "title": "NVX-CoV2705: COVID-19 - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07086222",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -144953,6 +145547,24 @@
         "title": "Microbiology Devices Panel of the Medical Devices Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-Pathogen-Agnostic Sequencing",
         "link": "https://www.federalregister.gov/documents/2026/09/16/2026-18920/microbiology-devices-panel-of-the-medical-devices-advisory-committee-notice-of-meeting-establishment",
         "source": "Federal Register"
+    },
+    {
+        "company": "NewAmsterdam Pharma",
+        "drug": "Obicetrapib",
+        "type": "PHASE3 Completion",
+        "date": "2026-11-28",
+        "title": "Obicetrapib: Atherosclerotic Cardiovascular Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05202509",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "CG Oncology",
+        "drug": "Cretostimogene Grenadenorepvec",
+        "type": "PHASE3 Completion",
+        "date": "2026-11-28",
+        "title": "Cretostimogene Grenadenorepvec: Non Muscle Invasive Bladder Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06111235",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Vertex Pharmaceuticals",
@@ -144997,6 +145609,15 @@
         "date": "2026-12-01",
         "title": "Tradipitant: Nausea and Vomiting - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07446439",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Theravance Biopharma",
+        "drug": "umeclidinium 62.5 \u00b5g and vilanterol 25 \u00b5g",
+        "type": "PHASE4 Completion",
+        "date": "2026-12-01",
+        "title": "umeclidinium 62.5 \u00b5g and vilanterol 25 \u00b5g: COPD (Chronic Obstructive Pulmonary Disease) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07133880",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -145108,6 +145729,96 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "BioCryst",
+        "drug": "navenibart",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "navenibart: Hereditary Angioedema (HAE) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06842823",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Pacira",
+        "drug": "ZILRETTA",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "ZILRETTA: Glenohumeral Osteoarthritis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06269705",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regenxbio Inc",
+        "drug": "ABBV-RGX-314",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "ABBV-RGX-314: AMD - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04704921",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "Solriamfetol 150 mg",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "Solriamfetol 150 mg: Excessive Sleepiness - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06568367",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "Solriamfetol 150 mg",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "Solriamfetol 150 mg: Binge-Eating Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06413433",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Krystal Biotech",
+        "drug": "KB803",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "KB803: Dystrophic Epidermolysis Bullosa - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07016750",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Gossamer Bio",
+        "drug": "Seralutinib",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "Seralutinib: Pulmonary Arterial Hypertension - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06274801",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Praxis Precision",
+        "drug": "1.0mg/kg/day PRAX-562",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "1.0mg/kg/day PRAX-562: Developmental and Epileptic Encephalopathy 1 - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07010471",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Praxis Precision",
+        "drug": "1mg elsunersen",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "1mg elsunersen: Epileptic Encephalopathy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07019922",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Atea",
+        "drug": "Bemnifosbuvir-Ruzasvir",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-28",
+        "title": "Bemnifosbuvir-Ruzasvir: HEPATITIS C VIRUS CHRONIC INFECTION - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07037277",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "Placebo",
         "type": "PHASE3 Completion",
@@ -145171,6 +145882,33 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amicus",
+        "drug": "migalastat HCl 150 mg",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-31",
+        "title": "migalastat HCl 150 mg: Fabry Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04020055",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Annexon",
+        "drug": "Tanruprubart",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-31",
+        "title": "Tanruprubart: Guillain-Barre Syndrome - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07020819",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Pacira",
+        "drug": "Exparel",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-01-01",
+        "title": "Exparel: Back Pain - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06350981",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Gilead",
         "drug": "Lenacapavir long-acting",
         "type": "PHASE4 Completion",
@@ -145198,6 +145936,24 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Ocular Therapeutix Inc",
+        "drug": "OTX-TKI",
+        "type": "PHASE3 Completion",
+        "date": "2027-01-08",
+        "title": "OTX-TKI: Neovascular Age-related Macular Degeneration - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06495918",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Pacira",
+        "drug": "bupivacaine liposome injectable suspension",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-01-11",
+        "title": "bupivacaine liposome injectable suspension: Pain, Postoperative - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06077422",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Gilead",
         "drug": "Sacituzumab Govitecan",
         "type": "PHASE3 Completion",
@@ -145213,6 +145969,15 @@
         "date": "2027-01-15",
         "title": "Ocrelizumab (US): Relapsing-remitting Multiple Sclerosis (RRMS) - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06700343",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Ideaya Biosciences",
+        "drug": "IDE196",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-01-15",
+        "title": "IDE196: Metastatic Uveal Melanoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05987332",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -145297,6 +146062,33 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Xenon Pharmaceuticals",
+        "drug": "Azetukalner",
+        "type": "PHASE3 Completion",
+        "date": "2027-01-28",
+        "title": "Azetukalner: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06922110",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Vaxcyte",
+        "drug": "31 valent pneumococcal conjugate vaccine",
+        "type": "PHASE3 Completion",
+        "date": "2027-01-28",
+        "title": "31 valent pneumococcal conjugate vaccine: Pneumococcal Vaccines - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07284654",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Praxis Precision",
+        "drug": "40 mg/day vormatrogine for 12 weeks",
+        "type": "PHASE3 Completion",
+        "date": "2027-01-28",
+        "title": "40 mg/day vormatrogine for 12 weeks: Focal Epilepsy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07505004",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Vertex",
         "drug": "Suzetrigine",
         "type": "PHASE4 Completion",
@@ -145313,6 +146105,15 @@
         "title": "FDA Target Action Date - GILEAD SCIENCES, INC.  (GILD)  (CIK 0000882095)",
         "link": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000028/exhibit991earningspressrel.htm",
         "source": "SEC EDGAR 8-K"
+    },
+    {
+        "company": "Zai Lab",
+        "drug": "Repotrectinib",
+        "type": "PHASE3 Completion",
+        "date": "2027-02-16",
+        "title": "Repotrectinib: Carcinoma, Non-Small-Cell Lung - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06140836",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Regeneron",
@@ -145358,6 +146159,24 @@
         "title": "FDA Target Action Date - BIOMARIN PHARMACEUTICAL INC  (BMRN)  (CIK 0001048477)",
         "link": "https://www.sec.gov/Archives/edgar/data/1048477/000104847726000015/earningsrelease-6aug26ex991.htm",
         "source": "SEC EDGAR 8-K"
+    },
+    {
+        "company": "Kodiak Sciences",
+        "drug": "KSI-101",
+        "type": "PHASE3 Completion",
+        "date": "2027-02-28",
+        "title": "KSI-101: Macular Edema Secondary to Inflammation - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06996080",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Zai Lab",
+        "drug": "ZL-1109 (VRDN-003)",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-14",
+        "title": "ZL-1109 (VRDN-003): Thyroid Eye Disease (TED) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07211776",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "Regeneron",
@@ -145411,6 +146230,69 @@
         "date": "2027-03-28",
         "title": "Resmetirom: Non-Alcoholic Fatty Liver Disease - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT04951219",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amicus",
+        "drug": "Cipaglucosidase Alfa",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-28",
+        "title": "Cipaglucosidase Alfa: Pompe Disease (Late-onset) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT03911505",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Travere Therapeutics",
+        "drug": "Sparsentan",
+        "type": "PHASE4 Completion",
+        "date": "2027-03-28",
+        "title": "Sparsentan: Proteinuria - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07219121",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Ocular Therapeutix Inc",
+        "drug": "Single intravitreal injection of axitinib hydrogel",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-28",
+        "title": "Single intravitreal injection of axitinib hydrogel implant followed by a mock (sham) injection procedure at Week 24: Non-Proliferative Diabetic Retinopathy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07235085",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "UroGen Pharma",
+        "drug": "UGN-104",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-28",
+        "title": "UGN-104: Upper Urinary Tract Urothelial Carcinoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06774131",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Evolus",
+        "drug": "prabotulinumtoxinA-xvfs",
+        "type": "PHASE4 Completion",
+        "date": "2027-03-28",
+        "title": "prabotulinumtoxinA-xvfs: Neck Muscle Issue - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06903975",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Stoke Therapeutics",
+        "drug": "zorevunersen",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-28",
+        "title": "zorevunersen: Dravet Syndrome - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06872125",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Vaxcyte",
+        "drug": "31-valent pneumococcal conjugate vaccine",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-28",
+        "title": "31-valent pneumococcal conjugate vaccine: Pneumococcal Vaccines - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07425392",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -145495,6 +146377,33 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Xenon Pharmaceuticals",
+        "drug": "XEN1101",
+        "type": "PHASE3 Completion",
+        "date": "2027-04-28",
+        "title": "XEN1101: Primary Generalized Tonic-Clonic Seizures - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05667142",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Kodiak Sciences",
+        "drug": "KSI-101",
+        "type": "PHASE3 Completion",
+        "date": "2027-04-28",
+        "title": "KSI-101: Macular Edema Secondary to Inflammation - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06990399",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "ARS Pharmaceuticals",
+        "drug": "Neffy",
+        "type": "PHASE4 Completion",
+        "date": "2027-04-28",
+        "title": "Neffy: Allergic Reactions - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06834165",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regeneron",
         "drug": "dupilumab",
         "type": "PHASE4 Completion",
@@ -145510,6 +146419,15 @@
         "date": "2027-04-30",
         "title": "Ruxolitinib Cream: NonSegmental Vitiligo - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06804811",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Rigel",
+        "drug": "Olutasidenib",
+        "type": "PHASE4 Completion",
+        "date": "2027-04-30",
+        "title": "Olutasidenib: AML (Acute Myeloid Leukemia) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07486713",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -145576,6 +146494,24 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Xenon Pharmaceuticals",
+        "drug": "Azetukalner",
+        "type": "PHASE3 Completion",
+        "date": "2027-05-28",
+        "title": "Azetukalner: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07076407",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Vor Biopharma",
+        "drug": "Telitacicept",
+        "type": "PHASE3 Completion",
+        "date": "2027-05-28",
+        "title": "Telitacicept: Generalized Myasthenia Gravis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06456580",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "Evolocumab",
         "type": "PHASE4 Completion",
@@ -145631,6 +146567,15 @@
     },
     {
         "company": "Vertex",
+        "drug": "CTX001",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-06",
+        "title": "CTX001: Sickle Cell Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05329649",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Crispr Therapeutics",
         "drug": "CTX001",
         "type": "PHASE3 Completion",
         "date": "2027-06-06",
@@ -145747,6 +146692,78 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "ACADIA",
+        "drug": "Pimavanserin",
+        "type": "PHASE4 Completion",
+        "date": "2027-06-28",
+        "title": "Pimavanserin: Neurodegenerative Diseases - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05357612",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Savara",
+        "drug": "Molgramostim",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-28",
+        "title": "Molgramostim: Autoimmune Pulmonary Alveolar Proteinosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06431776",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Theravance Biopharma",
+        "drug": "Nebulized therapy of similar medication solutions",
+        "type": "PHASE4 Completion",
+        "date": "2027-06-28",
+        "title": "Nebulized therapy of similar medication solutions: COPD (Chronic Obstructive Pulmonary Disease) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07816835",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Zymeworks",
+        "drug": "Futibatinib",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-28",
+        "title": "Futibatinib: Biliary Tract Neoplasms - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05615818",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Denali Therapeutics",
+        "drug": "tividenofusp alfa",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-06-28",
+        "title": "tividenofusp alfa: Mucopolysaccharidosis II - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06075537",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "4D Molecular",
+        "drug": "4D-150 IVT (3E10 vg/eye)",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-28",
+        "title": "4D-150 IVT (3E10 vg/eye): Macular Neovascularization Secondary to Age-Related Macular Degeneration - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06864988",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Humacyte",
+        "drug": "Acellular Tissue Engineered Vessel (ATEV)",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-28",
+        "title": "Acellular Tissue Engineered Vessel (ATEV): End Stage Renal Disease (ESRD) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05908084",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Day One Biopharmaceuticals",
+        "drug": "Tovorafenib",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-28",
+        "title": "Tovorafenib: Low-grade Glioma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05566795",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Vertex",
         "drug": "VX-880",
         "type": "PHASE3 Completion",
@@ -145780,6 +146797,15 @@
         "date": "2027-06-30",
         "title": "Sotorasib: Non-Small Cell Lung Cancer (NSCLC) - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05920356",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Mirum Pharmaceuticals",
+        "drug": "Brelovitug 300 mg",
+        "type": "PHASE3 Completion",
+        "date": "2027-06-30",
+        "title": "Brelovitug 300 mg: Chronic Hepatitis D Infection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07200908",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -145855,6 +146881,42 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amicus",
+        "drug": "Cipaglucosidase alfa",
+        "type": "PHASE3 Completion",
+        "date": "2027-07-28",
+        "title": "Cipaglucosidase alfa: Glycogen Storage Disease Type II Infantile Onset - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04808505",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Mesoblast",
+        "drug": "Rexlemestrocel-L + HA mixture",
+        "type": "PHASE3 Completion",
+        "date": "2027-07-28",
+        "title": "Rexlemestrocel-L + HA mixture: Degenerative Disc Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06325566",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Alvotech",
+        "drug": "AVT29 (proposed aflibercept HD biosimilar)",
+        "type": "PHASE3 Completion",
+        "date": "2027-07-28",
+        "title": "AVT29 (proposed aflibercept HD biosimilar): Diabetic Macular Edema - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07489131",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Rigel",
+        "drug": "Pralsetinib",
+        "type": "PHASE4 Completion",
+        "date": "2027-07-30",
+        "title": "Pralsetinib: NSCLC (Non-small Cell Lung Cancer) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07704658",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "ABP 938 8 mg",
         "type": "PHASE3 Completion",
@@ -145879,6 +146941,15 @@
         "date": "2027-08-01",
         "title": "Cannabidiol: Lennox Gastaut Syndrome - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05044819",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Supernus",
+        "drug": "Observational study",
+        "type": "PHASE3 Completion",
+        "date": "2027-08-01",
+        "title": "Observational study: Parkinson Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07219927",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -145954,12 +147025,39 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Travere Therapeutics",
+        "drug": "Pegtibatinase",
+        "type": "PHASE3 Completion",
+        "date": "2027-08-28",
+        "title": "Pegtibatinase: Homocystinuria - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06247085",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Arcutis",
+        "drug": "Roflumilast Cream 0.15%",
+        "type": "PHASE4 Completion",
+        "date": "2027-08-28",
+        "title": "Roflumilast Cream 0.15%: ITCH - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07560618",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "BioNTech",
         "drug": "Gotistobart",
         "type": "PHASE3 Completion",
         "date": "2027-08-31",
         "title": "Gotistobart: Non Small Cell Lung Cancer - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05671510",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Mirum Pharmaceuticals",
+        "drug": "Brelovitug (BJT-778)",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-08-31",
+        "title": "Brelovitug (BJT-778): Chronic Hepatitis D - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07454837",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146035,6 +147133,33 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Castle Biosciences",
+        "drug": "D-Fi",
+        "type": "PHASE3 Completion",
+        "date": "2027-09-28",
+        "title": "D-Fi: Dystrophic Epidermolysis Bullosa - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06892639",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Definium Therapeutics",
+        "drug": "Placebo",
+        "type": "PHASE3 Completion",
+        "date": "2027-09-28",
+        "title": "Placebo: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07592689",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Kyverna Therapeutics",
+        "drug": "Standard of Care Treatment",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-09-28",
+        "title": "Standard of Care Treatment: Myasthenia Gravis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06193889",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "Maridebart cafraglutide",
         "type": "PHASE3 Completion",
@@ -146077,6 +147202,15 @@
         "date": "2027-09-30",
         "title": "Pegvaliase: Phenylketonuria - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07477691",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Centessa Pharmaceuticals",
+        "drug": "cleminorexton",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-09-30",
+        "title": "cleminorexton: Narcolepsy Type 1 - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07598708",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146134,6 +147268,24 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Crispr Therapeutics",
+        "drug": "CTX001",
+        "type": "PHASE3 Completion",
+        "date": "2027-11-14",
+        "title": "CTX001: Beta-Thalassemia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05356195",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Aura Biosciences",
+        "drug": "Bel-sar",
+        "type": "PHASE3 Completion",
+        "date": "2027-11-15",
+        "title": "Bel-sar: Choroidal Melanoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06007690",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Biogen",
         "drug": "Omaveloxolone",
         "type": "PHASE3 Completion",
@@ -146179,6 +147331,24 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Corvus Pharmaceuticals",
+        "drug": "Soquelitinib",
+        "type": "PHASE3 Completion",
+        "date": "2027-11-28",
+        "title": "Soquelitinib: Peripheral T-Cell Lymphoma, Not Otherwise Specified - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06561048",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "NewAmsterdam Pharma",
+        "drug": "obicetrapib 10 mg + ezetimibe 10 mg FDC daily",
+        "type": "PHASE3 Completion",
+        "date": "2027-11-28",
+        "title": "obicetrapib 10 mg + ezetimibe 10 mg FDC daily: Lipidemia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06305559",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regeneron",
         "drug": "Pozelimab",
         "type": "PHASE3 Completion",
@@ -146194,6 +147364,24 @@
         "date": "2027-11-30",
         "title": "Filgotinib Maleate: Ulcerative Colitis - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06964113",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Ocular Therapeutix Inc",
+        "drug": "Dexamethasone Ophthalmic Insert",
+        "type": "PHASE4 Completion",
+        "date": "2027-12-01",
+        "title": "Dexamethasone Ophthalmic Insert: Vitreoretinal Surgery - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04371445",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Precigen",
+        "drug": "Zopapogene imadenovec (Zopa)",
+        "type": "PHASE4 Completion",
+        "date": "2027-12-02",
+        "title": "Zopapogene imadenovec (Zopa): Recurrent Respiratory Papillomatosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06538480",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146251,6 +147439,69 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Amicus",
+        "drug": "Migalastat HCl 20 mg",
+        "type": "PHASE3 Completion",
+        "date": "2027-12-28",
+        "title": "Migalastat HCl 20 mg: Fabry Disease - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06904261",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Kamada",
+        "drug": "Cytogam",
+        "type": "PHASE4 Completion",
+        "date": "2027-12-28",
+        "title": "Cytogam: Cytomegalovirus (CMV) Infection - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07009548",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "Solriamfetol",
+        "type": "PHASE3 Completion",
+        "date": "2027-12-28",
+        "title": "Solriamfetol: ADHD - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07773883",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "AXS-05 (dextromethorphan-bupropion)",
+        "type": "PHASE3 Completion",
+        "date": "2027-12-28",
+        "title": "AXS-05 (dextromethorphan-bupropion): Smoking Cessation - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07766655",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Denali Therapeutics",
+        "drug": "tividenofusp alfa",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2027-12-28",
+        "title": "tividenofusp alfa: Mucopolysaccharidosis II - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05371613",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Immunovant",
+        "drug": "IMVT-1402",
+        "type": "PHASE3 Completion",
+        "date": "2027-12-28",
+        "title": "IMVT-1402: Generalized Myasthenia Gravis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07039916",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Kamada",
+        "drug": "Cytomegalovirus Immune Globulin Intravenous (Human",
+        "type": "PHASE4 Completion",
+        "date": "2027-12-30",
+        "title": "Cytomegalovirus Immune Globulin Intravenous (Human) monthly for three months: Cytomegalovirus - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06958796",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Blueprint",
         "drug": "Avapritinib",
         "type": "PHASE4 Completion",
@@ -146284,6 +147535,15 @@
         "date": "2027-12-31",
         "title": "TDF/FTC 300mg/200mg fixed-dose combination tablets: HIV/AIDS - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT05813964",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "PTC Therapeutics",
+        "drug": "Vatiquinone",
+        "type": "PHASE3 Completion",
+        "date": "2027-12-31",
+        "title": "Vatiquinone: Friedreich Ataxia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05515536",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146347,6 +147607,42 @@
         "date": "2028-01-28",
         "title": "Lepetegravir: HIV-1-Infection - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06544733",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "ACADIA",
+        "drug": "ACP-204",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2028-01-28",
+        "title": "ACP-204: Alzheimer's Disease Psychosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06159673",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "CorMedix",
+        "drug": "(taurolidine and heparin) catheter lock solution",
+        "type": "PHASE3 Completion",
+        "date": "2028-01-28",
+        "title": "(taurolidine and heparin) catheter lock solution: Central Line Associated Blood Stream Infections (CLABSI) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06822426",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Supernus",
+        "drug": "100mg SPN-812",
+        "type": "PHASE4 Completion",
+        "date": "2028-01-28",
+        "title": "100mg SPN-812: Attention-Deficit/Hyperactivity Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04781140",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "MBX Biosciences",
+        "drug": "Canvuparatide",
+        "type": "PHASE3 Completion",
+        "date": "2028-01-28",
+        "title": "Canvuparatide: Hypoparathyroidism - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07699471",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146431,6 +147727,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Iovance Biotherapeutics",
+        "drug": "Lifileucel plus Pembrolizumab",
+        "type": "PHASE3 Completion",
+        "date": "2028-03-01",
+        "title": "Lifileucel plus Pembrolizumab: Metastatic Melanoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05727904",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "XGEVA\u00ae",
         "type": "PHASE4 Completion",
@@ -146473,6 +147778,33 @@
         "date": "2028-03-28",
         "title": "BNT323/DB-1303: Endometrial Cancer - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06340568",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Halozyme",
+        "drug": "Testosterone enanthate",
+        "type": "PHASE3 Completion",
+        "date": "2028-03-28",
+        "title": "Testosterone enanthate: Hypogonadism, Male - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06689085",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "AXS-14 (Esreboxetine)",
+        "type": "PHASE3 Completion",
+        "date": "2028-03-28",
+        "title": "AXS-14 (Esreboxetine): Fibromyalgia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07398417",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "NewAmsterdam Pharma",
+        "drug": "obicetrapib 10 mg + ezetimibe 10 mg FDC daily",
+        "type": "PHASE3 Completion",
+        "date": "2028-03-28",
+        "title": "obicetrapib 10 mg + ezetimibe 10 mg FDC daily: Lipidemia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07219602",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146539,12 +147871,48 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Erasca",
+        "drug": "Naporafenib",
+        "type": "PHASE3 Completion",
+        "date": "2028-04-28",
+        "title": "Naporafenib: Advanced or Metastatic NRAS-mutant Melanoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06346067",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Bicara Therapeutics",
+        "drug": "Ficerafusp alfa",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2028-04-28",
+        "title": "Ficerafusp alfa: Metastatic Head and Neck Squamous Cell Carcinoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06788990",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regenxbio",
         "drug": "RGX-121-3102",
         "type": "PHASE3 Completion",
         "date": "2028-04-30",
         "title": "RGX-121-3102: MPS II - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07236606",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Regenxbio Inc",
+        "drug": "RGX-121-3102",
+        "type": "PHASE3 Completion",
+        "date": "2028-04-30",
+        "title": "RGX-121-3102: MPS II - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07236606",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Relay",
+        "drug": "Zovegalisib",
+        "type": "PHASE3 Completion",
+        "date": "2028-04-30",
+        "title": "Zovegalisib: PIK3CA Mutation - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06982521",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146584,6 +147952,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "AXS-14 (esreboxetine)",
+        "type": "PHASE3 Completion",
+        "date": "2028-05-28",
+        "title": "AXS-14 (esreboxetine): Fibromyalgia - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07637162",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regeneron",
         "drug": "Odronextamab",
         "type": "PHASE3 Completion",
@@ -146617,6 +147994,15 @@
         "date": "2028-05-31",
         "title": "Tezepelumab: Asthma - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06023589",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Praxis Precision",
+        "drug": "vormatrogine",
+        "type": "PHASE3 Completion",
+        "date": "2028-05-31",
+        "title": "vormatrogine: Epilepsy, Tonic-Clonic - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07287163",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146746,6 +148132,42 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Xenon Pharmaceuticals",
+        "drug": "Azetukalner",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-28",
+        "title": "Azetukalner: Bipolar Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07172516",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Trevi Therapeutics",
+        "drug": "NAL ER",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-28",
+        "title": "NAL ER: Idiopathic Pulmonary Fibrosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07671911",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Disc Medicine",
+        "drug": "DISC-1459",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2028-06-28",
+        "title": "DISC-1459: Erythropoietic Protoporphyria - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05883748",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Immuneering",
+        "drug": "Atebimetinib",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-28",
+        "title": "Atebimetinib: Pancreatic Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07562152",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Amgen",
         "drug": "Maridebart Cafraglutide",
         "type": "PHASE3 Completion",
@@ -146761,6 +148183,42 @@
         "date": "2028-06-30",
         "title": "Maridebart cafraglutide: Heart Failure With Preserved Ejection Fraction - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07037459",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Geron",
+        "drug": "Imetelstat",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-30",
+        "title": "Imetelstat: Myelofibrosis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04576156",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Axsome Therapeutics Inc",
+        "drug": "Solriamfetol Dose A",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-30",
+        "title": "Solriamfetol Dose A: ADHD - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07717892",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Zai Lab",
+        "drug": "ZL-1310",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-30",
+        "title": "ZL-1310: Small-cell Lung Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07218146",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Compass Pathways",
+        "drug": "Psilocybin",
+        "type": "PHASE3 Completion",
+        "date": "2028-06-30",
+        "title": "Psilocybin: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06247839",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146791,12 +148249,57 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "CorMedix",
+        "drug": "(taurolidine and heparin) catheter lock solution",
+        "type": "PHASE4 Completion",
+        "date": "2028-07-28",
+        "title": "(taurolidine and heparin) catheter lock solution: Catheter-Related Infections - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06714864",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Cabaletta Bio",
+        "drug": "CABA-201 following preconditioning with fludarabin",
+        "type": "PHASE2, PHASE3 Completion",
+        "date": "2028-07-28",
+        "title": "CABA-201 following preconditioning with fludarabine and cyclophosphamide: Idiopathic Inflammatory Myopathy - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06154252",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Dyne",
+        "drug": "zeleciment basivarsen (DYNE-101)",
+        "type": "PHASE3 Completion",
+        "date": "2028-07-28",
+        "title": "zeleciment basivarsen (DYNE-101): Myotonic Dystrophy Type 1 (DM1) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07486934",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Arcellx",
+        "drug": "Anitocabtagene Autoleucel",
+        "type": "PHASE3 Completion",
+        "date": "2028-07-28",
+        "title": "Anitocabtagene Autoleucel: Multiple Myeloma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06413498",
+        "source": "ClinicalTrials.gov"
+    },
+    {
         "company": "Regeneron",
         "drug": "Pozelimab",
         "type": "PHASE3 Completion",
         "date": "2028-07-31",
         "title": "Pozelimab: Age-related Macular Degeneration (AMD) - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06541704",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Aura Biosciences",
+        "drug": "Non-interventional, digital, patient-reported, rea",
+        "type": "PHASE3 Completion",
+        "date": "2028-08-15",
+        "title": "Non-interventional, digital, patient-reported, real-world study: Choroidal Melanoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07421739",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -146833,6 +148336,15 @@
         "date": "2028-08-28",
         "title": "BNT113: Unresectable Head and Neck Squamous Cell Carcinoma - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT04534205",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Kodiak Sciences",
+        "drug": "Tabirafusp tedromer",
+        "type": "PHASE3 Completion",
+        "date": "2028-08-31",
+        "title": "Tabirafusp tedromer: Diabetic Macular Edema (DME) - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07734844",
         "source": "ClinicalTrials.gov"
     },
     {
