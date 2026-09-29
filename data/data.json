@@ -14060,6 +14060,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Amneal Pharma A",
+        "drug": "AZELASTINE HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2024-06-05",
+        "title": "AZELASTINE HYDROCHLORIDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216576",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "METHAMPHETAMINE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -21173,6 +21182,15 @@
         "date": "2025-01-08",
         "title": "ISOSORBIDE DINITRATE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A087537",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "drug": "ADVIL LIQUI-GELS",
+        "type": "FDA Approval",
+        "date": "2025-01-08",
+        "title": "ADVIL LIQUI-GELS - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020402",
         "source": "openFDA API"
     },
     {
@@ -60070,6 +60088,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "DSUVIA",
+        "type": "FDA Approval",
+        "date": "2025-12-22",
+        "title": "DSUVIA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209128",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "OXYCODONE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -73269,6 +73296,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "VIGABATRIN",
+        "type": "FDA Approval",
+        "date": "2026-03-18",
+        "title": "VIGABATRIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A209824",
+        "source": "openFDA API"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -82683,6 +82719,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "DEFLAZACORT",
+        "type": "FDA Approval",
+        "date": "2026-04-09",
+        "title": "DEFLAZACORT - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A216992",
+        "source": "openFDA API"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -83829,6 +83874,15 @@
         "date": "2026-04-15",
         "title": "COLESTIPOL HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A077510",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "GLYCEROL PHENYLBUTYRATE",
+        "type": "FDA Approval",
+        "date": "2026-04-15",
+        "title": "GLYCEROL PHENYLBUTYRATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218738",
         "source": "openFDA API"
     },
     {
@@ -94146,6 +94200,15 @@
         "date": "2026-05-01",
         "title": "DEUTETRABENAZINE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215971",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Rigel",
+        "drug": "VEPPANU",
+        "type": "FDA Approval",
+        "date": "2026-05-01",
+        "title": "VEPPANU - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219835",
         "source": "openFDA API"
     },
     {
@@ -132111,6 +132174,15 @@
         "source": "Federal Register"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "DALFAMPRIDINE",
+        "type": "FDA Approval",
+        "date": "2026-08-10",
+        "title": "DALFAMPRIDINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210158",
+        "source": "openFDA API"
+    },
+    {
         "company": "Amicus",
         "drug": "POMBILITI ATGA",
         "type": "Label Update",
@@ -133099,6 +133171,15 @@
         "title": "FDA-Related 8-K Filing - Aquestive Therapeutics, Inc.  (AQST)  (CIK 0001398733)",
         "link": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000041/q22026-ex991earningsrelease.htm",
         "source": "SEC EDGAR 8-K"
+    },
+    {
+        "company": "GH Research",
+        "drug": "ACYCLOVIR",
+        "type": "FDA Approval",
+        "date": "2026-08-11",
+        "title": "ACYCLOVIR - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215724",
+        "source": "openFDA API"
     },
     {
         "company": "Amicus",
@@ -134982,6 +135063,66 @@
         "title": "Placebo: Generalized Anxiety Disorder - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06809595",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "Fluphenazine HCl Elixir, USP, 15 mg per 3 mL, Delivers: 10 m",
+        "type": "Recall",
+        "date": "2026-08-13",
+        "title": "Fluphenazine HCl Elixir, USP, 15 mg per 3 mL, Delivers: 10 m - Class II Recall",
+        "details": "Reason: Failed Stability Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0845-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "Fluphenazine HCl Elixir, USP, 20 mg per 4 mL, Delivers: 10 m",
+        "type": "Recall",
+        "date": "2026-08-13",
+        "title": "Fluphenazine HCl Elixir, USP, 20 mg per 4 mL, Delivers: 10 m - Class II Recall",
+        "details": "Reason: Failed Stability Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0846-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "Fluphenazine HCl Elixir, USP, 10 mg per 2 mL, Delivers: 10 m",
+        "type": "Recall",
+        "date": "2026-08-13",
+        "title": "Fluphenazine HCl Elixir, USP, 10 mg per 2 mL, Delivers: 10 m - Class II Recall",
+        "details": "Reason: Failed Stability Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0844-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "Fluphenazine HCl Elixir, USP, 5 mg per 10 mL, Delivers: 10 m",
+        "type": "Recall",
+        "date": "2026-08-13",
+        "title": "Fluphenazine HCl Elixir, USP, 5 mg per 10 mL, Delivers: 10 m - Class II Recall",
+        "details": "Reason: Failed Stability Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0843-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "Fluphenazine HCl Elixir, USP, 5 mg per 1 mL, Delivers: 10 mL",
+        "type": "Recall",
+        "date": "2026-08-13",
+        "title": "Fluphenazine HCl Elixir, USP, 5 mg per 1 mL, Delivers: 10 mL - Class II Recall",
+        "details": "Reason: Failed Stability Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0842-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "Fluphenazine HCl Elixir, USP, 2.5 mg per 5 mL, Delivers: 5 m",
+        "type": "Recall",
+        "date": "2026-08-13",
+        "title": "Fluphenazine HCl Elixir, USP, 2.5 mg per 5 mL, Delivers: 5 m - Class II Recall",
+        "details": "Reason: Failed Stability Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0841-2026",
+        "source": "openFDA Enforcement"
     },
     {
         "company": "Amicus",
@@ -139350,6 +139491,16 @@
         "source": "Federal Register"
     },
     {
+        "company": "Oruka Therapeutics",
+        "drug": "THYROID",
+        "type": "Recall",
+        "date": "2026-08-21",
+        "title": "THYROID - Class I Recall",
+        "details": "Reason: Superpotent Drug",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0866-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -141388,6 +141539,16 @@
         "source": "openFDA Enforcement"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "LIDOCAINE",
+        "type": "Recall",
+        "date": "2026-08-31",
+        "title": "LIDOCAINE - Class II Recall",
+        "details": "Reason: Failed Content Uniformity Specifications. Out of Specification for Assay during analysis at the 24- month long term stability station, at (25\u00bfC,60%RH).",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0848-2026",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "Gilead",
         "drug": "Simultaneous administration of OAT and oral PrEP a",
         "type": "PHASE4 Completion",
@@ -141989,6 +142150,16 @@
         "title": "fentaNYL Citrate, 1,000 mcg/100 mL (10mcg/mL) Injection solu - Not Yet Classified Recall",
         "details": "Reason: Labeling: Not Elsewhere Classified: Complaint received on 08/31/2026 regarding the discrepancy of the IV bag expiry (07/31/2026 and 11/30/2026) and the product expiry (12/09/2026).",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=",
+        "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "CHLORTHALIDONE",
+        "type": "Recall",
+        "date": "2026-09-03",
+        "title": "CHLORTHALIDONE - Class II Recall",
+        "details": "Reason: Failed Dissolution Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0852-2026",
         "source": "openFDA Enforcement"
     },
     {
@@ -143901,6 +144072,16 @@
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-09-14\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "NYSTATIN",
+        "type": "Recall",
+        "date": "2026-09-14",
+        "title": "NYSTATIN - Not Yet Classified Recall",
+        "details": "Reason: Failed Stability Specifications",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=N/A",
+        "source": "openFDA Enforcement"
     },
     {
         "company": "Regeneron",
@@ -146429,6 +146610,173 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Vera Therapeutics",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-09-28",
+        "title": "Crypto Leverage Data: Only 6.7% of Futures Contracts Offer 100x Leverage",
+        "link": "https://www.globenewswire.com/news-release/2026/09/28/3370190/0/en/crypto-leverage-data-only-6-7-of-futures-contracts-offer-100x-leverage.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-09-29",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-09-29\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                },
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-09-29",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-09-29\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-09-29",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-09-29\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
         "company": "Biogen",
         "drug": "Litifilimab",
         "type": "PHASE3 Completion",
@@ -147596,6 +147944,15 @@
         "date": "2027-04-19",
         "title": "Ocrelizumab (US): Relapsing-remitting Multiple Sclerosis (RRMS) - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT06700343",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "BioNTech",
+        "drug": "BNT162b2",
+        "type": "PHASE3 Completion",
+        "date": "2027-04-21",
+        "title": "BNT162b2: COVID-19 Vaccines - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07798648",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -149666,6 +150023,24 @@
         "date": "2028-09-15",
         "title": "INCB161734: Solid Tumors - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07522073",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Amgen",
+        "drug": "FOLFIRI Regimen",
+        "type": "PHASE3 Completion",
+        "date": "2028-09-25",
+        "title": "FOLFIRI Regimen: Metastatic Colorectal Cancer - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06252649",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Immunitybio Inc",
+        "drug": "N-803",
+        "type": "PHASE3 Completion",
+        "date": "2028-09-28",
+        "title": "N-803: NSCLC Stage IV - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06745908",
         "source": "ClinicalTrials.gov"
     },
     {
