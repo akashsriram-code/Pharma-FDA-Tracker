@@ -11832,6 +11832,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "GANCICLOVIR SODIUM",
+        "type": "FDA Approval",
+        "date": "2024-02-15",
+        "title": "GANCICLOVIR SODIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207645",
+        "source": "openFDA API"
+    },
+    {
         "company": "Agios Pharm",
         "drug": "TOBRAMYCIN",
         "type": "FDA Approval",
@@ -15168,6 +15177,15 @@
     },
     {
         "company": "Agios Pharm",
+        "drug": "LOVASTATIN",
+        "type": "FDA Approval",
+        "date": "2024-07-24",
+        "title": "LOVASTATIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A077520",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
         "drug": "LEQSELVI",
         "type": "FDA Approval",
         "date": "2024-07-25",
@@ -15488,6 +15506,15 @@
         "date": "2024-08-13",
         "title": "MYCOPHENOLATE MOFETIL - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A200197",
+        "source": "openFDA API"
+    },
+    {
+        "company": "SIGA Tech",
+        "drug": "MYCOPHENOLATE SODIUM",
+        "type": "FDA Approval",
+        "date": "2024-08-13",
+        "title": "MYCOPHENOLATE SODIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211173",
         "source": "openFDA API"
     },
     {
@@ -20290,6 +20317,15 @@
         "date": "2024-12-20",
         "title": "METHYLPREDNISOLONE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A210985",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Taysha Gene",
+        "drug": "SILDENAFIL CITRATE",
+        "type": "FDA Approval",
+        "date": "2024-12-20",
+        "title": "SILDENAFIL CITRATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A201156",
         "source": "openFDA API"
     },
     {
@@ -36436,6 +36472,15 @@
         "date": "2025-06-17",
         "title": "AMLODIPINE BESYLATE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078552",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "DORZOLAMIDE HYDROCHLORIDE AND TIMOLOL MALEATE",
+        "type": "FDA Approval",
+        "date": "2025-06-17",
+        "title": "DORZOLAMIDE HYDROCHLORIDE AND TIMOLOL MALEATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078704",
         "source": "openFDA API"
     },
     {
@@ -85779,6 +85824,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "BUDESONIDE AND FORMOTEROL FUMARATE DIHYDRATE",
+        "type": "FDA Approval",
+        "date": "2026-04-23",
+        "title": "BUDESONIDE AND FORMOTEROL FUMARATE DIHYDRATE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A212212",
+        "source": "openFDA API"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -114806,6 +114860,15 @@
         "details": "Reason: CGMP Deviations: Product quality complaints concerning abnormal texture or consistency (described as grainy, gritty, or sandy) were received.",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0731-2026",
         "source": "openFDA Enforcement"
+    },
+    {
+        "company": "Amgen",
+        "drug": "Dazodalibep",
+        "type": "PHASE3 Completion",
+        "date": "2026-07-23",
+        "title": "Dazodalibep: Sjogren's Syndrome - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06104124",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "FDA Advisory Committee",
@@ -147726,6 +147789,24 @@
         "source": "GlobeNewswire Healthcare"
     },
     {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2026-10-01",
+        "title": "Advisory Committee; Antimicrobial Drugs Advisory Committee; Renewal",
+        "link": "https://www.federalregister.gov/documents/2026/10/01/2026-20142/advisory-committee-antimicrobial-drugs-advisory-committee-renewal",
+        "source": "Federal Register"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2026-10-01",
+        "title": "Advisory Committee; Dermatologic and Ophthalmic Drugs Advisory Committee; Renewal",
+        "link": "https://www.federalregister.gov/documents/2026/10/01/2026-20141/advisory-committee-dermatologic-and-ophthalmic-drugs-advisory-committee-renewal",
+        "source": "Federal Register"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -148697,6 +148778,164 @@
         "date": "2026-10-07",
         "title": "Label Update: ...",
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-07\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-10-08",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-08\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                },
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                },
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-10-08",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-08\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-10-08",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-08\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
     },
@@ -150570,6 +150809,15 @@
         "date": "2027-08-28",
         "title": "Roflumilast Cream 0.15%: ITCH - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07560618",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Sagimet Biosciences",
+        "drug": "Denifanstat",
+        "type": "PHASE3 Completion",
+        "date": "2027-08-28",
+        "title": "Denifanstat: Acne Vulgaris - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07863193",
         "source": "ClinicalTrials.gov"
     },
     {
