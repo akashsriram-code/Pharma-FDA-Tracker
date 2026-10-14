@@ -16184,6 +16184,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "ERTUGLIFLOZIN",
+        "type": "FDA Approval",
+        "date": "2024-09-17",
+        "title": "ERTUGLIFLOZIN - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A217071",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -21965,6 +21974,15 @@
         "date": "2025-01-22",
         "title": "FANAPT - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022192",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "FLUPHENAZINE DECANOATE",
+        "type": "FDA Approval",
+        "date": "2025-01-22",
+        "title": "FLUPHENAZINE DECANOATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207739",
         "source": "openFDA API"
     },
     {
@@ -36589,6 +36607,15 @@
         "date": "2025-06-20",
         "title": "DESCOVY - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208215",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Gilead",
+        "drug": "TYBOST",
+        "type": "FDA Approval",
+        "date": "2025-06-20",
+        "title": "TYBOST - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203094",
         "source": "openFDA API"
     },
     {
@@ -76447,6 +76474,15 @@
         "date": "2026-03-31",
         "title": "OLMESARTAN MEDOXOMIL AND HYDROCHLOROTHIAZIDE - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A208465",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "VALPROATE SODIUM",
+        "type": "FDA Approval",
+        "date": "2026-03-31",
+        "title": "VALPROATE SODIUM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A208120",
         "source": "openFDA API"
     },
     {
@@ -141146,6 +141182,15 @@
         "source": "openFDA Enforcement"
     },
     {
+        "company": "BeOne Medicines DRC",
+        "drug": "RASONQUE",
+        "type": "FDA Approval",
+        "date": "2026-08-26",
+        "title": "RASONQUE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220910",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -143117,6 +143162,15 @@
         "title": "Cracking 1.33 Trillion Daily Tokens: B.AI Powers the \"AI Grid\" with Full-Stack Infrastructure to Fuel the Agentic Era",
         "link": "https://www.globenewswire.com/news-release/2026/09/04/3356455/0/en/cracking-1-33-trillion-daily-tokens-b-ai-powers-the-ai-grid-with-full-stack-infrastructure-to-fuel-the-agentic-era.html",
         "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "Vanda",
+        "drug": "Tasimelteon",
+        "type": "PHASE3 Completion",
+        "date": "2026-09-04",
+        "title": "Tasimelteon: Sleep Wake Disorders - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT04652882",
+        "source": "ClinicalTrials.gov"
     },
     {
         "company": "ADMA Biologics Inc",
@@ -147846,6 +147900,15 @@
         "source": "GlobeNewswire Biotech"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "DOXEPIN HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2026-09-30",
+        "title": "DOXEPIN HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A212624",
+        "source": "openFDA API"
+    },
+    {
         "company": "argenx",
         "drug": "efgartigimod PH20 SC",
         "type": "PHASE3 Completion",
@@ -150017,6 +150080,15 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Anavex Life Sciences",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-10-13",
+        "title": "Blackwells Capital Releases \"Life After Ashford,\" an Independent Analysis of Braemar Hotels & Resorts' Go-Forward Portfolio",
+        "link": "https://www.globenewswire.com/news-release/2026/10/13/3380127/0/en/blackwells-capital-releases-life-after-ashford-an-independent-analysis-of-braemar-hotels-resorts-go-forward-portfolio.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
         "company": "Regeneron",
         "drug": "Itepekimab (SAR440340)",
         "type": "PHASE3 Completion",
@@ -150042,6 +150114,164 @@
         "title": "INZ-701: Ectonucleotide Pyrophosphatase/phosphodiesterase1 Deficiency - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07473973",
         "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-10-14",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-14\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                },
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                },
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-10-14",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-14\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-10-14",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-14\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
     },
     {
         "company": "Incyte",
@@ -150140,6 +150370,15 @@
         "date": "2026-10-28",
         "title": "Treatment with 137 \u00b5g azelastine hydrochloride and 50 \u03bcg of fluticasone propionate: Allergic Rhinitis Due to Allergens - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07597473",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Xenon Pharmaceuticals",
+        "drug": "Azetukalner",
+        "type": "PHASE3 Completion",
+        "date": "2026-10-28",
+        "title": "Azetukalner: Major Depressive Disorder - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06775379",
         "source": "ClinicalTrials.gov"
     },
     {
