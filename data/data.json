@@ -13768,6 +13768,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "FAMOTIDINE",
+        "type": "FDA Approval",
+        "date": "2024-05-28",
+        "title": "FAMOTIDINE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218003",
+        "source": "openFDA API"
+    },
+    {
         "company": "Amneal Pharma A",
         "drug": "GABAPENTIN",
         "type": "FDA Approval",
@@ -14003,6 +14012,15 @@
         "date": "2024-06-04",
         "title": "ESMOLOL HYDROCHLORIDE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214172",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Sarepta",
+        "drug": "VYONDYS 53",
+        "type": "FDA Approval",
+        "date": "2024-06-04",
+        "title": "VYONDYS 53 - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211970",
         "source": "openFDA API"
     },
     {
@@ -17457,6 +17475,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Bioage Labs",
+        "drug": "OLMESARTAN MEDOXOMIL",
+        "type": "FDA Approval",
+        "date": "2024-10-31",
+        "title": "OLMESARTAN MEDOXOMIL - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A205499",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -17791,6 +17818,15 @@
         "date": "2024-11-18",
         "title": "DEFERASIROX - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A214341",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Jazz Pharma",
+        "drug": "XYWAV",
+        "type": "FDA Approval",
+        "date": "2024-11-18",
+        "title": "XYWAV - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212690",
         "source": "openFDA API"
     },
     {
@@ -22022,6 +22058,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "INVEGA",
+        "type": "FDA Approval",
+        "date": "2025-01-23",
+        "title": "INVEGA - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021999",
+        "source": "openFDA API"
+    },
+    {
         "company": "Arcturus Therapeutics Holdings Inc",
         "drug": "FRINDOVYX",
         "type": "FDA Approval",
@@ -23483,6 +23528,15 @@
         "date": "2025-02-24",
         "title": "PRAVASTATIN SODIUM - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A076939",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Bioage Labs",
+        "drug": "DOFETILIDE",
+        "type": "FDA Approval",
+        "date": "2025-02-24",
+        "title": "DOFETILIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207058",
         "source": "openFDA API"
     },
     {
@@ -26662,6 +26716,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Anavex Life Sciences",
+        "drug": "VALACYCLOVIR HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2025-03-14",
+        "title": "VALACYCLOVIR HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A079137",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "BIMATOPROST",
         "type": "FDA Approval",
@@ -26839,6 +26902,15 @@
         "date": "2025-03-25",
         "title": "FAMOTIDINE - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A218631",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "EPTIFIBATIDE",
+        "type": "FDA Approval",
+        "date": "2025-03-25",
+        "title": "EPTIFIBATIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204693",
         "source": "openFDA API"
     },
     {
@@ -37845,6 +37917,15 @@
         "date": "2025-07-21",
         "title": "NEXLIZET - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211617",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "GABAPENTIN",
+        "type": "FDA Approval",
+        "date": "2025-07-21",
+        "title": "GABAPENTIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211314",
         "source": "openFDA API"
     },
     {
@@ -76305,6 +76386,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "LAMOTRIGINE",
+        "type": "FDA Approval",
+        "date": "2026-03-30",
+        "title": "LAMOTRIGINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078525",
+        "source": "openFDA API"
+    },
+    {
         "company": "MannKind Corporation",
         "drug": "Afrezza (inhalable insulin)",
         "type": "PDUFA Date",
@@ -104383,6 +104473,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "drug": "SOTALOL HYDROCHLORIDE",
+        "type": "FDA Approval",
+        "date": "2026-06-05",
+        "title": "SOTALOL HYDROCHLORIDE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A207429",
+        "source": "openFDA API"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -112381,6 +112480,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Sanofi ADR",
+        "drug": "SARCLISA ESCENA",
+        "type": "FDA Approval",
+        "date": "2026-07-09",
+        "title": "SARCLISA ESCENA - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761445",
+        "source": "openFDA API"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -113118,6 +113226,15 @@
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-07-13\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "CLINDAMYCIN PHOSPHATE",
+        "type": "FDA Approval",
+        "date": "2026-07-13",
+        "title": "CLINDAMYCIN PHOSPHATE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A090108",
+        "source": "openFDA API"
     },
     {
         "company": "Regeneron",
@@ -113931,6 +114048,15 @@
         "date": "2026-07-17",
         "title": "SUBVENITE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218879",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Agios Pharm",
+        "drug": "GABAPENTIN",
+        "type": "FDA Approval",
+        "date": "2026-07-17",
+        "title": "GABAPENTIN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A203934",
         "source": "openFDA API"
     },
     {
@@ -150531,6 +150657,173 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Vera Therapeutics",
+        "drug": "Check Source",
+        "type": "Press Release",
+        "date": "2026-10-15",
+        "title": "Mortgage Rates Hold Steady at 7.40%",
+        "link": "https://www.globenewswire.com/news-release/2026/10/15/3381991/0/en/mortgage-rates-hold-steady-at-7-40.html",
+        "source": "GlobeNewswire Biotech"
+    },
+    {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-10-16",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-16\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                },
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-10-16",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-16\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-10-16",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-16\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
         "company": "Incyte",
         "drug": "Povorcitinib",
         "type": "PHASE3 Completion",
@@ -150873,6 +151166,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2026-12-14",
+        "title": "Request for Nominations for Voting Members on a Public Advisory Committee; Tobacco Products Scientific Advisory Committee (TPSAC)",
+        "link": "https://www.federalregister.gov/documents/2026/10/15/2026-21027/request-for-nominations-for-voting-members-on-a-public-advisory-committee-tobacco-products",
+        "source": "Federal Register"
+    },
+    {
         "company": "Exelixis",
         "drug": "XL092",
         "type": "PHASE3 Completion",
@@ -151149,6 +151451,15 @@
         "date": "2026-12-31",
         "title": "Lecanemab IV: Early Alzheimer's Disease - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT03887455",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Viatris",
+        "drug": "Cenerimod",
+        "type": "PHASE3 Completion",
+        "date": "2026-12-31",
+        "title": "Cenerimod: Lupus Erythematosus, Systemic - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT05672576",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -151458,6 +151769,15 @@
         "source": "ClinicalTrials.gov"
     },
     {
+        "company": "Aquestive Therapeutics",
+        "drug": "Check Filing",
+        "type": "PDUFA Date",
+        "date": "2027-03-16",
+        "title": "FDA Target Action Date - Aquestive Therapeutics, Inc.  (AQST)  (CIK 0001398733)",
+        "link": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000058/a2026-10x19aquestivepduf.htm",
+        "source": "SEC EDGAR 8-K"
+    },
+    {
         "company": "Regeneron",
         "drug": "fianlimab",
         "type": "PHASE3 Completion",
@@ -151563,6 +151883,15 @@
         "date": "2027-03-28",
         "title": "31-valent pneumococcal conjugate vaccine: Pneumococcal Vaccines - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07425392",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Vor Biopharma",
+        "drug": "Telitacicept",
+        "type": "PHASE3 Completion",
+        "date": "2027-03-28",
+        "title": "Telitacicept: Generalized Myasthenia Gravis - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT06456580",
         "source": "ClinicalTrials.gov"
     },
     {
@@ -153722,6 +154051,15 @@
         "type": "PHASE3 Completion",
         "date": "2028-08-15",
         "title": "Non-interventional, digital, patient-reported, real-world study: Choroidal Melanoma - Trial Completion Expected",
+        "link": "https://clinicaltrials.gov/study/NCT07421739",
+        "source": "ClinicalTrials.gov"
+    },
+    {
+        "company": "Aura Biosciences",
+        "drug": "Non-interventional, digital, patient-reported, stu",
+        "type": "PHASE3 Completion",
+        "date": "2028-08-15",
+        "title": "Non-interventional, digital, patient-reported, study: Choroidal Melanoma - Trial Completion Expected",
         "link": "https://clinicaltrials.gov/study/NCT07421739",
         "source": "ClinicalTrials.gov"
     },
