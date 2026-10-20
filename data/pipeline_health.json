@@ -1,26 +1,26 @@
 {
   "SEC EDGAR 8-K": {
-    "consecutive_zero_runs": 3,
+    "consecutive_zero_runs": 4,
     "last_added": "2026-10-16"
   },
   "OpenFDA Shortages": {
-    "consecutive_zero_runs": 27,
+    "consecutive_zero_runs": 28,
     "last_added": null
   },
   "ClinicalTrials.gov": {
-    "consecutive_zero_runs": 2,
-    "last_added": "2026-10-17"
+    "consecutive_zero_runs": 0,
+    "last_added": "2026-10-20"
   },
   "openFDA API": {
-    "consecutive_zero_runs": 2,
+    "consecutive_zero_runs": 3,
     "last_added": "2026-10-17"
   },
   "Federal Register": {
-    "consecutive_zero_runs": 3,
+    "consecutive_zero_runs": 4,
     "last_added": "2026-10-16"
   },
   "openFDA Enforcement": {
-    "consecutive_zero_runs": 6,
+    "consecutive_zero_runs": 7,
     "last_added": "2026-10-13"
   }
 }
