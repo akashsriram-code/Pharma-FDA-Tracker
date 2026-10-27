@@ -13588,6 +13588,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "DOXYCYCLINE",
+        "type": "FDA Approval",
+        "date": "2024-05-13",
+        "title": "DOXYCYCLINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A065471",
+        "source": "openFDA API"
+    },
+    {
         "company": "Ionis Pharma",
         "drug": "ACETAZOLAMIDE",
         "type": "FDA Approval",
@@ -14213,6 +14222,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Anavex Life Sciences",
+        "drug": "PALBOCICLIB",
+        "type": "FDA Approval",
+        "date": "2024-06-05",
+        "title": "PALBOCICLIB - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215570",
+        "source": "openFDA API"
+    },
+    {
         "company": "Bioage Labs",
         "drug": "METHAMPHETAMINE HYDROCHLORIDE",
         "type": "FDA Approval",
@@ -14561,6 +14579,15 @@
         "date": "2024-06-20",
         "title": "GABAPENTIN - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A078974",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "APTIOM",
+        "type": "FDA Approval",
+        "date": "2024-06-20",
+        "title": "APTIOM - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022416",
         "source": "openFDA API"
     },
     {
@@ -17665,6 +17692,15 @@
         "date": "2024-11-05",
         "title": "TOPIRAMATE - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A215638",
+        "source": "openFDA API"
+    },
+    {
+        "company": "SIGA Tech",
+        "drug": "ESTRADIOL",
+        "type": "FDA Approval",
+        "date": "2024-11-05",
+        "title": "ESTRADIOL - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A201675",
         "source": "openFDA API"
     },
     {
@@ -36781,6 +36817,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Agios Pharm",
+        "drug": "CLOZAPINE",
+        "type": "FDA Approval",
+        "date": "2025-06-13",
+        "title": "CLOZAPINE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A075713",
+        "source": "openFDA API"
+    },
+    {
         "company": "FDA Advisory Committee",
         "drug": "See Notice",
         "type": "AdComm Meeting",
@@ -37593,6 +37638,15 @@
         "date": "2025-07-02",
         "title": "POSACONAZOLE - SUPPL Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A208768",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Ionis Pharma",
+        "drug": "LETROZOLE",
+        "type": "FDA Approval",
+        "date": "2025-07-02",
+        "title": "LETROZOLE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A211717",
         "source": "openFDA API"
     },
     {
@@ -70747,6 +70801,1108 @@
         }
     },
     {
+        "company": "Biogen",
+        "drug": "Spinraza",
+        "type": "Label Update",
+        "date": "2026-03-01",
+        "title": "Label Update: Dosage and Administration ( 2.1 , 2.2 , 2.3 , 2.5 ) 03/2026 Warnings and Precautions ( 5.1 ) 03/2026...",
+        "details": "[{\"section\": \"Dosage and Administration\", \"subsection\": \"2.1 , 2.2 , 2.3 , 2.5\", \"date\": \"03/2026\", \"content\": \"2 DOSAGE AND ADMINISTRATION SPINRAZA is administered intrathecally ( 2.1 ) Recommended Dosage ( 2.1 ) The recommended dosage is one of two options: Low Dose Regimen: Administer one 12 mg loading dose every 14 days for three doses; then a fourth 12 mg loading dose 30 days after the third dose; then administer a 12 mg maintenance dose once every 4 months thereafter. High Dose Regimen: Administer one 50 mg loading dose followed by a second 50 mg loading dose 14 days later; then administer a 28 mg maintenance dose once every 4 months thereafter. Important Preparation and Administration Instructions ( 2.3 ) Allow to warm to room temperature prior to administration Administer within 4 hours of removal from vial Prior to administration, remove 5 mL of cerebrospinal fluid Administer as intrathecal bolus injection over 1 to 3 minutes Laboratory Testing and Monitoring to Assess Safety ( 2.4 ) At baseline and prior to each dose, obtain a platelet count, coagulation laboratory testing, and quantitative spot urine protein testing 2.1 Recommended Dosage SPINRAZA is administered intrathecally by, or under the direction of, healthcare professionals experienced in performing lumbar punctures. Two dosing regimen options for SPINRAZA, which consist of loading followed by maintenance dosages, are presented in Table 1 . Table 1: Recommended Dosage for SPINRAZA Loading Dosages Maintenance Dosage Low Dose Regimen (Low dose with four loading doses) Administer a total of four loading doses as follows: one 12 mg dose every 14 days for three doses, then a fourth 12 mg dose 30 days after the third dose. Administer 12 mg once every 4 months starting 4 months after the last loading dose. High Dose Regimen (High dose with two loading doses) Administer a total of two loading doses as follows: one 50 mg dose followed by a second 50 mg dose 14 days later. Administer 28 mg once every 4 months starting 4 months after the last loading dose. 2.2 Missed Doses Missed Dose of Low Dose Regimen Missed Loading Dose If a 12 mg loading dose (any of the 4 loading doses) is missed, administer the missed loading dose as soon as possible; adjust the date for the subsequent doses to maintain the recommended interval between doses. Missed Maintenance Dose Less than 8 months from last maintenance dose Administer the missed 12 mg maintenance dose as soon as possible; then administer the next maintenance dose per the originally scheduled date, as long as these two doses are administered at least 14 days apart. At least 8 months but less than 16 months from last maintenance dose Administer the missed 12 mg maintenance dose as soon as possible, followed by one additional dose 14 days later, and then administer the next maintenance dose 4 months thereafter. At least 16 months but less than 40 months from last maintenance dose Administer the missed 12 mg maintenance dose as soon as possible, followed by two additional doses 14 days apart, and then administer the next maintenance dose 4 months thereafter. At least 40 months from last dose Restart Low Dose Regimen with 12 mg loading dosesas described in Recommended Dosage. Missed Dose of High Dose Regimen Missed Second 50 mg Loading Dose Administer the missed 50 mg loading dose as soon as possible; then administer 28 mg maintenance doses every 4 months thereafter. Missed 28 mg Maintenance Dose Less than 8 months from last maintenance dose Administer the missed 28 mg maintenance dose as soon as possible; administer the next 28 mg maintenance dose per the originally scheduled date, as long as these two doses are administered at least 14 days apart; then administer 28 mg every 4 months thereafter. At least 8 months to less than 40 months from last maintenance dose Administer a 50 mg loading dose as soon as possible; then administer 28 mg maintenance doses every 4 months thereafter. At least 40 months from last maintenance dose Restart High Dose Regimen with two 50 mg loading doses as described in Recommended Dosage. 2.3 Important Preparation and Administration Instructions SPINRAZA is for intrathecal use only. Prepare and use SPINRAZA according to the following steps using aseptic technique. Each vial is intended for single dose only. Use the vial strength that corresponds to the prescribed dose. Do not combine SPINRAZA vials of different strengths and concentrations or use partial vials to achieve the prescribed dose. Preparation Store SPINRAZA in the carton in a refrigerator until time of use. Allow the SPINRAZA vial to warm to room temperature (25 o C/77 o F) prior to administration. Do not use external heat sources. Inspect the SPINRAZA vial for particulate matter and discoloration prior to administration. Do not administer SPINRAZA if visible particulates are observed or if the liquid in the vial is discolored. The use of external filters is not required. Withdraw 5 mL of SPINRAZA from the single-dose vial into a syringe and discard unused contents of the vial. Administer SPINRAZA within 4 hours of removal from via... (truncated)\"}, {\"section\": \"Warnings and Precautions\", \"subsection\": \"5.1\", \"date\": \"03/2026\", \"content\": \"Content not available in API response.\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd70cd5f-b0fc-4ba4-a5ea-89a34778bd94",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 21,
+            "previous_version": 20,
+            "current_date": "Apr 06, 2026",
+            "previous_date": "Nov 21, 2025",
+            "sections": [
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 6,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Nusinersen is a modified antisense oligonucleotide, where the 2'-hydroxy groups of the ribofuranosyl rings are replaced with 2'-O-2-methoxyethyl groups and the phosphate linkages are replaced with phosphorothioate linkages."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Nusinersen binds to a specific sequence in the intron downstream of exon 7 of the SMN2 transcript."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The structural formula is: SPINRAZA is supplied as a sterile, preservative-free, colorless solution for intrathecal use in a single-dose glass vial."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Each 1 mL solution contains 2.4 mg of nusinersen (equivalent to 2.53 mg of nusinersen sodium salt)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The structural formula is: SPINRAZA is supplied as a sterile, preservative-free, colorless solution for intrathecal use in a single-dose glass vial in the following strengths: 12 mg/5 mL (2.4 mg/mL) 28 mg/5 mL (5.6 mg/mL) 50 mg/5 mL (10 mg/mL) Each 1 mL solution of the 12 mg/5 mL strength contains 2.4 mg of nusinersen (equivalent to 2.53 mg of nusinersen sodium salt)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each 1 mL also contains calcium chloride dihydrate (0.21 mg) USP, magnesium chloride hexahydrate (0.16 mg) USP, potassium chloride (0.22 mg) USP, sodium chloride (8.77 mg) USP, sodium phosphate dibasic anhydrous (0.10 mg) USP, sodium phosphate monobasic dihydrate (0.05 mg) USP, and Water for Injection USP."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The product may contain hydrochloric acid or sodium hydroxide to adjust pH."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Each 1 mL solution of the 28 mg/5 mL strength contains 5.6 mg of nusinersen (equivalent to 5.90 mg of nusinersen sodium salt)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Each 1 mL also contains calcium chloride dihydrate (0.21 mg) USP, magnesium chloride hexahydrate (0.16 mg) USP, potassium chloride (0.22 mg) USP, sodium chloride (8.39 mg) USP, sodium phosphate dibasic anhydrous (0.10 mg) USP, sodium phosphate monobasic dihydrate (0.05 mg) USP, and Water for Injection USP."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Each 1 mL solution of the 50 mg/5 mL strength contains 10 mg of nusinersen (equivalent to 10.54 mg of nusinersen sodium salt)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Each 1 mL also contains calcium chloride dihydrate (0.21 mg) USP, magnesium chloride hexahydrate (0.16 mg) USP, potassium chloride (0.22 mg) USP, sodium chloride (8.11 mg) USP, sodium phosphate dibasic anhydrous (0.10 mg) USP, sodium phosphate monobasic dihydrate (0.05 mg) USP, and Water for Injection USP."
+                        },
+                        {
+                            "type": "added",
+                            "text": "For all strengths the product may contain hydrochloric acid or sodium hydroxide to adjust pH."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The pH is ~7.2."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The molecular formula of SPINRAZA is C 234 H 323 N 61 O 128 P 17 S 17 Na 17 and the molecular weight is 7501.0 daltons."
+                        }
+                    ]
+                },
+                {
+                    "section": "Pediatric Use",
+                    "has_changes": true,
+                    "added_count": 0,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "The safety and effectiveness of SPINRAZA in pediatric patients from newborn to 17 years have been established [see Clinical Studies ( 14.1 )]."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Juvenile Animal Toxicity Data In intrathecal toxicity studies in juvenile monkeys, administration of nusinersen (0, 0.3, 1, or 3 mg/dose for 14 weeks and 0, 0.3, 1, or 4 mg/dose for 53 weeks) resulted in brain histopathology (neuronal vacuolation and necrosis/cellular debris in the hippocampus) at the mid and high doses and acute, transient deficits in lower spinal reflexes at the high dose in each study."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, possible neurobehavioral deficits were observed on a learning and memory test at the high dose in the 53-week monkey study."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The no-effect dose for neurohistopathology in monkeys (0.3 mg/dose) is approximately equivalent to the human dose when calculated on a yearly basis and corrected for the species difference in CSF volume."
+                        }
+                    ]
+                },
+                {
+                    "section": "Clinical Trials Experience",
+                    "has_changes": true,
+                    "added_count": 0,
+                    "removed_count": 4,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of SPINRAZA cannot be directly compared to rates in clinical trials of other drugs and may not reflect the rates observed in practice."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In clinical studies, 346 patients (47% male, 76% Caucasian) were treated with SPINRAZA, including 314 exposed for at least 6 months, 258 exposed for at least 1 year, and 138 exposed for at least 2 years."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The safety of SPINRAZA was studied in presymptomatic infants with SMA; pediatric patients (approximately 3 days to 16 years of age at first dose) with symptomatic SMA; in a sham-controlled trial in infants with symptomatic SMA (Study 1; n=80 for SPINRAZA, n=41 for control); in a sham-controlled trial in children with symptomatic SMA (Study 2; n=84 for SPINRAZA, n=42 for control); in an open-label study in presymptomatic infants (Study 3, n=25) and other studies in symptomatic infants (n=54) and later-onset patients (n=103)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In Study 1, 58 patients were exposed for at least 6 months and 28 patients were exposed for at least 12 months."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In Study 2, 84 patients were exposed for at least 6 months and 82 patients were exposed for at least 12 months."
+                        }
+                    ]
+                },
+                {
+                    "section": "Immunogenicity",
+                    "has_changes": true,
+                    "added_count": 10,
+                    "removed_count": 0,
+                    "diff_lines": [
+                        {
+                            "type": "added",
+                            "text": "The observed incidence of anti-drug antibodies is highly dependent on the sensitivity and specificity of the assay."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Differences in assay methods preclude meaningful comparisons of the incidence of anti-drug antibodies in the studies described below with the incidence of anti-drug antibodies in other studies, including those of SPINRAZA or of other nusinersen products."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The immunogenic response to nusinersen in patients who received SPINRAZA Low Dose Regimen was evaluated in 367 patients with post-baseline plasma samples for anti-drug antibodies (ADAs)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Thirty eight patients (10%) developed treatment-emergent ADAs, of which 16 were transient and 22 were considered to be persistent."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Persistent was defined as having one positive test followed by another one more than 100 days after the first positive test."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, \u201cpersistent\u201d is also defined as having one or more positive samples and no sample more than 100 days after the first positive sample."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Transient was defined as having one or more positive results and not confirmed to be persistent."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The immunogenic response to nusinersen in patients who received SPINRAZA High Dose Regimen was evaluated in 117 patients with post-baseline plasma samples for ADAs."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Eleven patients (9%) developed treatment-emergent ADAs, of which 5 were transient and 6 were persistent."
+                        },
+                        {
+                            "type": "added",
+                            "text": "There are insufficient data to evaluate an effect of ADAs on clinical response, adverse events, or the pharmacokinetic profile of nusinersen."
+                        }
+                    ]
+                },
+                {
+                    "section": "SPL Unclassified Section",
+                    "has_changes": true,
+                    "added_count": 83,
+                    "removed_count": 61,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "SPINRAZA is administered intrathecally by, or under the direction of, healthcare professionals experienced in performing lumbar punctures."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Recommended Dosage The recommended dosage is 12 mg (5 mL) per administration."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Initiate SPINRAZA treatment with 4 loading doses."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The first three loading doses should be administered at 14-day intervals."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The 4th loading dose should be administered 30 days after the 3rd dose."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "A maintenance dose should be administered once every 4 months thereafter."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Missed Dose\nMissed Loading Dose If a loading dose (any of the 4 loading doses) is missed, administer the missed loading dose as soon as possible; adjust the date for the subsequent doses to maintain the recommended interval between doses."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Missed Maintenance Dose\nLess than 8 months from last dose Administer the missed maintenance dose as soon as possible; then administer the next maintenance dose per the originally scheduled date, as long as these two doses are administered at least 14 days apart."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "At least 8 months but less than 16 months from last dose Administer the missed maintenance dose as soon as possible, followed by one additional dose 14 days later, and then administer the next maintenance dose 4 months thereafter."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "At least 16 months but less than 40 months from last dose Administer the missed maintenance dose as soon as possible, followed by two additional doses 14 days apart, and then administer the next maintenance dose 4 months thereafter."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "At least 40 months from last dose Restart dosing as described in Recommended Dosage."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Two dosing regimen options for SPINRAZA, which consist of loading followed by maintenance dosages, are presented in Table 1 ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Table 1: Recommended Dosage for SPINRAZA Loading Dosages Maintenance Dosage Low Dose Regimen (Low dose with four loading doses) Administer a total of four loading doses as follows: one 12 mg dose every 14 days for three doses, then a fourth 12 mg dose 30 days after the third dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Administer 12 mg once every 4 months starting 4 months after the last loading dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "High Dose Regimen (High dose with two loading doses) Administer a total of two loading doses as follows: one 50 mg dose followed by a second 50 mg dose 14 days later."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Administer 28 mg once every 4 months starting 4 months after the last loading dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Missed Dose of Low Dose Regimen\nMissed Loading Dose If a 12 mg loading dose (any of the 4 loading doses) is missed, administer the missed loading dose as soon as possible; adjust the date for the subsequent doses to maintain the recommended interval between doses."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Missed Maintenance Dose\nLess than 8 months from last maintenance dose Administer the missed 12 mg maintenance dose as soon as possible; then administer the next maintenance dose per the originally scheduled date, as long as these two doses are administered at least 14 days apart."
+                        },
+                        {
+                            "type": "added",
+                            "text": "At least 8 months but less than 16 months from last maintenance dose Administer the missed 12 mg maintenance dose as soon as possible, followed by one additional dose 14 days later, and then administer the next maintenance dose 4 months thereafter."
+                        },
+                        {
+                            "type": "added",
+                            "text": "At least 16 months but less than 40 months from last maintenance dose Administer the missed 12 mg maintenance dose as soon as possible, followed by two additional doses 14 days apart, and then administer the next maintenance dose 4 months thereafter."
+                        },
+                        {
+                            "type": "added",
+                            "text": "At least 40 months from last dose Restart Low Dose Regimen with 12 mg loading dosesas described in Recommended Dosage."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Missed Dose of High Dose Regimen\nMissed Second 50 mg Loading Dose Administer the missed 50 mg loading dose as soon as possible; then administer 28 mg maintenance doses every 4 months thereafter."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Missed 28 mg Maintenance Dose\nLess than 8 months from last maintenance dose Administer the missed 28 mg maintenance dose as soon as possible; administer the next 28 mg maintenance dose per the originally scheduled date, as long as these two doses are administered at least 14 days apart; then administer 28 mg every 4 months thereafter."
+                        },
+                        {
+                            "type": "added",
+                            "text": "At least 8 months to less than 40 months from last maintenance dose Administer a 50 mg loading dose as soon as possible; then administer 28 mg maintenance doses every 4 months thereafter."
+                        },
+                        {
+                            "type": "added",
+                            "text": "At least 40 months from last maintenance dose Restart High Dose Regimen with two 50 mg loading doses as described in Recommended Dosage."
+                        },
+                        {
+                            "type": "context",
+                            "text": "SPINRAZA is for intrathecal use only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Prepare and use SPINRAZA according to the following steps using aseptic technique."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each vial is intended for single dose only."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Use the vial strength that corresponds to the prescribed dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Do not combine SPINRAZA vials of different strengths and concentrations or use partial vials to achieve the prescribed dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Preparation Store SPINRAZA in the carton in a refrigerator until time of use."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Allow the SPINRAZA vial to warm to room temperature (25 o C/77 o F) prior to administration."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Do not administer SPINRAZA if visible particulates are observed or if the liquid in the vial is discolored."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The use of external filters is not required."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Withdraw 12 mg (5 mL) of SPINRAZA from the single-dose vial into a syringe and discard unused contents of the vial."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Withdraw 5 mL of SPINRAZA from the single-dose vial into a syringe and discard unused contents of the vial."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Administer SPINRAZA within 4 hours of removal from vial."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Administration Consider sedation as indicated by the clinical condition of the patient."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Prior to administration, remove 5 mL of cerebrospinal fluid."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Administer SPINRAZA as an intrathecal bolus injection over 1 to 3 minutes using a spinal anesthesia needle [see Dosage and Administration ( 2.1 )]."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Do not administer SPINRAZA in areas of the skin where there are signs of infection or inflammation [see Adverse Reactions ( 6.3 )]."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Conduct the following laboratory tests at baseline and prior to each dose of SPINRAZA and as clinically needed [see Warnings and Precautions ( 5.1 , 5.2 )] : Platelet count Prothrombin time; activated partial thromboplastin time Quantitative spot urine protein testing\nCoagulation abnormalities and thrombocytopenia, including acute severe thrombocytopenia, have been observed after administration of some antisense oligonucleotides."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In the sham-controlled studies for patients with infantile-onset and later-onset SMA, 24 of 146 (16%) SPINRAZA-treated patients with high, normal, or unknown platelet count at baseline developed a platelet level below the lower limit of normal, compared to 10 of 72 (14%) sham-controlled patients."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In the sham-controlled study in patients with later-onset SMA (Study 2), two SPINRAZA-treated patients developed platelet counts less than 50,000 cells per microliter, with a lowest level of 10,000 cells per microliter recorded on study day 28."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Do not administer SPINRAZA in areas of the skin where there are signs of infection or inflammation [see Adverse Reactions (6.3)] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Conduct the following laboratory tests at baseline and prior to each dose of SPINRAZA and as clinically needed [see Warnings and Precautions ( 5.1 , 5.2 )] : Platelet count Prothrombin time; activated partial thromboplastin time Quantitative spot urine protein testing\nIf transitioning from SPINRAZA Low Dose Regimen to High Dose Regimen, administer a single 50 mg bolus dose at least four months (+/- 14 days) after the last 12 mg maintenance dose, followed by a 28 mg maintenance dose once every 4 months thereafter."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Additional clinical benefit in patients who transition from the Low Dose Regimen to the High Dose Regimen has not been established in a controlled study."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Coagulation abnormalities and thrombocytopenia, including acute severe thrombocytopenia, have been observed after administration of some antisense oligonucleotides."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In the sham-controlled studies for patients with infantile-onset (Study 1) and later-onset (Study 2) SMA who received Low Dose Regimen [see Clinical Studies ( 14.1 , 14.2 )] , 24 of 146 (16%) SPINRAZA-treated patients with high, normal, or unknown platelet count at baseline developed a platelet level below the lower limit of normal, compared to 10 of 72 (14%) sham-controlled patients."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In Study 2, two SPINRAZA-treated patients developed platelet counts less than 50,000 cells per microliter, with a lowest level of 10,000 cells per microliter recorded on study day 28."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In patients who received High Dose Regimen, decreases in platelet counts were also observed."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Because of the risk of thrombocytopenia and coagulation abnormalities from SPINRAZA, patients may be at increased risk of bleeding complications."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Perform a platelet count and coagulation laboratory testing at baseline and prior to each administration of SPINRAZA and as clinically needed."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Renal toxicity, including potentially fatal glomerulonephritis, has been observed after administration of some antisense oligonucleotides."
+                        },
+                        {
+                            "type": "context",
+                            "text": "SPINRAZA is present in and excreted by the kidney [see Clinical Pharmacology ( 12.3 )] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In the sham-controlled studies for patients with infantile-onset and later-onset SMA, 71 of 123 (58%) of SPINRAZA-treated patients had elevated urine protein, compared to 22 of 65 (34%) sham-controlled patients."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In Study 1 and Study 2, 71 of 123 (58%) of SPINRAZA-treated patients had elevated urine protein, compared to 22 of 65 (34%) sham-controlled patients."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Conduct quantitative spot urine protein testing (preferably using a first morning urine specimen) at baseline and prior to each dose of SPINRAZA."
+                        },
+                        {
+                            "type": "context",
+                            "text": "For urinary protein concentration greater than 0.2 g/L, consider repeat testing and further evaluation."
+                        },
+                        {
+                            "type": "added",
+                            "text": "SPINRAZA Low Dose Regimen (12 mg loading doses/12 mg maintenance doses) In clinical studies, 385 patients (47% male, 68% Caucasian, and 12% Asian) were treated with SPINRAZA Low Dose Regimen [see Dosage and Administration ( 2.1 )] , including 353 exposed for at least 6 months, 314 exposed for at least 1 year, and 256 exposed for at least 5 years."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Clinical Trial in Infantile-Onset SMA (Study 1) In Study 1, baseline disease characteristics were largely similar in the SPINRAZA-treated patients and sham-control patients except that SPINRAZA-treated patients at baseline had a higher percentage compared to sham-control patients of paradoxical breathing (89% vs 66%), pneumonia or respiratory symptoms (35% vs 22%), swallowing or feeding difficulties (51% vs 29%), and requirement for respiratory support (26% vs 15%)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The most common adverse reactions that occurred in at least 20% of SPINRAZA-treated patients and occurred at least 5% more frequently than in control patients were lower respiratory infection and constipation."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Serious adverse reactions of atelectasis were more frequent in SPINRAZA-treated patients (18%) than in control patients (10%)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Because patients in Study 1 were infants, adverse reactions that are verbally reported could not be assessed in this study."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Table 1."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Adverse Reactions that Occurred in at Least 5% of SPINRAZA Patients and Occurred at Least 5% More Frequently or At Least 2 Times as Frequently Than in Control Patients with Infantile-Onset SMA (Study 1) 1 Loading doses followed by 12 mg (5 mL) once every 4 months 2 Includes adenovirus infection, bronchiolitis, bronchitis, bronchitis viral, corona virus infection, Influenza, lower respiratory tract infection, lower respiratory tract infection viral, lung infection, parainfluenzae virus infection, pneumonia, pneumonia bacterial, pneumonia influenzal, pneumonia moraxella, pneumonia parainfluenzae viral, pneumonia pneumococcal, pneumonia pseudomonal, pneumonia respiratory syncytial viral, pneumonia viral, and respiratory syncytial virus bronchiolitis."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Table 2."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Adverse Reactions that Occurred in at Least 5% of SPINRAZA Patients and Occurred at Least 5% More Frequently or At Least 2 Times as Frequently Than in Control Patients with Infantile-Onset SMA (Study 1) 1 Low Dose Regimen [see Dosage and Administration ( 2.1 )] 2 Includes adenovirus infection, bronchiolitis, bronchitis, bronchitis viral, corona virus infection, Influenza, lower respiratory tract infection, lower respiratory tract infection viral, lung infection, parainfluenzae virus infection, pneumonia, pneumonia bacterial, pneumonia influenzal, pneumonia moraxella, pneumonia parainfluenzae viral, pneumonia pneumococcal, pneumonia pseudomonal, pneumonia respiratory syncytial viral, pneumonia viral, and respiratory syncytial virus bronchiolitis."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Adverse Reactions SPINRAZA 12 mg 1 N = 80 % Sham-Procedure Control N = 41 % Lower respiratory infection 2 55 37 Constipation 35 22 Teething 18 7 Urinary tract infection 9 0 Upper respiratory tract congestion 8 2 Ear infection 6 2 Flatulence 5 2 Decreased weight 5 2 In an open-label clinical study in infants with symptomatic SMA, severe hyponatremia was reported in a patient treated with SPINRAZA requiring salt supplementation for 14 months."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Cases of rash were reported in patients treated with SPINRAZA."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Clinical Trial in Later-Onset SMA (Study 2) In Study 2, baseline disease characteristics were largely similar in the SPINRAZA-treated patients and sham-control patients except for the proportion of SPINRAZA-treated patients who had ever achieved the ability to stand without support (13% vs 29%) or walk with support (24% vs 33%)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The most common adverse reactions that occurred in at least 20% of SPINRAZA-treated patients and occurred at least 5% more frequently than in control patients were pyrexia, headache, vomiting, and back pain."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Table 2."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Adverse Reactions that Occurred in at Least 5% of SPINRAZA Patients and Occurred at Least 5% More Frequently or At Least 2 Times as Frequently Than in Control Patients with Later-Onset SMA (Study 2) 1 Loading doses followed by 12 mg (5 mL) once every 6 months Adverse Reactions SPINRAZA 12 mg 1 N=84 % Sham-Procedure Control N=42 % Pyrexia 43 36 Headache 29 7 Vomiting 29 12 Back pain 25 0 Epistaxis 7 0 Fall 5 0 Respiratory tract congestion 5 2 Seasonal allergy 5 2 Post-lumbar puncture syndrome has also been observed after administration of SPINRAZA."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "As with all oligonucleotides, there is potential for immunogenicity."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The detection of antibody formation is highly dependent on the sensitivity and specificity of the assay."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Additionally, the observed incidence of antibody (including neutralizing antibody) positivity in an assay may be influenced by several factors, including assay methodology, sample handling, timing of sample collection, concomitant medications, and underlying disease."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "For these reasons, comparison of the incidence of antibodies to nusinersen in the studies described below with the incidence of antibodies in other studies or to other products may be misleading."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The immunogenic response to nusinersen was evaluated in 294 patients with post-baseline plasma samples for anti-drug antibodies (ADAs)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Seventeen patients (6%) developed treatment-emergent ADAs, of which 5 were transient, 12 were considered to be persistent."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Persistent was defined as having one positive test followed by another one more than 100 days after the first positive test."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, \u201cpersistent\u201d is also defined as having one or more positive samples and no sample more than 100 days after the first positive sample."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Transient was defined as having one or more positive results and not confirmed to be persistent."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "There are insufficient data to evaluate an effect of ADAs on clinical response, adverse events, or the pharmacokinetic profile of nusinersen."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The following adverse reactions have been identified during post-approval use of SPINRAZA."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Serious infections associated with lumbar puncture, such as meningitis, have been reported."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Hydrocephalus, aseptic meningitis, hypersensitivity reactions (e.g."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "angioedema, urticaria, rash), and arachnoiditis have also been reported."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Risk Summary There are no adequate data on the developmental risk associated with the use of SPINRAZA in pregnant women."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "When nusinersen was administered by subcutaneous injection to mice throughout pregnancy and lactation, developmental toxicity (long-term neurobehavioral impairment) was observed at all doses tested (see Data )."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Table 3."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Adverse Reactions that Occurred in at Least 5% of SPINRAZA Patients and Occurred at Least 5% More Frequently or At Least 2 Times as Frequently Than in Control Patients with Later-Onset SMA (Study 2) 1 Low Dose Regimen [see Dosage and Administration ( 2.1 )] Adverse Reactions SPINRAZA 12 mg 1 N=84 % Sham - Procedure Control N=42 % Pyrexia 43 36 Headache 29 7 Vomiting 29 12 Back pain 25 0 Epistaxis 7 0 Fall 5 0 Respiratory tract congestion 5 2 Seasonal allergy 5 2 Post-lumbar puncture syndrome has also been observed after administration of SPINRAZA."
+                        },
+                        {
+                            "type": "added",
+                            "text": "SPINRAZA High Dose Regimen (50 mg loading doses/28 mg maintenance doses) The safety of SPINRAZA High Dose Regimen was studied in 2 clinical trials in symptomatic patients with SMA (approximately 14 days to 65 years of age at first dose)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In clinical studies, 128 patients (50% male, 63% Caucasian, and 22% Asian) were treated with SPINRAZA High Dose Regimen [see Dosage and Administration ( 2.1 )], including 113 exposed for at least 6 months, 95 exposed for at least 1 year, and 67 exposed for at least 2 years."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Clinical Trial in Infantile-Onset SMA (Study 4) The most common adverse reactions that occurred in at least 10% of SPINRAZA treated patients and occurred at least 5% more frequently than in historic-matched sham-control patients from Study 1 were pneumonia, COVID-19, pneumonia aspiration, and malnutrition in patients with infantile-onset SMA."
+                        },
+                        {
+                            "type": "added",
+                            "text": "COVID-19 was not discovered at the time of Study 1."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Table 4: Adverse Reactions that Occurred in at least 5% of SPINRAZA High Dose Regimen Patients and Occurred at Least 5% More Frequently or At Least 2 Times as Frequently Than Matched Sham Control in Patients with Infantile Onset SMA (Study 4) SPINRAZA High Dose Regimen (Study 4) (N=50) % Matched Sham Control (Study 1) (N=20) % Pneumonia 20 5 COVID-19 16 0 Pneumonia aspiration 14 5 Malnutrition 10 0 Procedural pain 6 0 Myocardial necrosis marker increased 6 0 Anemia 6 0\nRisk Summary There are no adequate data on the developmental risk associated with the use of SPINRAZA in pregnant women."
+                        },
+                        {
+                            "type": "added",
+                            "text": "When nusinersen was administered by subcutaneous injection to mice throughout pregnancy and lactation, developmental toxicity (long-term neurobehavioral impairment) was observed at all doses tested (see Data ) ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "In the U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively."
+                        },
+                        {
+                            "type": "context",
+                            "text": "When nusinersen (1.4, 5.8, or 17.2 mg/kg) was administered to pregnant female mice by subcutaneous injection every other day throughout organogenesis and continuing once every six days throughout the lactation period, adverse neurobehavioral effects (alterations in locomotor activity, learning and memory deficits) were observed when offspring were tested after weaning or as adults."
+                        },
+                        {
+                            "type": "context",
+                            "text": "A no-effect level for neurobehavioral impairment was not established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Risk Summary There are no data on the presence of nusinersen in human milk, the effects on the breastfed infant, or the effects of the drug on milk production.Nusinersen was detected in the milk of lactating mice when administered by subcutaneous injection."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Risk Summary There are no data on the presence of nusinersen in human milk, the effects on the breastfed infant, or the effects of the drug on milk production."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nusinersen was detected in the milk of lactating mice when administered by subcutaneous injection."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for SPINRAZA and any potential adverse effects on the breastfed infant from SPINRAZA or from the underlying maternal condition."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Cardiac Electrophysiology Across the sham-controlled studies in 247 patients with spinal muscular atrophy who received either SPINRAZA or sham-control, QTcF values >500 ms and change from baseline values >60 ms were observed in 4 (2.4%) patients receiving SPINRAZA."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Juvenile Animal Toxicity Data In intrathecal toxicity studies in juvenile monkeys, administration of nusinersen (0, 0.3, 1, or 3 mg/dose for 14 weeks and 0, 0.3, 1, or 4 mg/dose for 53 weeks) resulted in brain histopathology (neuronal vacuolation and necrosis/cellular debris in the hippocampus) at the mid and high doses and acute, transient deficits in lower spinal reflexes at the high dose in each study."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, possible neurobehavioral deficits were observed on a learning and memory test at the high dose in the 53-week monkey study."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In a combined 6 and 13 week toxicity study in juvenile monkeys, intrathecal administration of nusinersen at higher doses (0, 5, 10, or 15 mg/dose) resulted in additional acute, transient effects, including limited use of limbs at the mid and high dose and uncoordinated movement at the high dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The no-effect dose for neurohistopathology in monkeys (0.3 mg/dose) is approximately equivalent to and lower than the recommended clinical maintenance doses of 12 and 28 mg, respectively, when calculated on annual dose basis and corrected for species differences in CSF volume."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Cardiac Electrophysiology Across the sham-controlled studies in 247 patients with spinal muscular atrophy who received either SPINRAZA Low Dose Regimen or sham-control, QTcF values > 500 ms and change from baseline values > 60 ms were observed in 4 (2.4%) patients receiving SPINRAZA."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Compared to the sham-control, there was no increase in the incidence of cardiac adverse reactions associated with delayed ventricular repolarization in patients treated with SPINRAZA."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Absorption Intrathecal injection of SPINRAZA into the cerebrospinal fluid (CSF) allows nusinersen to be distributed from the CSF to the target central nervous system (CNS) tissues."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Following intrathecal administration, trough plasma concentrations of nusinersen were relatively low, compared to the trough CSF concentration."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Median plasma T max values ranged from 1.7 to 6.0 hours."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Mean plasma C max and AUC values increased approximately dose-proportionally up to a dose of 12 mg."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Median plasma Tmax values ranged from 1.7 to 6.0 hours."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Mean plasma Cmax and AUC values increased approximately dose-proportionally up to a dose of 12 mg."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Distribution Autopsy data from patients (n=3) showed that SPINRAZA administered intrathecally was distributed within the CNS and peripheral tissues, such as skeletal muscle, liver, and kidney."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Elimination\nMetabolism Nusinersen is metabolized via exonuclease (3'- and 5')-mediated hydrolysis and is not a substrate for, or inhibitor or inducer of CYP450 enzymes."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Impairment of Fertility When nusinersen (0, 3, 10, or 25 mg/kg) was administered by subcutaneous injection to mice every other day prior to and during mating and continuing in females throughout organogenesis, no adverse effects on male or female fertility were observed."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Study 1 (NCT02193074) was a multicenter, randomized, double-blind, sham-procedure controlled study in 121 symptomatic infants \u2264 7 months of age at the time of first dose, diagnosed with SMA (symptom onset before 6 months of age)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Patients were randomized 2:1 to receive either 12 mg SPINRAZA or sham injection as a series of loading doses administered intrathecally followed by maintenance doses administered every 4 months."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Patients were randomized 2:1 to receive either SPINRAZA Low Dose Regimen or sham injection as a series of loading doses administered intrathecally followed by maintenance doses administered every 4 months."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Patients in this study were deemed most likely to develop Type 1 SMA."
+                        },
+                        {
+                            "type": "context",
+                            "text": "A planned interim efficacy analysis was conducted based on patients who died, withdrew, or completed at least 183 days of treatment."
+                        },
+                        {
+                            "type": "context",
+                            "text": "To be classified as a responder, patients needed to exhibit improvement in more categories of motor milestones than worsening."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Of the 82 patients who were eligible for the interim analysis, a statistically significantly greater percentage of patients achieved the definition of a motor milestone responder in the SPINRAZA group (40%) compared to the sham-control group (0%)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Results from the final analysis were consistent with those from the interim analysis ( Table 3 )."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Results from the final analysis were consistent with those from the interim analysis ( Table 5 )."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Fifty-one percent of patients in the SPINRAZA group achieved the definition of a motor milestone responder compared to 0% of patients in the sham-control group."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Figure 1 is a descriptive display of the distribution of net change from baseline in the total motor milestone score for Section 2 of the HINE for patients in the final efficacy set who did not die or withdraw from the study."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The primary endpoint assessed at the final analysis was time to death or permanent ventilation (\u2265 16 hours ventilation/day continuously for > 21 days in the absence of an acute reversible event or tracheostomy)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Statistically significant effects on event-free survival and overall survival were observed in patients in the SPINRAZA group compared to those in the sham-control group ( Table 4 )."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Statistically significant effects on event-free survival and overall survival were observed in patients in the SPINRAZA group compared to those in the sham-control group ( Table 6 )."
+                        },
+                        {
+                            "type": "context",
+                            "text": "A 47% reduction in the risk of death or permanent ventilation was observed in the SPINRAZA group (p=0.005) ( Figure 2 )."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Median time to death or permanent ventilation was not reached in SPINRAZA group and was 22.6 weeks in the sham-control group."
+                        },
+                        {
+                            "type": "context",
+                            "text": "A statistically significant 63% reduction in the risk of death was also observed (p=0.004)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "At the final analysis, the study also assessed treatment effects on the Children's Hospital of Philadelphia Infant Test of Neuromuscular Disorders (CHOP-INTEND), which is an evaluation of motor skills in patients with infantile-onset SMA."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The CHOP-INTEND results are displayed in Table 3 ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Table 3."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Motor Milestone Response and CHOP-INTEND Results of the Final Analysis of Patients with Infantile-Onset SMA (Study 1) 1 At the final analysis, CHOP-INTEND and motor milestone analyses were conducted using the Efficacy Set (SPINRAZA n=73; Sham-control n=37)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2 Assessed at the later of Day 183, Day 302, and Day 394 Study Visit 3 According to HINE section 2: \u22652 point increase [or maximal score] in ability to kick, OR \u22651 point increase in the motor milestones of head control, rolling, sitting, crawling, standing or walking, AND improvement in more categories of motor milestones than worsening), defined as a responder for this primary analysis."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "4 Not statistically controlled for multiple comparisons Endpoint SPINRAZA-treated Patients (n=73) Sham-control Patients (n=37) Motor function Motor milestones 1 Proportion achieving pre-defined motor milestone responder criteria (HINE section 2) 2,3 37 (51%) P<0.0001 0 (0%) CHOP-INTEND 1 Proportion achieving a 4-point improvement Proportion achieving a 4-point worsening 4 52 (71%) p<0.0001 2 (3%) 1 (3%) 17 (46%) Table 4."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Survival Results of Patients with Infantile-Onset SMA (Study 1 ) 1 At the final analysis, event-free survival and overall survival were assessed using the Intent to Treat population (ITT SPINRAZA n=80; Sham-control n=41)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2 Based on log-rank test stratified by disease duration Endpoint SPINRAZA-treated Patients (n=80) Sham-control Patients (n=41) Survival Event-free survival 1 Number of patients who died or received permanent ventilation Hazard ratio (95% CI) p-value 2 31 (39%) 28 (68%) 0.53 (0.32 -0.89) p=0.005 Overall survival 1 Number of patients who died 13 (16%) 16 (39%) Hazard Ratio (95% CI) p-value 2 0.37 (0.18 \u2013 0.77) p=0.004 Figure 1."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The CHOP-INTEND results are displayed in Table 5 ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Table 5."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Motor Milestone Response and CHOP-INTEND Results of the Final Analysis of Patients with Infantile-Onset SMA (Study 1) 1 Low Dose Regimen [see Dosage and Administration ( 2.1 )] 2 At the final analysis, CHOP-INTEND and motor milestone analyses were conducted using the Efficacy Set (SPINRAZA n=73; Sham-control n=37)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "3 Assessed at the later of Day 183, Day 302, and Day 394 Study Visit 4 According to HINE section 2: \u22652 point increase [or maximal score] in ability to kick, OR \u22651 point increase in the motor milestones of head control, rolling, sitting, crawling, standing or walking, AND improvement in more categories of motor milestones than worsening), defined as a responder for this primary analysis."
+                        },
+                        {
+                            "type": "added",
+                            "text": "5 Not statistically controlled for multiple comparisons Endpoint SPINRAZA - treated Patients 1 (n=73) Sham-control Patients (n=37) Motor function Motor milestones 2 Proportion achieving pre-defined motor milestone responder criteria (HINE section 2) 3 , 4 37 (51%) P<0.0001 0 (0%) CHOP-INTEND 2 Proportion achieving a 4-point improvement Proportion achieving a 4-point worsening 5 52 (71%) p<0.0001 2 (3%) 1 (3%) 17 (46%) Table 6."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Survival Results of Patients with Infantile-Onset SMA (Study 1) 1 Low Dose Regimen [see Dosage and Administration ( 2.1 )] 2 At the final analysis, event-free survival and overall survival were assessed using the Intent to Treat population (ITT SPINRAZA n=80; Sham-control n=41)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "3 Based on log-rank test stratified by disease duration Endpoint SPINRAZA-treated Patients 1 (n=80) Sham-control Patients (n=41) Survival Event-free survival 2 Number of patients who died or received permanent ventilation Hazard ratio (95% CI) p-value 3 31 (39%) 28 (68%) 0.53 (0.32 -0.89) p=0.005 Overall survival 2 Number of patients who died Hazard Ratio (95% CI) p-value 3 13 (16%) 16 (39%) 0.37 (0.18 \u2013 0.77) p=0.004 Figure 1."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Percent of Patients Who Died and Net Change from Baseline in Total Motor Milestone Score (HINE) Among Patients Alive in the Final Efficacy Set of Study 1 * *For subjects who were alive and ongoing in the study, the change in total motor milestone score was calculated at the later of Day 183, Day 302, or Day 394."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Figure 2."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Event-Free Survival in the Intent to Treat Set\nStudy 2 (NCT02292537) was a multicenter, randomized, double-blind, sham-procedure controlled study in 126 symptomatic children with later-onset SMA (symptom onset after 6 months of age)."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Patients were randomized 2:1 to either SPINRAZA 12 mg or sham injection as a series of loading doses administered intrathecally followed by maintenance doses administered every 6 months."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Event-Free Survival in the Intent to Treat Set Study 4 (NCT04089566) Part B was a multicenter, double-blind, randomized, controlled study, which included 75 patients with infantile-onset SMA (2 SMN2 copies; symptom onset before 6 months of age)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Part B was powered to assess efficacy in infantile-onset patients by evaluating the change in CHOP-INTEND at Day 183 in the patients receiving SPINRAZA High Dose Regimen (n=50) as compared to a prespecified matched sham group from Study 1 (n=20; matched on baseline disease duration and baseline CHOP-INTEND score)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Baseline demographic characteristics of the SPINRAZA group and matched sham group were balanced."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Of the 70 patients 50% were male, 64% were Caucasian, and 16% were Asian."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Relative to the infantile-onset population in Study 1, patients enrolled in Study 4 had shorter disease duration (time from symptom onset to screening) and lower baseline CHOP-INTEND scores, suggesting they were progressing more quickly and further into their disease course."
+                        },
+                        {
+                            "type": "added",
+                            "text": "A statistically significant improvement in the mean change from baseline in CHOP-INTEND at Day 183 was observed in the SPINRAZA High Dose Regimen group (15.1 point improvement) compared to the matched sham group (11.1 point worsening) (LS mean difference:26.19 points (95% CI: 20,7, 31.7)) p= <0.0001 ( Table 7 )."
+                        },
+                        {
+                            "type": "added",
+                            "text": "A statistically significantly greater percentage of patients in the SPINRAZA High Dose Regimen group met the HINE-2 responder definition at Day 183 as compared to the matched sham group (58% vs."
+                        },
+                        {
+                            "type": "added",
+                            "text": "0%; p<0.0001)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Table 7."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Motor Milestone Response and CHOP-INTEND Results of the Final Analysis of Patients with Infantile-Onset SMA (Study 4) 1 High Dose Regimen [see Dosage and Administration ( 2.1 )] 2 ANCOVA and Multiple Imputation applied 3 Least Square Mean difference 4 Fisher Exact Test Efficacy Parameter SPINRAZA 1 (n = 50) Matched Sham from Study 1 (n = 20) Differences between arms (95% CI) CHOP-INTEND LS mean (95% CI) for ranked score of change from baseline to Day 183 LS mean change (95% CI) from baseline to Day 183 2,3 42.9 (38.7, 47.2) 15.1 (12.4, 17.8) 16.9 (10.1, 23.7) -11.1 (-15.9, -6.2) 26.06 (17.94, 34.17) p<0.0001 3 26.2 (20.7, 31.7) 2 HINE-2 Responder Proportion achieving motor milestone responder criteria at Day 183 29 (58%) 0 (0%) 58% (39.5, 71.8) 4 p<0.0001 Similar to Study 1, the SPINRAZA High Dose Regimen group experienced a nominally statistically significant 67% reduction in the risk of death or permanent ventilation relative to the matched sham group (p = 0.0006)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The median time to death or permanent ventilation was not reached in the SPINRAZA group and was 19.1 weeks in the matched sham group."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Similar observations were seen for overall survival."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Study 2 (NCT02292537) was a multicenter, randomized, double-blind, sham-procedure controlled study in 126 symptomatic children with later-onset SMA (symptom onset after 6 months of age)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Patients were randomized 2:1 to either SPINRAZA Low Dose Regimen or sham injection as a series of loading doses administered intrathecally followed by maintenance doses administered every 6 months."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The median age at screening was 3 years (range 2-9 years), and the median age of onset of clinical signs and symptoms of SMA was 11 months (range 6-20 months)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Of the 126 patients included in the study, 47% were male, 75% were Caucasian, 2% were Black, and 18% were Asian."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Higher scores indicate better motor function."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The primary analysis was conducted in the Intent to Treat (ITT) population, which included all subjects who were randomized and received at least 1 dose of SPINRAZA or at least one sham procedure."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "At the final analysis, a statistically significant improvement in HFMSE scores from baseline to Month 15 was observed in the SPINRAZA-treated group compared to the sham-control group ( Table 5 )."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Table 5."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "HFMSE Results in Patients with Later-Onset SMA (Study 2) 1 Assessed using the Intent to Treat population who received at least one dose of SPINRAZA or at least one sham procedure (SPINRAZA n=84; Sham-control n=42); data for patients without a Month 15 visit were imputed using the multiple imputation method 2 Least squares mean 3 Negative value indicates worsening, positive value indicates improvement."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "4 Based on logistic regression with treatment effect and adjustment for each subject's age at screening and HFMSE score at baseline Endpoint SPINRAZA-treated Patients (n=84) Sham-control Patients (n=42) HFMSE score Change from baseline in total HFMSE score at 15 months 1,2,3 Proportion of patients who achieved at least a 3-point improvement from baseline to Month 15 1 3.9 (95% CI: 3.0, 4.9) p=0.0000001 56.8% (95% CI: 45.6, 68.1) p=0.0006 4 -1.0 (95% CI: -2.5, 0.5) 26.3% (95% CI: 12.4, 40.2) Figure 3."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Mean Change from Baseline in HFMSE Score Over Time in the Intent to Treat Set 1, 2 (Study 2) 1 Data for patients without a Month 15 visit were imputed using the multiple imputation method 2 Error bars denote +/- standard error\nThe results of the sham-controlled trial in infantile-onset (Study 1) (NCT02193074) and later-onset (Study 2) (NCT02292537) SMA patients were supported by an open-label uncontrolled trial conducted in 25 presymptomatic SMA patients who had a genetic diagnosis of 5q SMA and 2 or 3 copies of SMN2 (Study 3) (NCT02386553)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "At the final analysis, a statistically significant improvement in HFMSE scores from baseline to Month 15 was observed in the group treated with SPINRAZA Low Dose Regimen compared to the sham-control group ( Table 8 )."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Table 8."
+                        },
+                        {
+                            "type": "added",
+                            "text": "HFMSE Results in Patients with Later-Onset SMA (Study 2) 1 Low Dose Regimen [see Dosage and Administration ( 2.1 )] 2 Assessed using the Intent to Treat population who received at least one dose of SPINRAZA or at least one sham procedure (SPINRAZA n=84; Sham-control n=42); data for patients without a Month 15 visit were imputed using the multiple imputation method 3 Least squares mean 4 Negative value indicates worsening, positive value indicates improvement."
+                        },
+                        {
+                            "type": "added",
+                            "text": "5 Based on logistic regression with treatment effect and adjustment for each subject's age at screening and HFMSE score at baseline Endpoint SPINRAZA-treated Patients 1 (n=84) Sham-control Patients (n=42) HFMSE score Change from baseline in total HFMSE score at 15 months ,2,3 , 4 Proportion of patients who achieved at least a 3-point improvement from baseline to Month 15 2 3.9 (95% CI: 3.0, 4.9) p=0.0000001 56.8% (95% CI: 45.6, 68.1) p=0.0006 5 -1.0 (95% CI: -2.5, 0.5) 26.3% (95% CI: 12.4, 40.2) Figure 3."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Mean Change from Baseline in HFMSE Score Over Time in the Intent to Treat Set 1, 2 (Study 2) 1 Data for patients without a Month 15 visit were imputed using the multiple imputation method 2 Error bars denote +/- standard error Study 4 (NCT04089566) Part B was a double-blind, randomized, controlled study, which included 24 patients with later-onset SMA (symptom onset after six months of age) who were randomized 2:1 to receive SPINRAZA High Dose Regimen (n=16) or SPINRAZA Low Dose Regimen treatment (n=8) [see Dosage and Administration ( 2.1 )] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Baseline demographic characteristics between all groups were generally balanced."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The efficacy endpoints for the later-onset population in Study 4 were the change from baseline to Day 302 in the HFMSE and in the Revised Upper Limb Module (RULM) score."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The RULM test assesses functional ability of the upper limbs in patients with SMA and is comprised of 19 items scored on a 3-point scale."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The maximum score is 37 points."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The change from baseline to Day 302 in HFMSE score and RULM score showed a slight numerical difference favoring the SPINRAZA High Dose Regimen, though the comparison was not powered to achieve statisitical significance."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The results of the sham-controlled trial in patients with infantile-onset (Study 1) (NCT02193074) and later-onset (Study 2) (NCT02292537) SMA were supported by an open-label uncontrolled trial conducted in 25 patients with presymptomatic SMA who had a genetic diagnosis of 5q SMA and 2 or 3 copies of SMN2 (Study 3) (NCT02386553)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "In Study 3, 15 patients (60%) who had 2 SMN2 copies, and 10 patients (40%) who had 3 SMN2 copies; 48% were male, 56% were Caucasian, 12% were Asian, 4% were American Indian or Alaska Native, and 28% were of another race, or had no race reported."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Patients ranged in age from 3 days to 42 days (median 22 days) at the time of first dose."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Patients received 12 mg SPINRAZA as a series of loading doses administered intrathecally, followed by maintenance doses administered every 4 months."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Patients received SPINRAZA Low Dose Regimen [see Dosage and Administration ( 2.1 )] ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Patients were assessed with the World Health Organization (WHO) motor milestones, a set of 6 milestones in motor development that would be expected to be attained by 24 months of age in healthy children."
+                        },
+                        {
+                            "type": "context",
+                            "text": "An interim analysis was performed after all patients had received SPINRAZA for at least 14 months (median 25 months, range 14 to 34 months)."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Renal Toxicity Inform patients and caregivers that SPINRAZA could cause renal toxicity."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Inform patients and caregivers of the importance of obtaining urine testing at baseline and prior to each dose to monitor for signs of potential renal toxicity [see Warnings and Precautions ( 5.2 )] ."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "49655-10 Manufactured for: Biogen Cambridge, MA 02142 SPINRAZA is a registered trademark of Biogen."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u00a9 Biogen 2016-2024"
+                        },
+                        {
+                            "type": "added",
+                            "text": "60110-01 Manufactured for: Biogen Cambridge, MA 02142 SPINRAZA is a registered trademark of Biogen."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u00a9 Biogen 2016-2026"
+                        }
+                    ]
+                },
+                {
+                    "section": "Dosage and Administration",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Injection: 12 mg/5 mL (2.4 mg/mL) nusinersen as a clear and colorless solution in a single-dose vial."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Injection: nusinersen is a clear and colorless solution supplied in single-dose vials in the following strengths: 12 mg/5 mL (2.4 mg/mL) 28 mg/5 mL (5.6 mg/mL) 50 mg/5 mL (10 mg/mL)"
+                        }
+                    ]
+                },
+                {
+                    "section": "Clinical Studies",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 2,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "The efficacy of SPINRAZA was demonstrated in two double-blind, sham-procedure controlled clinical trials in symptomatic infantile-onset and later-onset SMA patients (Study 1 and Study 2) and was supported by open-label clinical trials conducted in presymptomatic and symptomatic SMA patients."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The overall findings from these trials support the effectiveness of SPINRAZA across the range of SMA patients, and appear to support the early initiation of treatment with SPINRAZA."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The efficacy of SPINRAZA Low Dose Regimen was demonstrated in two double-blind, sham-procedure controlled clinical trials in patients with symptomatic infantile-onset and later-onset SMA (Study 1 and Study 2) and was supported by open-label clinical trials conducted in patients with presymptomatic (Study 3) and symptomatic SMA [see Dosage and Administration ( 2.1 )] ."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The efficacy of SPINRAZA High Dose Regimen was demonstrated in a double-blind, randomized, external-controlled trial in patients with symptomatic infantile-onset and later-onset SMA (Study 4)."
+                        },
+                        {
+                            "type": "added",
+                            "text": "The overall findings from these trials support the effectiveness of SPINRAZA administered with either the Low Dose Regimen or the High Dose Regimen across the range of ages and severities in patients with SMA, and support the early initiation of treatment with SPINRAZA."
+                        }
+                    ]
+                },
+                {
+                    "section": "Postmarketing Experience",
+                    "has_changes": true,
+                    "added_count": 5,
+                    "removed_count": 0,
+                    "diff_lines": [
+                        {
+                            "type": "added",
+                            "text": "The following adverse reactions have been identified during post-approval use of SPINRAZA."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Serious infections associated with lumbar puncture, such as meningitis, have been reported."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Hydrocephalus, aseptic meningitis, hypersensitivity reactions (e.g."
+                        },
+                        {
+                            "type": "added",
+                            "text": "angioedema, urticaria, rash), and arachnoiditis have also been reported."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 2,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "SPINRAZA injection is a sterile, clear and colorless solution supplied as a 12 mg/5 mL (2.4 mg/mL) solution in a single-dose glass vial free of preservatives."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "The NDC is 64406-058-01."
+                        },
+                        {
+                            "type": "added",
+                            "text": "SPINRAZA injection is a sterile, clear and colorless, preservative-free solution in single-dose glass vials supplied as one vial per carton in the following strengths: 12 mg/5 mL (2.4 mg/mL) (NDC 64406-058-01) 28 mg/5 mL (5.6 mg/mL) (NDC 64406-036-01) 50 mg/5 mL (10 mg/mL) (NDC 64406-037-01)"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -73946,6 +75102,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "SIGA Tech",
+        "drug": "ICOTYDE",
+        "type": "FDA Approval",
+        "date": "2026-03-17",
+        "title": "ICOTYDE - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220149",
+        "source": "openFDA API"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -75369,6 +76534,15 @@
         "date": "2026-03-24",
         "title": "GUANFACINE HYDROCHLORIDE - ORIG Approved",
         "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A220675",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Oruka Therapeutics",
+        "drug": "AVLAYAH",
+        "type": "FDA Approval",
+        "date": "2026-03-24",
+        "title": "AVLAYAH - ORIG Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761485",
         "source": "openFDA API"
     },
     {
@@ -134327,6 +135501,15 @@
         "source": "openFDA API"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "SPIRONOLACTONE",
+        "type": "FDA Approval",
+        "date": "2026-08-11",
+        "title": "SPIRONOLACTONE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A202187",
+        "source": "openFDA API"
+    },
+    {
         "company": "Amicus",
         "drug": "POMBILITI ATGA",
         "type": "Label Update",
@@ -142830,6 +144013,15 @@
         "source": "openFDA Enforcement"
     },
     {
+        "company": "Vericel Corp Ord",
+        "drug": "CEFAZOLIN IN DEXTROSE",
+        "type": "FDA Approval",
+        "date": "2026-08-31",
+        "title": "CEFAZOLIN IN DEXTROSE - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=207131",
+        "source": "openFDA API"
+    },
+    {
         "company": "Gilead",
         "drug": "Simultaneous administration of OAT and oral PrEP a",
         "type": "PHASE4 Completion",
@@ -148376,6 +149568,16 @@
         "source": "OpenFDA"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "METOCLOPRAMIDE",
+        "type": "Recall",
+        "date": "2026-09-29",
+        "title": "METOCLOPRAMIDE - Class II Recall",
+        "details": "Reason: Presence of Foreign Tablets/Capsules",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0038-2027",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "Biogen",
         "drug": "Litifilimab",
         "type": "PHASE3 Completion",
@@ -148818,6 +150020,16 @@
         "source": "Federal Register"
     },
     {
+        "company": "Ionis Pharma",
+        "drug": "HYDROCORTISONE SODIUM SUCCINATE",
+        "type": "Recall",
+        "date": "2026-10-01",
+        "title": "HYDROCORTISONE SODIUM SUCCINATE - Class II Recall",
+        "details": "Reason: Failed Impurities/Degradation Specifications.",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0039-2027",
+        "source": "openFDA Enforcement"
+    },
+    {
         "company": "ADMA Biologics Inc",
         "drug": "Nabi-HB",
         "type": "Label Update",
@@ -149606,6 +150818,25 @@
         "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-06\", \"content\": \"\"}]",
         "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
         "source": "OpenFDA"
+    },
+    {
+        "company": "Amneal Pharma A",
+        "drug": "VALSARTAN",
+        "type": "FDA Approval",
+        "date": "2026-10-06",
+        "title": "VALSARTAN - SUPPL Approved",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=A204011",
+        "source": "openFDA API"
+    },
+    {
+        "company": "Harrow Health",
+        "drug": "METOCLOPRAMIDE",
+        "type": "Recall",
+        "date": "2026-10-06",
+        "title": "METOCLOPRAMIDE - Class II Recall",
+        "details": "Reason: Presence of Foreign Tablets/Capsules",
+        "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=recall.search&query=D-0042-2027",
+        "source": "openFDA Enforcement"
     },
     {
         "company": "FDA Advisory Committee",
@@ -152948,6 +154179,164 @@
         "source": "OpenFDA"
     },
     {
+        "company": "ADMA Biologics Inc",
+        "drug": "Nabi-HB",
+        "type": "Label Update",
+        "date": "2026-10-27",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-27\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47fe1a99-5078-4b89-84fa-9e8387baec5c",
+        "source": "OpenFDA",
+        "diff_data": {
+            "current_version": 8,
+            "previous_version": 7,
+            "current_date": "Apr 16, 2025",
+            "previous_date": "Nov 24, 2022",
+            "sections": [
+                {
+                    "section": "Description",
+                    "has_changes": true,
+                    "added_count": 3,
+                    "removed_count": 3,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "It contains no preservative and is intended for single use by the intramuscular route only."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Each plasma donation used for the manufacture of Nabi-HB is tested for the presence of hepatitis B virus (HBV) surface antigen (HBsAg), human immunodeficiency viruses (HIV) 1/2, and hepatitis C virus (HCV) antibodies."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "In addition, pooled samples of Source Plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all Source Plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all Source Plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "added",
+                            "text": "In addition, pooled samples of source plasma used in the manufacture of this product are tested by FDA licensed Nucleic Acid Testing (NAT) for HIV and HCV and found to be negative."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for hepatitis A virus (HAV) and HBV is also performed on pooled samples of all source plasma used, and found to be negative; however, the significance of a negative result has not been established."
+                        },
+                        {
+                            "type": "added",
+                            "text": "Investigational NAT for parvovirus B19 (B19) is also performed on pooled samples of all source plasma and the limit for B19 DNA in a manufacturing pool is set not to exceed 10 4 IU/mL."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The manufacturing steps for Nabi-HB are designed to reduce the risk of transmission of viral disease."
+                        },
+                        {
+                            "type": "context",
+                            "text": "The solvent/detergent treatment step, using tri- n -butyl phosphate and Triton \u00ae X-100, is effective in inactivating known enveloped viruses such as hepatitis B virus (HBV), hepatitis C virus (HCV), and human immunodeficiency virus (HIV) 3 ."
+                        }
+                    ]
+                },
+                {
+                    "section": "How Supplied/Storage and Handling",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "removed",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4202-1 a carton containing a 1 mL dose in a single-use vial (>312 IU) and package insert 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        },
+                        {
+                            "type": "added",
+                            "text": "Nabi-HB, Hepatitis B Immune Globulin (Human), is supplied as: NDC Number Contents 69800-4203-1 a carton containing a 5 mL dose in a single-use vial (>1560 IU) and package insert"
+                        }
+                    ]
+                },
+                {
+                    "section": "Indications and Usage",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "For persons who refuse hepatitis B vaccine or are known non-responders to vaccine, a second dose of Hepatitis B Immune Globulin (Human) should be given one month after the first dose 12 ."
+                        },
+                        {
+                            "type": "context",
+                            "text": "Table 2 Recommendations for Hepatitis B Prophylaxis Following Percutaneous or Permucosal Exposure 12 * Hepatitis B Immune Globulin (Human) dose of 0.06 mL/kg IM."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "\u2020 See manufacturers\u2019 recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "added",
+                            "text": "\u2020 See manufacturer\u2019s recommendation for appropriate dose."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u2021 Less than 10 mIU/mL anti-HBs by radioimmunoassay, negative by enzyme immunoassay."
+                        },
+                        {
+                            "type": "context",
+                            "text": "\u00a7 Two doses of Hepatitis B Immune Globulin (Human) is preferred if no response after at least four doses of vaccine."
+                        }
+                    ]
+                },
+                {
+                    "section": "References",
+                    "has_changes": true,
+                    "added_count": 1,
+                    "removed_count": 1,
+                    "diff_lines": [
+                        {
+                            "type": "context",
+                            "text": "Boca Raton, FL 33487 U.S."
+                        },
+                        {
+                            "type": "context",
+                            "text": "License No."
+                        },
+                        {
+                            "type": "removed",
+                            "text": "2019 July 2019"
+                        },
+                        {
+                            "type": "added",
+                            "text": "2019 April 2025"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "company": "Eton Pharmaceuticals",
+        "drug": "Nitisinone",
+        "type": "Label Update",
+        "date": "2026-10-27",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-27\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc5e4875-fcd7-408c-88c9-4a715f4384b6",
+        "source": "OpenFDA"
+    },
+    {
+        "company": "Indivior",
+        "drug": "OPVEE",
+        "type": "Label Update",
+        "date": "2026-10-27",
+        "title": "Label Update: ...",
+        "details": "[{\"section\": \"General Update\", \"subsection\": \"\", \"date\": \"2026-10-27\", \"content\": \"\"}]",
+        "link": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=999a4269-9e54-4801-b2ac-2a7276f0b94f",
+        "source": "OpenFDA"
+    },
+    {
         "company": "Regenxbio",
         "drug": "ABBV-RGX-314 Dose 1",
         "type": "PHASE3 Completion",
@@ -153152,6 +154541,15 @@
         "date": "2026-11-20",
         "title": "Design and Safety Considerations for Clinical Trials Involving Ibogaine Drug Products; Request for Information",
         "link": "https://www.federalregister.gov/documents/2026/10/06/2026-20427/design-and-safety-considerations-for-clinical-trials-involving-ibogaine-drug-products-request-for",
+        "source": "Federal Register"
+    },
+    {
+        "company": "FDA Advisory Committee",
+        "drug": "See Notice",
+        "type": "AdComm Meeting",
+        "date": "2026-11-25",
+        "title": "Reauthorization of the Biosimilar User Fee Act; Public Meeting; Request for Comments",
+        "link": "https://www.federalregister.gov/documents/2026/09/25/2026-19660/reauthorization-of-the-biosimilar-user-fee-act-public-meeting-request-for-comments",
         "source": "Federal Register"
     },
     {
